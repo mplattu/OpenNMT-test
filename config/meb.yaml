@@ -1,8 +1,8 @@
 ## Where the samples will be written
-save_data: finlex/run/finlex
+save_data: run/meb
 ## Where the vocab(s) will be written
-src_vocab: finlex/run/finlex.vocab.src
-tgt_vocab: finlex/run/finlex.vocab.tgt
+src_vocab: run/meb.vocab.src
+tgt_vocab: run/meb.vocab.tgt
 # Prevent overwriting existing files in the folder
 overwrite: False
 
@@ -11,20 +11,25 @@ data:
     corpus_1:
         path_src: finlex/src-train.txt
         path_tgt: finlex/tgt-train.txt
+        weight: 1
+    corpus_2:
+        path_src: ccmatrix/src-train.txt
+        path_tgt: ccmatrix/tgt-train.txt
+        weight: 1
     valid:
-        path_src: finlex/src-val.txt
-        path_tgt: finlex/tgt-val.txt
+        path_src: src-val.txt
+        path_tgt: tgt-val.txt
 
 # Vocabulary files that were just created
-src_vocab: finlex/run/finlex.vocab.src
-tgt_vocab: finlex/run/finlex.vocab.tgt
+src_vocab: run/meb.vocab.src
+tgt_vocab: run/meb.vocab.tgt
 
 # Train on a single GPU
 world_size: 1
 gpu_ranks: [0]
 
 # Where to save the checkpoints
-save_model: finlex/run/model
+save_model: run/model
 save_checkpoint_steps: 500
 train_steps: 1000
 valid_steps: 500

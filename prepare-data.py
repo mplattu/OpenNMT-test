@@ -38,12 +38,12 @@ class Splitter:
 
         return False
 
-    def create_file(self, legend, ratio, splitted_source, splitted_destination):
+    def create_file(self, legend, ratio, splitted_source, splitted_destination, write_mode):
         f_orig_source = open(self.filename_source, 'r')
         f_orig_destination = open(self.filename_destination, 'r')
 
-        f_splitted_source = open(splitted_source, 'w')
-        f_splitted_destination = open(splitted_destination, 'w')
+        f_splitted_source = open(splitted_source, write_mode)
+        f_splitted_destination = open(splitted_destination, write_mode)
 
         lines_processed = 0
         lines_written = 0
@@ -76,10 +76,10 @@ class Splitter:
         print("%s: %d lines (%d processed, %d invalid)" % (legend, lines_written, lines_processed, lines_invalid))
 
 
-fi_source = 'data/finlex/fi.txt'
-sv_source = 'data/finlex/sv.txt'
+splitter_finlex = Splitter('data/finlex/fi.txt', 'data/finlex/sv.txt')
+splitter_finlex.create_file("Training file", 0.90, 'data/finlex/src-train.txt', 'data/finlex/tgt-train.txt', 'w')
+splitter_finlex.create_file("Validation files", 0.0016, 'data/src-val.txt', 'data/tgt-val.txt', 'a')
 
-splitter = Splitter(fi_source, sv_source)
-
-splitter.create_file("Training file", 0.90, 'data/finlex/src-train.txt', 'data/finlex/tgt-train.txt')
-splitter.create_file("Validation files", 0.0016, 'data/finlex/src-val.txt', 'data/finlex/tgt-val.txt')
+splitter_ccmatrix = Splitter('data/ccmatrix/fi.txt', 'data/ccmatrix/sv.txt')
+splitter_ccmatrix.create_file("Training file", 0.90, 'data/ccmatrix/src-train.txt', 'data/ccmatrix/tgt-train.txt', 'w')
+splitter_ccmatrix.create_file("Validation files", 0.0016, 'data/src-val.txt', 'data/tgt-val.txt', 'a')
