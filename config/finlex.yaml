@@ -1,0 +1,30 @@
+## Where the samples will be written
+save_data: finlex/run/finlex
+## Where the vocab(s) will be written
+src_vocab: finlex/run/finlex.vocab.src
+tgt_vocab: finlex/run/finlex.vocab.tgt
+# Prevent overwriting existing files in the folder
+overwrite: False
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: finlex/src-train.txt
+        path_tgt: finlex/tgt-train.txt
+    valid:
+        path_src: finlex/src-val.txt
+        path_tgt: finlex/tgt-val.txt
+
+# Vocabulary files that were just created
+src_vocab: finlex/run/finlex.vocab.src
+tgt_vocab: finlex/run/finlex.vocab.tgt
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: finlex/run/model
+save_checkpoint_steps: 500
+train_steps: 1000
+valid_steps: 500
