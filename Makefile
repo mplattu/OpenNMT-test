@@ -60,7 +60,7 @@ test:
 	( \
 		. data/bin/activate; \
 		cd data; \
-		onmt_translate -model finlex/run/model_step_1000.pt -src ../test/sample-fi.txt -output ./translated-test.txt -gpu 0 -verbose; \
+		onmt_translate -model run/model_step_1000.pt -src ../test/sample-fi.txt -output ./translated-test.txt -gpu 0 -verbose; \
 		echo "Samples:" >test-report.txt; \
 		echo "--------" >>test-report.txt; \
 		cat ../test/sample-fi.txt >>test-report.txt; \
@@ -71,5 +71,4 @@ test:
 		echo "---------" >>test-report.txt; \
 		cat translated-test.txt >>test-report.txt; \
 		rm translated-test.txt; \
-	)	
-
+	)
