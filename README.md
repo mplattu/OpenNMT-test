@@ -1,5 +1,11 @@
 # OpenNMT-test
 
+## Before Starting
+
+If you are working on a fresh installation install these first:
+ * `apt install git make python3-pip python3-virtualenv`
+ * Nvidia CUDA: https://developer.nvidia.com/cuda-zone (Do not use the packaged version `nvidia-cuda-framework` as it is outdated)
+ 
 ## Manual Process
 
 1. Download datasets: `make get-data`

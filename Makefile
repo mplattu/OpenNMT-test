@@ -6,7 +6,6 @@ get-data:
 	if [ ! -f data/finlex/fi.txt || ! -f data/finlex/sv.txt]; then wget -O data/finlex/moses.zip https://object.pouta.csc.fi/OPUS-Finlex/v2018/moses/fi-sv.txt.zip; cd data/finlex; unzip moses.zip; mv Finlex.fi-sv.fi fi.txt; mv Finlex.fi-sv.sv sv.txt; rm *.zip *.xml; fi
 
 install:
-	pip3 install virtualenv
 	virtualenv -p python3 data
 	( \
 		. data/bin/activate; \
