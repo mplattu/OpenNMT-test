@@ -50,6 +50,7 @@ vocabulary:
 
 train:
 	cp config/meb.yaml data/
+	-rm data/run/model_step_*.pt
 	( \
 		. data/bin/activate; \
 		cd data; \
