@@ -65,9 +65,11 @@ test:
 		echo "Samples:" >test-report.txt; \
 		echo "--------" >>test-report.txt; \
 		cat ../test/sample-fi.txt >>test-report.txt; \
+		echo "" >>test-report.txt; \
 		echo "Expected:" >>test-report.txt; \
 		echo "---------" >>test-report.txt; \
 		cat ../test/sample-sv.txt >>test-report.txt; \
+		echo "" >>test-report.txt; \
 		echo "Observed:" >>test-report.txt; \
 		echo "---------" >>test-report.txt; \
 		cat translated-test.txt >>test-report.txt; \
