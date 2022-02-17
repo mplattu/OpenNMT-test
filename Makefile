@@ -45,7 +45,7 @@ vocabulary:
 	( \
 		. data/bin/activate; \
 		cd data; \
-		onmt_build_vocab -config meb.yaml -n_sample 50000; \
+		onmt_build_vocab -config meb.yaml -n_sample -1; \
 	)
 
 train:
