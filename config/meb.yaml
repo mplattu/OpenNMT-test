@@ -33,3 +33,41 @@ save_model: run/model
 save_checkpoint_steps: 500
 train_steps: 1000
 valid_steps: 500
+
+# To avoid CUDA running out of memory
+
+# Size of queue for each process in producer/consumer
+# Default: 40
+#queue_size: 40
+
+# Examples per dynamically generated torchtext Dataset.
+# Default: 2048
+#bucket_size: 2048
+
+# Possible choices: sents, tokens
+# Batch grouping for batch_size. Standard is sents. Tokens will do dynamic batching
+# Default: “sents”
+#batch_type: "sents"
+
+# Maximum batch size for training
+# Default: 64
+#batch_size: 64
+
+# Maximum batch size for validation
+# Default: 32
+#valid_batch_size: 32
+
+# Batch size multiple for token batches.
+#batch_size_multiple: 1
+
+# Maximum batches of words in a sequence to run the generator on in parallel. Higher is faster, but uses more memory. Set to 0 to disable.
+# Default: 32
+#max_generator_batches: 32
+
+# Accumulate gradient this many times. Approximately equivalent to updating batch_size * accum_count batches at once. Recommended for Transformer.
+# Default: [1]
+#accum_count: [1]
+
+# Steps at which accum_count values change
+# Default: [0]
+#accum_steps: [0]
