@@ -4,6 +4,8 @@ import random
 
 # If the length of both lines is smaller than this the pair is accepted
 SHORT_LINE_ACCEPT_LENGTH = 30
+# If the length of either of the lines is larger than this the pair is always rejected
+LONG_LINE_REJECT_LENGTH = 512
 # If the ratio between lines is smaller than this the line pair is rejected
 SKIP_RATIO = 0.50
 
@@ -31,6 +33,9 @@ class Splitter:
         if len(line_source) < SHORT_LINE_ACCEPT_LENGTH and len(line_destination) < SHORT_LINE_ACCEPT_LENGTH:
             return False
 
+        if len(line_source) > LONG_LINE_REJECT_LENGTH or len(line_destination) > LONG_LINE_REJECT_LENGTH:
+            return True
+
         if len(line_source) / len(line_destination) < SKIP_RATIO:
             return True
         if len(line_destination) / len(line_source) < SKIP_RATIO:
@@ -54,9 +59,7 @@ class Splitter:
 
             lines_processed += 1
 
-            lines_invalid = self.if_invalid_lines(source_line, destination_line)
-
-            if lines_invalid:
+            if self.if_invalid_lines(source_line, destination_line):
                 lines_invalid += 1
                 continue
 
