@@ -86,3 +86,7 @@ splitter_finlex.create_file("Validation files", 0.0016, 'data/src-val.txt', 'dat
 splitter_ccmatrix = Splitter('data/ccmatrix/fi.txt', 'data/ccmatrix/sv.txt')
 splitter_ccmatrix.create_file("Training file", 0.90, 'data/ccmatrix/src-train.txt', 'data/ccmatrix/tgt-train.txt', 'w')
 splitter_ccmatrix.create_file("Validation files", 0.0016, 'data/src-val.txt', 'data/tgt-val.txt', 'a')
+
+splitter_ccmatrix = Splitter('data/wikimatrix/fi.txt', 'data/wikimatrix/sv.txt')
+splitter_ccmatrix.create_file("Training file", 0.90, 'data/wikimatrix/src-train.txt', 'data/wikimatrix/tgt-train.txt', 'w')
+splitter_ccmatrix.create_file("Validation files", 0.0016, 'data/src-val.txt', 'data/tgt-val.txt', 'a')

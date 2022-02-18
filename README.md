@@ -5,7 +5,7 @@
 If you are working on a fresh installation install these first:
  * `apt install git make python3-pip python3-virtualenv`
  * Nvidia CUDA: https://developer.nvidia.com/cuda-zone (Do not use the packaged version `nvidia-cuda-framework` as it is outdated)
- 
+
 ## Manual Process
 
 1. Download datasets: `make get-data`
@@ -28,3 +28,13 @@ If you are working on a fresh installation install these first:
 
 1. Train the model: `make train`
   * Makes training using `onmt_train` based on `config/finlex.yaml`
+
+## Adding a new dataset
+
+1. Create a download rule to `Makefile`. See `get-data-*` for an example.
+1. Add new dataset to `prepare-data.py`
+1. Add new dataset to `config/meb.yaml`
+1. Run your new `make get-data-rule`
+1. `make prepare-data`
+1. `make vocabulary`
+1. `make train`
