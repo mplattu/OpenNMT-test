@@ -33,7 +33,20 @@ get-data-eubookshop:
 		rm *.zip; \
 	fi
 
-get-data: get-data-ccmatrix get-data-finlex get-data-eubookshop
+get-data-dgt:
+	-mkdir -p data/dgt/
+	if { [ ! -f data/dgt/fi.txt ] || [ ! -f data/dgt/sv.txt ]; } then \
+		wget -O data/dgt/moses.zip https://object.pouta.csc.fi/OPUS-DGT/v2019/moses/fi-sv.txt.zip; \
+		cd data/dgt; \
+		unzip -p moses.zip DGT.fi-sv.fi >fi.txt; \
+		unzip -p moses.zip DGT.fi-sv.sv >sv.txt; \
+		rm *.zip; \
+		sed -i '4890972d' fi.txt; \
+		sed -i '4890957d' sv.txt; \
+	fi
+
+
+get-data: get-data-ccmatrix get-data-finlex get-data-eubookshop get-data-dgt
 
 install:
 	virtualenv -p python3 data
