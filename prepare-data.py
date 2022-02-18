@@ -86,4 +86,3 @@ def split_dataset(dataset_path, source_validation_file, destination_validation_f
 
 split_dataset('data/finlex', 'data/src-val.txt', 'data/tgt-val.txt')
 split_dataset('data/ccmatrix', 'data/src-val.txt', 'data/tgt-val.txt')
-split_dataset('data/wikimatrix', 'data/src-val.txt', 'data/tgt-val.txt')

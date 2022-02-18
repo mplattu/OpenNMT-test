@@ -23,17 +23,7 @@ get-data-finlex:
 		rm *.zip; \
 	fi
 
-get-data-wikimatrix:
-	-mkdir -p data/wikimatrix/
-	if { [ ! -f data/wikimatrix/fi.txt ] || [ ! -f data/wikimatrix/sv.txt ]; } then \
-		wget -O data/wikimatrix/moses.zip https://object.pouta.csc.fi/OPUS-WikiMatrix/v1/moses/fi-sv.txt.zip; \
-		cd data/wikimatrix; \
-		unzip -p moses.zip WikiMatrix.fi-sv.fi >fi.txt; \
-		unzip -p moses.zip WikiMatrix.fi-sv.sv >sv.txt; \
-		rm *.zip; \
-	fi
-
-get-data: get-data-ccmatrix get-data-finlex get-data-wikimatrix
+get-data: get-data-ccmatrix get-data-finlex
 
 install:
 	virtualenv -p python3 data
