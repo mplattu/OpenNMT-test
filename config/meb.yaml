@@ -16,6 +16,10 @@ data:
         path_src: ccmatrix/src-train.txt
         path_tgt: ccmatrix/tgt-train.txt
         weight: 1
+    corpus_3:
+        path_src: eubookshop/src-train.txt
+        path_tgt: eubookshop/tgt-train.txt
+        weight: 1
     valid:
         path_src: src-val.txt
         path_tgt: tgt-val.txt

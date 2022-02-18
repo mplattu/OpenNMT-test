@@ -23,7 +23,17 @@ get-data-finlex:
 		rm *.zip; \
 	fi
 
-get-data: get-data-ccmatrix get-data-finlex
+get-data-eubookshop:
+	-mkdir -p data/eubookshop/
+	if { [ ! -f data/eubookshop/fi.txt ] || [ ! -f data/eubookshop/sv.txt ]; } then \
+		wget -O data/eubookshop/moses.zip https://object.pouta.csc.fi/OPUS-EUbookshop/v2/moses/fi-sv.txt.zip; \
+		cd data/eubookshop; \
+		unzip -p moses.zip EUbookshop.fi-sv.fi >fi.txt; \
+		unzip -p moses.zip EUbookshop.fi-sv.sv >sv.txt; \
+		rm *.zip; \
+	fi
+
+get-data: get-data-ccmatrix get-data-finlex get-data-eubookshop
 
 install:
 	virtualenv -p python3 data
