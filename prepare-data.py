@@ -78,15 +78,12 @@ class Splitter:
 
         print("%s: %d lines (%d processed, %d invalid)" % (legend, lines_written, lines_processed, lines_invalid))
 
+def split_dataset(dataset_path, source_validation_file, destination_validation_file):
+    print("--- Processing dataset %s" % dataset_path)
+    splitter = Splitter('%s/fi.txt' % dataset_path, '%s/sv.txt' % dataset_path)
+    splitter.create_file('Training file', 0.95, '%s/src-train.txt' % dataset_path, '%s/tgt-train.txt' % dataset_path, 'w')
+    splitter.create_file('Validation file', 0.0016, source_validation_file, destination_validation_file, 'a')
 
-splitter_finlex = Splitter('data/finlex/fi.txt', 'data/finlex/sv.txt')
-splitter_finlex.create_file("Training file", 0.90, 'data/finlex/src-train.txt', 'data/finlex/tgt-train.txt', 'w')
-splitter_finlex.create_file("Validation files", 0.0016, 'data/src-val.txt', 'data/tgt-val.txt', 'a')
-
-splitter_ccmatrix = Splitter('data/ccmatrix/fi.txt', 'data/ccmatrix/sv.txt')
-splitter_ccmatrix.create_file("Training file", 0.90, 'data/ccmatrix/src-train.txt', 'data/ccmatrix/tgt-train.txt', 'w')
-splitter_ccmatrix.create_file("Validation files", 0.0016, 'data/src-val.txt', 'data/tgt-val.txt', 'a')
-
-splitter_ccmatrix = Splitter('data/wikimatrix/fi.txt', 'data/wikimatrix/sv.txt')
-splitter_ccmatrix.create_file("Training file", 0.90, 'data/wikimatrix/src-train.txt', 'data/wikimatrix/tgt-train.txt', 'w')
-splitter_ccmatrix.create_file("Validation files", 0.0016, 'data/src-val.txt', 'data/tgt-val.txt', 'a')
+split_dataset('data/finlex', 'data/src-val.txt', 'data/tgt-val.txt')
+split_dataset('data/ccmatrix', 'data/src-val.txt', 'data/tgt-val.txt')
+split_dataset('data/wikimatrix', 'data/src-val.txt', 'data/tgt-val.txt')
