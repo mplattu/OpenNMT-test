@@ -1,0 +1,254 @@
+Ylioppilastutkintolautakunnan yleiset määräykset ja ohjeet liite 1 Koetilan tekniset järjestelyt Tässä dokumentissa kuvaillaan digitaalisiin ylioppilastutkinnon kokeisiin liittyvät tekniset järjestelyt.
+Ohje on tarkoitettu koejärjestelyjen toteuttamiseen osallistuville henkilöille.
+Tutkintokerroittain tai -päivittäin tapahtuvat järjestelyt kuvataan tarkemmin Ylioppilastutkintolautakunnan yleisten määräysten ja ohjeiden liitteenä olevassa valvojan ohjeessa.
+1 Koetilan järjestelyt Digitaalisessa ylioppilaskokeessa jokaisella kokelaalla on käytössään tietokone, joka käynnistetään lautakunnan toimittamalta kokelaan koneen USB-muistilta.
+Jokainen tietokone liitetään sähköverkkoon ja koetilassa olevan tutkintoverkon kautta koetilassa oleviin palvelimiin.
+Tutkintoverkko on kiinteistön muista tietoliikenneverkoista eristetty paikallisverkko.
+USB-muistilla oleva käyttöjärjestelmä estää kokelasta pääsemästä muihin kuin kokeessa käytettäviin sähköisiin resursseihin (esim.
+internetissä tai tietokoneen kovalevyllä sijaitseviin aineistoihin).
+Koetilan palvelimia on kaksi, varsinainen koetilan palvelin ja varapalvelin.
+Varsinainen koetilan palvelin jakaa koetehtävät kokelaille, tallentaa koesuoritukset ja mm. suorittaa teknistä valvontaa kokelaiden tietokoneilla.
+Koetilan palvelimen tallennusmediaa kopioidaan jatkuvasti varapalvelimelle.
+Koetilan palvelin ja varapalvelin ovat yhteydessä toisiinsa tutkintoverkon kautta.
+Koetilan palvelimen vikaantuessa varapalvelin voidaan sammuttaa ja käynnistää uudelleen koetilan palvelimeksi.
+Koetilan palvelimet käynnistetään joko lautakunnan toimittamina virtuaalikoneina tai lautakunnan toimittamalta palvelimen USB-muistilta.
+Kaikki kokelaan kokeen aikana tarvitsema aineisto on koetehtävät sisältävässä tiedostossa, jonka rehtori on ladannut lautakunnan tutkintopalvelusta.
+YTL:n palvelinulkoverkko-yhteyspalvelinKoetilanvarapalvelinKoetilantutkinto-verkkokytkinkokelaskokelaskokelaskokelasKuva 1.
+Yksinkertaistettu kaavakuva tutkintoverkon tietoliikennejärjestelyistä.
+Koetilan palvelimet eivät ole yhteydessä internetin välityksellä YTL:n palvelimeen kokeen aikana, mutta yhteyksiin on hyvä varau-tua koetilojen kaapeloinneissa.
+Koetilan sähkönsyöttö on jaettu akkuvarmennettuun ja varmistamattomaan sähkönsyöttöön.
+• Akkuvarmennettuun sähkönsyöttöön on liitetty koetilan palvelimet ja tietoliikenne-laitteet.
+Jos koetilan sähkönsyöttö katkeaa, nämä laitteet toimivat UPS-laitteiden vir-ran avulla.
+Varakäyntiajan on oltava vähintään 15 minuuttia.
+• Varmistamattomaan sähkönsyöttöön on liitetty kokelaiden tietokoneet.
+Jos koetilan sähkönsyöttö katkeaa, nämä laitteet toimivat tietokoneiden oman akun avulla.
+Sekä akkuvarmennettu että varmistamaton sähkönsyöttö on mitoitettava tämän ohjeen luvun 2 Sähkönsyöttö mukaisesti.
+Lautakunnan toimittamat USB-muistit eivät sisällä koetehtäviä.
+Rehtori lataa koetehtävät sisältävän salatun tiedoston lautakunnan tutkintopalvelusta.
+Lautakunta lähettää salauksen purkamisessa tarvittavan purkukoodin rehtorille erikseen (ks. Ylioppilastutkintolautakunnan yleiset määräykset ja ohjeet, luku 2.3.1).
+Kokeen jälkeen rehtori tai valvoja siirtää kokelaiden vastaukset ja muun kokeen aikana syntyvän aineiston salattuna tiedostona koetilan palvelimelta USB-muistille.
+Rehtori siirtää tiedoston USB-muistilta lautakunnan tutkintopalveluun.
+1.1 Keskeiset tekniset uhkat ja niihin varautuminen Keskeiset tekniset uhkat on tunnistettu ja niihin on varauduttu seuraavasti: • Sähkönsyötön katkeamiseen varaudutaan usealla tasolla.
+Keskeiset järjestelmät on akkuvarmistettu, ja myös kokelaiden tietokoneisiin suositellaan akkua.
+Järjestelmä tallentaa kokelaan vastaukset ja tiedostot automaattisesti, jolloin kokelaiden vas-tauksia ei katoa tietokoneen sammuessa.
+(Ks.
+luku 2.3 Sähkönjakelun varmistaminen sähkökatkon aikana ja Ylioppilastutkintolautakunnan yleiset määräykset ja ohjeet, liite 2: Kokelaan tietokonetta koskevat ohjeet.) • Yksittäisiin tietokoneongelmiin varaudutaan varakoneilla, joiden järjestäminen on lukion vastuulla (Ks.
+luku 5.1).
+• Yksittäisiin kokelaisiin vaikuttaviin tietoliikenneongelmiin varaudutaan järjestämällä koetilaan varapaikkoja (Ks.
+Yleiset määräykset ja ohjeet luku 2.3.3 Koetilat).
+Varapaik-kojen tulee olla varusteltuna samalla tavoin kuin kokelaiden istumapaikat.
+• Koetilan palvelimen vikaantumiseen varaudutaan varapalvelimella, joka kopioi koe-tilan palvelimen tallettamat tiedot itselleen tutkintoverkon kautta.
+Varapalvelin voi-daan tarvittaessa käynnistää koetilan palvelimeksi.
+(Ks.
+luku 4.) 2 Sähkönsyöttö Koetilojen sähkösuunnittelussa on noudatettava erityisen suurta huolellisuutta paitsi kokelaiden turvallisuuden myös sähkön riittävyyden näkökulmasta.
+2.1 Sähköjärjestelmän laitekuorma Kokelaan tietokoneen sähkötehon tarve on tavallisesti n.
+15W – 60W (65mA – 260mA).
+Näin ollen suurenkin laitemäärän vaatima sähkötehon tarve on sähköverkon kannalta suhteellisen pieni.
+Koejärjestelmän tietoliikenneyhteyksiä eli tutkintoverkkoa palveleva ristikytkentäteline aktiivilaitteineen on järjestelmän suurin yksittäinen kuorma.
+Tavallisesti suurenkin ristikytkentätelineen tarvitsema sähköteho on alle 3,6kW (16A, 230V).
+Kaikki em.
+sähköverkkoon liitettävät laitteet ovat pistotulppaliitäntäisiä joko maadoitetulla tai maadoittamattomalla pistokkeella.
+2.2 Sähkönjakelu Laitteiden sähkönjakelua varten tilassa tulee olla käytettävissä riittävä määrä normaaleja pistorasioita.
+Jokaisella kokelaalla on oltava käytössään yksi pistorasia.
+Koska laitteita kytkevät sähköverkkoon maallikot, pistorasioiden on suositeltavaa olla maadoitettuja ja vikavirtasuojattuja.
+Pistorasiaryhmät on normaalisti suojattu 16A:n sulakkeilla tai johdonsuojakatkaisijoilla.
+Uudet asennukset on suojattu lisäksi 30mA:n vikavirtasuojin.
+Tutkintoverkon aktiivilaitteet tulee liittää omiin pistorasioihinsa erilleen muusta laitekuormasta.
+Lisäksi laitteiden toiminta mahdollisen sähkökatkon aikana tulee turvata UPS-laitteella.
+Suuressa osassa koetiloja sähkönjakelu joudutaan rakentamaan väliaikaisena, helposti ja nopeasti purettavana.
+Tämän vuoksi sähköverkon toteutukseen tarvitaan useista työmaakeskuksista ja jatkojohdoista rakennettua väliaikaista ryhmäjohtoverkkoa.
+Suuretkin väliaikaiset verkot voidaan järjestää esimerkiksi kolmivaiheiseen voimapistorasiaan liitettävillä ja ketjutettavilla työmaakeskuksilla (16A, 32A, 63A).
+Työmaakeskuksia on mahdollista ketjuttaa ja niissä on valmiina useita vikavirtasuojattuja pistorasioita.
+Väliaikaista ryhmäjohtoverkkoa rakennettaessa tulee välttää liian pitkiä kaapelivetoja sekä jatkojohtojen ketjuttamista.
+Yhden kiinteän 16A:n yksivaiheisen pistorasian taakse ei ole suositeltavaa liittää enempää kuin 8 tietokonetta, jotta saavutetaan riittävä toleranssi suojalaitteiden toimintarajoihin ja varmistetaan, että mahdolliset koetilanteen aikana ilmenevät viat saadaan selvitettyä nopeasti.
+Tilassa olevan työmaakeskuksen yksivaiheisen pistorasian vikavirtakatkaisijan tai johdonsuojakatkaisijan toimiessa vian voi poistaa kokeen valvoja, jos hänet on opastettu tehtävään.
+Sähkö- ja tietoliikennelaitteiden ja kaapelien sijoittelulla on minimoitava tilanteet, joissa kokelaat tai valvojat joutuvat kävelemään johdinten ylitse.
+Rakentaja on aina vastuussa toteuttamastaan väliaikaisesta sähköasennuksesta.
+Tarvittaessa tulee käyttää sähköalan ammattilaista toteamaan suojalaitteiden asianmukainen toiminta tarvittavin koestuksin ja mittauksin.
+Kuva 2.
+Periaatepiirustus väliaikaisesta sähköasennuksesta koulun liikuntasaliin toteutettuna.
+Katso myös kuva 3.
+Kuva 3.
+Selite kuvaan 2.
+2.3 Sähkönjakelun varmistaminen sähkökatkon aikana Koetilan palvelimen, varapalvelimen ja tutkintoverkon aktiivilaitteiden toiminta koetilanteessa varmistetaan katkottomalla sähkösyötöllä eli UPS-laitteella.
+UPS-laitteisto voidaan toteuttaa keskitettynä laitteistona sijoitettuna esimerkiksi tietoliikenneverkon aktiivilaitteiden yhteyteen.
+UPS-laitteen tulee kyetä turvaamaan koetilan palvelimen, varapalvelimen ja tutkintoverkon aktiivilaitteiden toiminta koko koetilaisuuden ja sen valmisteluun tarvittavan ajan.
+Laitteiston akut tulee mitoittaa siten, että laitteiston varakäyntiaika mahdollistaa laitteiden käytön vähintään 15 minuutin ajan.
+Mikäli jossakin tutkinnon suorituspaikassa on tavanomaista suurempi riskialttius sähkökatkolle, voidaan sähkönjakelu varmistaa siirrettävällä varavoimageneraattorilla.
+Kokelaiden tietokoneiden osalta vastuu niiden akkujen kestosta on kokelailla.
+Akun olisi hyvä kestää ainakin 15 minuutin käyttö sähkönsyötön katkettua.
+Lukio voi halutessaan varmistaa myös kokelaiden tietokoneiden sähkönsyötön.
+3 Tutkintoverkko Tutkintoverkko on suljettu paikallisverkko (LAN), jonka verkkoasetukset jakaa koetilan palve-lin.
+Tutkintoverkko rakennetaan Ethernet-kaapeleilla tai YTL:n luvalla langattomasti.
+Tutkintoverkon laitteiden on oltava UPS-varmistettuja.
+3.1 Tutkintoverkko Ethernetillä Tutkintoverkkoja on yksi tai useampia lukiota kohden.
+Koetilaan varataan paikka koetilan palvelimille, ja verkko rakennetaan kytkimien kautta niin että se ulottuu jokaisen kokelaan työpisteeseen.
+Kokelaalla voi olla oikeus erilliseen koetilaan erityisjärjestelypäätöksen perusteella.
+Erillisten koetilojen tietoliikenteen järjestämiseen on kaksi vaihtoehtoa: • Erillisiin tiloihin rakennetaan omat tutkintoverkkonsa, joissa jokaisessa on oma koe-tilan palvelimensa ja varapalvelimensa (ks. kuva 4).
+• Erillisissä tiloissa työskentelevien kokelaiden tietokoneet liitetään Ethernet-kaape-lein ”pääsalin” tutkintoverkkoon (ks. kuva 5).
+pienempi koetilaisompi koetilakoetilan palvelinkoetilan vara-palvelinkytkinkokelaskokelaskoetilan palvelinkoetilan vara-palvelinkytkinkytkinkytkinkokelaskokelaskokelaskokelaskokelaskokelaserillinen koetilakoetilan palvelinkoetilan vara-palvelinkytkinkokelasKuva 4.
+Tässä esimerkissä jokaisessa koetilassa on oma tutkintoverkkonsa ja kussakin koetilan palvelin ja varapalvelin.
+Koetilojen välisiä verkkoyhteyksiä ei tarvita.
+pienempi koetilaisompi koetilakoetilan palvelinkoetilan vara-palvelinkytkinkytkinkytkinerillinen koetilakytkinkokelaskokelaskokelaskokelaskokelaskokelaskytkinkokelaskokelaskokelasKuva 5.
+Tässä esimerkissä kiinteistön kaikki koetilat ovat samassa tutkintoverkossa.
+Lukiossa on vain yksi koetilan palvelin ja yksi varapalvelin.
+Jos tutkintoverkkoa reititetään rakennuksen kiinteän kaapeloinnin ja kytkinten välityksellä, on varmistettava, että tutkintoverkko ei yhdisty rakennuksen muihin verkkoihin.
+Tämä voidaan tehdä käyttämällä olemassa olevissa kytkimissä tutkintoverkolle omaa VLANiaan tai reitittämällä tutkintoverkko ristikytkentätilojen lävitse omalla kytkimellään.
+Verkkotopologiaa suunniteltaessa on muistettava, että kaikissa tutkintoverkon verkkolaitteissa on oltava akkuvarmistus varakäyntiajan mukaisesti.
+Vaatimus akkuvarmistuksesta koskee siis myös niitä mahdollisia ristikytkentätilojen olemassa olevia kytkimiä, joiden lävitse tutkintoverkko kulkee.
+Erillisten tilojen akkuvarmistuksesta on omat määräykset (ks. 0 Erilliset tilat).
+Kuva 6.
+Esimerkki tietoliikennejärjestelyistä.
+Punaisella pohjalla olevissa laitteissa on oltava akkuvarmis-tus.
+Jos verkkoliikenne kulkee ristikytkentätiloissa olevien kytkinten läpi, on nämäkin kytkimet akkuvar-mistettava.
+Sinisellä pohjalla olevissa kokelaiden tietokoneissa on oma akku.
+Näihin ei tarvita erillistä akkuvarmistusta.
+Jos ristikytkentätilassa olevien kytkimien akkuvarmistus tuntuu raskaalta toimenpiteeltä, saattaa pienten PoE-kytkinten käyttö olla hyvä vaihtoehto.
+Lukion käytössä on oltava varalaitteita siten, että kokeen aikana mikä tahansa verkon rakentamiseen käytetty rikkoutunut yksi komponentti voidaan vaihtaa toimivaan.
+Vaihdon on tapahduttava alle 60 minuutissa vian havaitsemisesta.
+Lukioilla voi olla yhteisiä varalaitteita.
+Tutkintoverkon kytkinten ei tarvitse olla hallittuja.
+Verkon tiedonsiirtonopeuden tulee olla 1 000 Mbit/s (1 Gbit/s) koko verkon alueella.
+Verkkokaapeleina on hyvä käyttää suojattua kaapelia (STP), jos kaapelit yhdistetään esim.
+kaapelikouruilla tai nippusiteillä tiukoiksi johtonipuiksi.
+Muussa tapauksessa suojaamaton kaapeli (UTP) riittää.
+Verkossa on käytettävä vähintään CAT-5E-tason kaapelia.
+Tutkintoverkon laitteet on säilytettävä valvottuina tai lukituissa tiloissa.
+Kokeen aikana laitteiden tulee olla kokeen valvojien valvonnassa.
+Muuna aikana laitteita säilytetään lukituissa ristikytkentä- tai muissa tiloissa tai kaapeissa siten, että kukaan ulkopuolinen ei pääse niihin käsiksi.
+Jos laitteita säilytetään koetilassa, sen on oltava lukittuna tutkintoverkon rakentamisen jälkeen kokeen alkuun saakka.
+3.2 Tutkintoverkko WLANilla Langattoman WLAN-verkon käyttäminen osana tutkintoverkkoa on mahdollista vain, jos lukio on saanut siihen luvan lautakunnalta.
+Samassa koetilassa voi olla myös Ethernetillä rakennettu tutkintoverkko, jota osa kokelaista käyttää.
+Ennen luvan hakemista lukion on arvioitava itse ne koetilat, joissa langatonta tutkintoverkkoa aiotaan käyttää.
+Arviointia ja luvan hakemista varten lautakunta on laatinut erilliset määräykset ja ohjeet (ks. Ylioppilastutkintolautakunnan yleiset määräykset ja ohjeet, Liite 3: Määräys langattoman tutkintoverkon käyttämisestä ylioppilastutkinnossa).
+WLAN-verkon rakentamiseen ja laitteiden säilyttämiseen pätevät samat linjaukset kuin Ethernet-verkon osalta.
+Kaikki verkkolaitteet, myös WLAN-tukiasemat ja mahdolliset niitä ohjaavat kontrollerit, on sijoitettava akkuvarmistettuun virransyöttöön.
+Laitteiden on oltava joko lukituissa tai valvotuissa tiloissa.
+WLAN-verkon laitteet voidaan sijoittaa sivullisten saavuttamattomiin myös kiinnittämällä ne riittävän ylös, jolloin ei vaadita laitteiden sijoittamista lukittuun tilaan.
+Ethernet-verkon varalaitteita koskeva vaatimus koskee myös WLAN-verkkoa lukuun ottamatta mahdollista kontrolleria.
+3.3 Ulkoyhteys Rakennettaessa uusia koetiloja ja kiinteitä tietoliikennekaapelointeja on hyvä varautua mahdollisesti tulevaisuudessa käyttöönotettavaan ulkoverkkoyhteyteen.
+Varautumiseksi riittää, että koetilan palvelimien läheisyydessä on kiinteistön tietoliikennekaapeloinnin liitäntä.
+Liitännän puuttuminen ei estä tilan käyttämistä koetilana.
+4 Koetilan palvelin, varapalvelin ja valvojan kone Tutkintoverkossa on aina kaksi palvelinta: varsinainen koetilan palvelin sekä varapalvelin.
+Koetilan palvelin välittää kokelaiden tietokoneille koetehtävät ja -aineistot sekä tallettaa kokelaiden tietokoneilta tulevat koesuoritukset.
+Koetehtävät tuodaan koetilan palvelimelle ja kokelaiden koesuoritukset viedään palvelimelta USB-muistilla.
+Palvelin toimii tutkintoverkon DHCP- ja NTP-palvelimina.
+Koetilan varapalvelin kopioi jatkuvasti palvelimen tietoja itselleen.
+Jos koetilan palvelin vikaantuu, voidaan varapalvelin käynnistää varsinaiseksi koetilan palvelimeksi.
+Koetilan palvelin ja varapalvelin voidaan asentaa joko virtuaalikoneeksi tai käynnistää palvelimet lautakunnan toimittamilta USB-muisteilta.
+Virtuaalikoneen levynkuva ja palvelimen USB-muisti sisältävät Linux-käyttöjärjestelmän ja osan koejärjestelmästä.
+Käynnistämisen yhteydessä valitaan, käynnistetäänkö kone koetilan palvelimena, varapalvelimena vai valvojan koneena.
+Koetehtävien lataaminen, koesuoritusten siirtäminen ja kokeen aloittaminen on mahdollista ainoastaan koetilan palvelimelta.
+Tarvittaessa koetilaan voidaan käynnistää valvojan koneita.
+Valvojat näkevät koneen näytöltä luettelon kokeeseen osallistuvista kokelaista.
+Valvojan näytöltä voidaan seurata kokeen etenemistä sekä saada tietoa mahdollisista ongelmatilanteista ja niiden ratkaisuista.
+Valvojan koneita voi olla useita, ja ne voidaan palvelimien tapaan käynnistää joko USB-muisteilta tai virtuaalikoneina.
+Pienissä tutkintoverkoissa valvojan koneita ei tarvita, koska koetilan palvelimessakin on valvojan näyttö.
+Yli 50 kokelaan tutkintoverkoissa on käytettävä virtuaalisia koetilan palvelimia.
+Lautakunta suosittelee virtuaalisten koetilan palvelimien käyttöä aina kun se on mahdollista.
+4.1 Kaikille palvelimille yhteiset vaatimukset • Kone käynnistyy lautakunnan toimittamalta koetilan palvelimen USB-muistilta.
+• Koneessa on 64-bittinen prosessori.
+• Koneessa on kaksi vapaata USB-liitäntää, joista vähintään toinen on USB3 (tai USB 3.1).
+• Koneessa on Ethernet-liitäntä, jonka tiedonsiirtonopeus on vähintään 1 Gbit/s.
+• Näytön resoluutio on vähintään 1366 x 768 pikseliä.
+• Näyttö, näppäimistö, hiiri/touchpad, verkkokortti ja mahdollinen äänikortti kuulok-keineen tai koneeseen liitetyt USB-kuulokkeet toimivat lautakunnan toimittamalla ohjelmistolla.
+Kuulokkeita tarvitaan mahdollisesti tulevaisuudessa siihen, että ko-keen valvoja voi katsella ja kuunnella koetehtäviä.
+USB-kuulokkeiden käyttö on huo-mioitava USB-liitäntöjen määrässä.
+• Koneen päivämäärä ja kello on asetettu oikein BIOSissa/UEFIssa ja jos käytetään vir-tuaalista palvelinta, myös isäntäkoneen käyttöjärjestelmässä.
+Tulevaisuudessa palvelimessa saatetaan tarvita myös toista Ethernet-liitäntää.
+Tähän voidaan tarvittaessa varautua siten, että palvelimessa on vapaana joko yksi USB2- tai USB3-liitäntä tai sisäinen PCI-korttipaikka.
+Koetilan palvelimessa ei saa käyttää ulkoista USB-toistinta (USB-hubia).
+Jos koetilan palvelimia halutaan käyttää erillisessä tilassa ilman akkuvarmistusta, on palvelimessa oltava sisäinen akku.
+Käytännössä palvelimena voi toimia esimerkiksi kannettava tietokone.
+Palvelimen on kyettävä toimimaan akun varassa vähintään lautakunnan ohjeissa määritellyn varakäyntiajan verran.
+4.2 Koetilan palvelin ja varapalvelin virtuaalikoneena Virtualisoidulle koetilan palvelimelle ja varapalvelimelle on tehtävä kuormitustestaus ennen niiden käyttöä ylioppilaskokeessa.
+Ohjeet kuormitustestaukseen löytyvät Ylioppilastutkintolautakunnan verkkosivuilta.
+Kuormitustestissä voi käyttää lautakunnan tutkintoa varten toimittamia kokelaan tietokoneen USB-muisteja.
+Kokelaat saavat käsitellä USB-muisteja ainoastaan koetilaisuudessa.
+Luvussa 4.1 lueteltujen palvelimien vaatimusten lisäksi: • Koneessa on 64-bittinen prosessori, joka tukee virtualisointia (Intel VT tai AMD-V) ja jossa on vähintään neljä ydintä (esimerkiksi neliytiminen ”quad core” tai hyper-säikeistetty kaksiytiminen ”dual core with hyper-threading”).
+Konetta ei ole liitetty käyttöjärjestelmätoimittajan palvelun lisäksi muuhun keskitettyyn ylläpito- tai hallin-tajärjestelmään (esim.
+Microsoft AD).
+• Palvelinkoneen vaatimukset prosessorin ja keskusmuistin osalta määritellään erik-seen virtuaalikoneena ajettaville palvelimille ja USB-muistilta käynnistettäville palve-limille.
+• Koneessa on 64-bittinen Linux- tai Windows-käyttöjärjestelmä.
+Käyttöjärjestelmän versio on käyttöjärjestelmän julkaisijan ja Oraclen VirtualBoxin tukema.
+Isäntäkäyttö-järjestelmät, joissa kulloinkin tuettuna oleva VirtualBox toimii, ovat nähtävillä esi-merkiksi osoitteessa https://www.virtualbox.org/manual/ (”Supported host opera-ting systems”).
+• Koneeseen on asennettu Oraclen VirtualBox-ohjelmistosta sellainen versio, joka a) on Oraclen tukema ja b) johon ei ole asennettu Oracle VM VirtualBox Extension Pack -laajennusta.
+• Koneessa on oltava tarvittavien ohjelmistojen ja virtuaalikoneen asentamisen jäl-keen vähintään 50 gigatavua vapaata levytilaa.
+Koetilan palvelimessa ja varapalveli-messa on hyvä käyttää kirjoitusnopeudeltaan samanlaisia massamuisteja.
+• Koneessa, jossa isäntäkäyttöjärjestelmänä on Windows, ei saa olla Hyper-V, Hyper-V Hypervisor, Virtual Secure Mode tai Isolated User Mode -ominaisuuksia päällä.
+• Käyttöjärjestelmän automaattinen päivitystoiminto on tutkinnon ajaksi kytkettävä pois päältä.
+• Palvelinkoneen virransäästöasetukset on asetettava tilaan, jossa kone ei sammu au-tomaattisesti ja muut virransäästöominaisuudet on kytketty pois päältä.
+Nämä ase-tukset on tarkistettu sekä käyttöjärjestelmästä että BIOSista/UEFIsta.
+• Lukiolla on oltava varmuuskopioiden ottamiseen ja säilyttämiseen vähintään 150 gi-gatavua vapaata levytilaa.
+Levytila voi olla joko koetilan palvelimen ajamiseen tarkoi-tetun koneen sisäisellä levyllä tai yhdellä tai useammalla ulkoisella massamuistilla.
+Levytilalla on voitava säilyttää kolme 50 gigatavun kokoista tiedostoa (esim.
+kolme 64 gigatavun USB3-muistitikkua tai yksi 150 gigatavun USB3-kovalevy).
+Koetilan vara-palvelinta ei varmuuskopioida.
+• Konetta säilytetään lukitussa tilassa siten, että koneeseen pääsevät käsiksi vain luo-tetut henkilöt.
+Koneeseen ei ole käyttäjätunnuksia tai muita käyttöoikeuksia muilla kuin ylioppilastutkinnon järjestämiseen osallistuvilla henkilöillä.
+Koneeseen saa asentaa vain sellaisia ohjelmia, jotka eivät vaaranna koneen tietoturvaa.
+• Kone saa olla kokeen aikana yhteydessä ainoastaan tutkintoverkkoon.
+4.2.1 Vaatimukset palvelimille virtuaalikoneena, jos tutkintoverkossa on 1–39 kokelasta Virtuaalipalvelinten yhteisten vaatimuksien (4.1 ja 4.2) lisäksi: • Koneessa tulee olla keskusmuistia (RAM) vähintään 8 gigatavua, josta näytönohjain voi käyttää tarvittavan osan.
+• Prosessorin tehon tulee ylittää 2500 pistettä nopeustestissä (https://www.cpubenchmark.net/).
+4.2.2 Vaatimukset palvelimille virtuaalikoneena, jos tutkintoverkossa on 40–250 kokelasta Virtuaalipalvelinten yhteisten vaatimuksien (4.1 ja 4.2) lisäksi: • Koneessa tulee olla keskusmuistia (RAM) vähintään 16 gigatavua, josta näytönohjain voi käyttää tarvittavan osan.
+• Prosessorin tehon tulee ylittää 5000 pistettä nopeustestissä (https://www.cpubenchmark.net/).
+• Suurilla kokelasmäärillä koetilan palvelimen kuormitustestauksen onnistunut läpi-vienti vaatii palvelimilta SSD-levyt.
+4.2.3 Vaatimukset palvelimille virtuaalikoneena, jos tutkintoverkossa on yli 250 kokelasta Jos lukio aikoo järjestää kokeen todella suuressa tutkintoverkossa, tarvittavista järjestelyistä tulee sopia lautakunnan kanssa etukäteen.
+4.3 Koetilan palvelin ja varapalvelin USB-muistilta käynnistettynä USB-muistilta käynnistettävälle koetilan palvelimelle ja varapalvelimelle on tehtävä kuormitustestaus ennen niiden käyttöä ylioppilaskokeessa, jos tutkintoverkkoon liitetään enemmän kuin 10 kokelasta.
+Ohjeet kuormitustestaukseen löytyvät Ylioppilastutkintolautakunnan verkkosivuilta.
+Kuormitustestissä voi käyttää lautakunnan tutkintoa varten toimittamia kokelaan tietokoneen USB-muisteja.
+Kokelaat saavat käsitellä USB-muisteja ainoastaan koetilaisuudessa.
+USB-muistilta käynnistettävää koetilan palvelinta saa käyttää vain tutkintoverkoissa, joissa on 1-50 kokelasta.
+Kaikille yhteisten vaatimusten (4.1) lisäksi: • Koneessa tulee olla keskusmuistia (RAM) vähintään 4 gigatavua, josta näytönohjain voi käyttää tarvittavan osan.
+• Prosessorin tehon tulee ylittää 2500 pistettä nopeustestissä (https://www.cpubenchmark.net/).
+• Palvelinkoneen virransäästöominaisuudet on kytketty pois päältä koneen BIOSissa/UEFIssa.
+Yli 50 kokelaan tutkintoverkossa on käytettävä luvussa 4.2 kuvatut vaatimukset täyttävää vir-tuaalista palvelinta ja varapalvelinta.
+4.4 Valvojan koneen vaatimukset USB-muistilta käynnistettävää valvojan konetta koskevat samat vaatimukset kuin kokelaan tietokonetta.
+Virtuaalikoneena käynnistettävän valvojan koneen on täytettävä virtuaalikoneena käynnis-tettävän koetilan palvelimen vaatimukset (1-39 kokelasta).
+Edellisistä poiketen: • Prosessorin tehovaatimusta ei ole.
+• Tarvittavien ohjelmistojen ja virtuaalikoneen asentamisen jälkeen koneessa on ol-tava 50 gigatavun sijaan 2 gigatavua vapaata levytilaa.
+• Kaapelein toteutetussa tutkintoverkossa koneen on oltava lentotilassa.
+• Isäntäkoneena voidaan käyttää esim.
+valvojan henkilökohtaista tietokonetta, johon on asennettu tarvittavat ohjelmistot.
+Koneen ohjelmistovarustusta, asetuksia ja tur-vallista säilytystä koskevia ohjeita noudatetaan soveltuvin osin.
+Valvojan konetta ei varmuuskopioida.
+5 Kokelaiden tietokoneet, varakoneet ja USB-muistit Kokelaiden tietokoneet käynnistetään lautakunnan toimittamalta USB-muistilta.
+USB-muisti sisältää Linux-käyttöjärjestelmän, osan koeohjelmistosta sekä erilaisia sovelluksia (esim.
+tekstinkäsittely, taulukkolaskenta).
+Kokelaiden tietokoneet liitetään joko Ethernet-kaapelein tai langattomasti toteutettuun tutkintoverkkoon.
+Verkkoasetukset kokelaan tietokone saa koetilan palvelimelta (DHCP).
+Kokelaiden tietokoneiden tekniset vaatimukset kuvataan lautakunnan yleisten määräysten ja ohjeiden liitteenä olevassa kokelaan tietokonetta koskevassa ohjeessa.
+Kokelaan tietokoneen lisälaitteineen on saatava kaikki tarvitsemansa virta yhdestä pistorasiasta.
+Kokelaiden tietokoneissa voidaan käyttää näyttöjen suojakalvoja, mikäli niiden käyttö ei estä valvojia näkemästä kokelaiden näyttöjä.
+5.1 Varakoneet Lukiolla on oltava yksi kokelaan tietokoneen vaatimukset täyttävä varakone kuulokkeineen jokaista kymmentä suorituspaikan kokelasta kohden.
+Jokaisessa suorituspaikassa on kuitenkin oltava vähintään yksi varakone.
+Esimerkiksi 100 kokelaan suorituspaikassa tarvitaan 10 varakonetta, kun taas 5 kokelaan suorituspaikassa on oltava 1 varakone.
+Nämä varakoneet on tarkoitettu kokeen aikana vikaantuneiden kokelaiden koneiden korvaamiseksi.
+Lukion on varmistettava, että varakoneet käynnistyvät USB-muistilta joko automaattisesti tai koneeseen kiinnitetyn ohjeen mukaisesti.
+Kokeen valvojien tulee osata käynnistää varakoneet USB-muistilta.
+Lukion on myös varmistettava, että varakoneet voidaan liittää suorituspaikan tutkintoverkkoon.
+5.2 Kokelaan koneen USB-muistit Koetilassa on oltava kokelaan tietokoneeseen tarkoitettuja USB-muisteja jokaiselle kokelaalle ja jokaiselle varakoneelle.
+Lisäksi tarvitaan ylimääräisiä USB-muisteja mahdollisesti vioittuvien USB-muistien tilalle.
+Ylimääräisiä USB-muisteja tulee olla yksi jokaista kymmentä kokelaan konetta ja varakonetta kohden, kuitenkin vähintään yksi (noin 10 % koetilassa olevien kokelaan koneiden ja varakoneiden yhteen lasketusta määrästä).
+6 Erillisiä tiloja koskevat määräykset 6.1 Erilliset tilat Digitaalisessa ylioppilaskokeessa erillinen tila voidaan toteuttaa joko ulottamalla varsinaisen koetilan verkko erilliseen tilaan (ks. 3.1 Tutkintoverkko Ethernetillä) tai rakentamalla erilliseen tilaan oma tutkintoverkkonsa, jonka minimikokoonpano on seuraava: • koetilan palvelin • koetilan varapalvelin • • kokelaan tietokone • kokelaan tietokoneelle yksi varakone, joka on käytettävissä viimeistään 30 minuu-tutkintoverkon vaatima aktiivilaite tissa kokelaan koneen vioittumisesta (säilytys esim.
+samassa kiinteistössä).
+Varsinaisesta koetilasta poiketen erillisen koetilan palvelimen ja varapalvelimen akkuvarmennuksen voi toteuttaa myös kannettavien tietokoneiden sisäisillä akuilla.
+Akkujen on kyettävä pitämään palvelimet toimintakykyisinä yhtä kauan kuin varsinaisessa koetilassa.
+Erillisen koetilan tutkintoverkon aktiivilaitteita ei tarvitse akkuvarmistaa.
+Jos sähkönsyöttö katkeaa erillisestä koetilasta, valvojan tulee ottaa välittömästä yhteyttä lautakuntaan.
+Näin rakennetun erillisen tilan tutkintoverkkoon saa liittää enintään 10 kokelaan tietokonetta.
+Määrän ylittyessä sähkönsyöttö on toteutettava normaalin koetilan vaatimusten mukaisesti.
+6.2 Näkövammaisten kokelaiden koejärjestelyt Lautakunnalta erityisjärjestelypäätöksen saaneet näkövammaiset kokelaat käyttävät voivat käyttää digitaalisen ylioppilaskokeen suorittamiseen tietokonetta, johon on asennettu kokelaan erityisjärjestelypäätöksessä mainitut ohjelmat.
+Tämä voi olla esim.
+kokelaan oma tietokone.
+Tätä konetta nimitetään erilliseksi tietokoneeksi.
+Opettajan on ennen koetta varmistettava, että koneen muistissa ei ole ylimääräisiä tiedostoja tai ohjelmia ja että tekstinkäsittelyohjelmasta on poistettu oikeinkirjoituksen tarkistus.
+Verkkoyhteys on ehdottomasti kielletty.
+Kokelas suorittaa kokeensa pääsääntöisesti erillisessä tilassa, jotta kokelaan ja valvojan välinen kommunikaatio ei häiritse muita kokelaita.
+Näkövammaisen tietokone kytketään yhteen USB-muistilta kokelaan koneeksi käynnistettävän tietokoneeseen kanssa ns.
+erilliseksi tietokoneeksi.
+Ellei kokelaan konetta voida yhdistää olemassa olevaan tutkintoverkkoon, tulee lisäksi rakentaa tilaan oma tutkintoverkko: koetilan palvelin, varapalvelin ja verkkokytkin, johon kokelaan kone kytketään.
+Kokeen valvoja käynnistää kerran kuunneltavat äänitteet kokelaan ohjeiden mukaan.
+Lautakunta antaa erilliset ohjeet lukioille, jotka järjestävät näkövammaiselle kokelaalle näkövammaisen apuvälineillä suoritettavan kokeen.
+Lukion tulee olla hyvissä ajoin yhteydessä lautakuntaan ohjeiden saamiseksi ja neuvotellakseen tarkemmin toteutuksen yksityiskohdista.
+.

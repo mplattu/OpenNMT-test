@@ -1,0 +1,59 @@
+Ylioppilastutkintolautakunnan yleiset määräykset ja ohjeet liite 2 Kokelaan tietokonetta koskevat ohjeet Jokainen digitaalista ylioppilastutkinnon koetta tekevä kokelas tarvitsee kokeen ajaksi käyttöönsä henkilökohtaisen tietokoneen, jolla hän suorittaa kokeen.
+Nämä ohjeet korvaavat 28.2.2017 ja sitä ennen annetut ohjeet ”Ohje ylioppilaskokeen päätelaitteesta”.
+Ylioppilaskokeen suorittamiseen tarvitaan 64-bittisellä x86-prosessorilla varustettu tietokone.
+Tällaisissa tietokoneissa käytetään tavallisesti Windows-, OS X- tai Linux-käyttöjärjestelmää.
+Prosessori 64-bittinen x86-prosessori.
+Yksiytimisen prosessorin kellotaajuuden suositus 2 GHz tai enemmän.
+Mahdollisuus käynnistää käyttöjärjestelmä USB3-muistilta.
+Näyttö Akku Verkko Tietokoneen näytön tulee olla resoluutioltaan vähintään 1360×768.
+Näytön koon on oltava alle 18 tuumaa.
+Tätä suurempia näyttöjä voi käyttää ainoastaan lautakunnan myöntämänä erityisjärjestelynä.
+Yksi näyttö kokelasta kohden.
+Suositellaan toimivaa akkua sähkönsyöttöhäiriöiden varalta.
+Ylioppilaskokeen järjestävä lukio voi rakentaa tutkintoverkon langallisella Ethernet- tai WLAN-teknologialla.
+Kokelaan tietokoneen on oltava liitettävissä tutkintoverkkoon kokeen järjestävän lukion valitsemalla teknologialla.
+Valtaosa lukioista käyttää ylioppilaskokeessa langallista verkkoa.
+Siksi ylioppilaskokeessa käytettävässä tietokoneessa on hyvä olla Ethernet-liitäntä.
+Tietokoneessa on hyvä olla myös WLAN-verkkokortti opiskelu- ja kurssikoekäyttöä varten.
+Sekä langalliset Ethernet- että WLAN-verkkolaitteet voivat olla ulkoisia lisälaitteita.
+Mahdollisuus liittää kuulokkeet ja mikrofoni joko USB-liitännän tai 3,5 mm:n pistokkeiden avulla.
+Mahdollisten lisälaitteina liitettävien näppäimistön ja hiiren on toimittava HID-määrittelyn1 mukaisesti.
+Tietokoneessa voi tarvittaessa käyttää virtalähteetöntä USB-hubia tai muuta vastaavaa adapteria (esim. USB-C:stä USB3:een).
+Tietokoneen lisälaitteet eivät voi käyttää radiotaajuuksia (esim. Bluetooth).
+Koetilanteessa laitteeseen käynnistetään USB3-muistilta Ylioppilastutkintolautakunnan toimittama käyttöjärjestelmä ohjelmistoineen.
+Koneeseen pysyvästi asennettua käyttöjärjestelmää ei käytetä kokeen aikana, eikä kokelaalla ole mahdollisuutta käyttää koneeseen pysyvästi asennettuja ohjelmia tai tiedostoja.
+Tietokoneen yhteensopivuuden voi varmistaa lataamalla kokeen käyttöjärjestelmän omalle USB3-muistille ja käynnistämällä sen tietokoneessa.
+Ohjeet löytyvät osoitteesta http://www.abitti.fi/fi/ohjeet/.
+Ylioppilastutkintolautakunta päivittää kokeen käyttöjärjestelmän yhteensopivuuteen vaikuttavia käynnistysvaihtoehtoja 2-3 kertaa vuodessa.
+Lautakunta pyrkii valitsemaan käynnistysvaihtoehdot siten, että ne toimivat mahdollisimman laajalla laitejoukolla.
+Tämänhetkinen koeympäristö toimii noin 7-vuotiailla ja sitä nuoremmilla laitteilla.
+Kaikkein uusimmissa tietokoneissa tarvittavia laiteajureita ei välttämättä ole mukana koeympäristössä.
+Vastuu tietokoneen käynnistymisestä on kokelaalla.
+Kokelaan tulee hyvissä ajoin ennen koetilannetta kokeilemalla varmistua käyttämänsä tietokoneen yhteensopivuudesta koeohjelmiston kanssa.
+Muutokset aiempiin annettuihin ohjeisiin Muutokset 28.2.2017 annettuihin ohjeisiin: • RAM-muistin vähimmäisvaatimus on muutettu 2 gigatavusta 4 gigatavuun.
+Näytön vähimmäisresoluutioksi on muutettu 1024×768:n sijaan 1360×768.
+Aiempi suositus oli 1366×768.
+Täsmennetty, että kone on voitava käynnistää nimenomaan USB3-muistilta.
+Poistettu ulkoisissa verkkolaitteissa ollut viittaus USB-liitäntään.
+Liitäntätapaa ei rajoiteta tällä määräyksellä.
+Langattomasti liitettävät lisälaitteet ovat edelleen kiellettyjä.
+Muutokset 16.5.2016 annettuihin ohjeisiin:
+Näytön enimmäiskoko on muutettu 17 tuumasta alle 18 tuumaan.
+Täsmennetty, että päätelaittessa voi tarvittaessa käyttää USB-hubin lisäksi muutakin vastaavaa adapteria.
+Lisätty kuvaus laitteiden yhteensopivuudesta.
+Muutokset 18.6.2015 annettuihin ohjeisiin:
+Lisätty näytön suositusresoluutio 1366x768.
+Luvan yli 17” näyttöihin myöntää rehtorin sijaan lautakunta erityisjärjestelypäätöksenä.
+Muutokset 12.6.2015 annettuihin ohjeisiin:
+WLAN-kortin vaatimuksia on kevennetty, koska harvat lukiot suunnittelevat langattomia tutkintoverkkoja
+Muutokset 10.6.2013 annettuihin ohjeisiin:
+Prosessorin ominaisuuksia on kuvattu palautteen perusteella selkeämmin.
+Määrittelyssä on huomioitu kaksi- ja useampiytimiset prosessorit.
+Näiden suorituskyky on digitaaliseen kokeeseen riittävä, vaikka kellotaajuus harvoin ylittää 2 GHz.
+Keskusmuistin määrittelyssä on huomioitu näytönohjaimien vaatima muisti.
+Tämä on yleensä vähäinen eikä vaikuta kokeen suoritukseen.
+Käynnistysmedioiden joukosta on poistettu CD/DVD.
+Käytännössä on vaikea löytää laitetta, joka käynnistyisi vain CD/DVD:ltä ja täyttäisi muut vaatimukset.
+WLAN-kortin vaatimuksia on tiukennettu.
+Mukana olevat standardit 802.11a ja 802.11n toimivat sekä 2,4 että 5 GHz taajuuksilla.
+5 GHz taajuuksiin kykenemättömät standardit 802.11b ja 802.11g on poistettu.

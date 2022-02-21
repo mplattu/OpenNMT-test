@@ -1,0 +1,460 @@
+Studentexamensnämndens allmänna föreskrifter och anvisningar bilaga 4 Övervakarens anvisningar I den första delen av dessa anvisningar beskrivs hur provdagen under studentexamen fortskrider och hur det digitala studentprovet organiseras.
+I den andra delen ges instruktioner om hur man ska agera vid eventuella problemsituationer som uppkommer vid provtillfället.
+Om det uppkommer problem med arrangemangen eller under provtillfället som inte kan lösas med hjälp av dessa anvisningar ska gymnasiet i ett så tidigt skede som möjligt kontakta Studentexamensnämnden.
+Provdagen och arrangemangen Före den första examensdagen: arrangemangen i provlokalen och testning • Gymnasiet har byggt examensnätet i enlighet med SEN:s föreskrifter och anvisningar1.
+Gymnasiet har testat nätets funktion med hjälp av SEN:s belastningstest2 om virtuella servrar används eller om fler än 10 examinander kopplas upp till examensnätet.
+Om gymnasiet har tillstånd att använda ett trådlöst nätverk vid studentexamen har gymnasiet genomfört de kontroller som förutsätts i tillståndsbeslutet.
+Gymnasiet har förberett sig på att starta provlokalens server antingen från ett USB-minne eller som virtuell maskin.
+Gymnasiet kan använda de USB-minnen för examinandens maskin som SEN levererat för att testa provsystemet.
+Examinanderna får inte hantera de USB-minnen som används vis de digitala studentexamensproven eller vistas i samma utrymme där minnena finns.
+Vid eventuella övningar i vilka examinander deltar bör USB-minnen som används för övning av Abitti-användning användas.
+Om virtuella servrar används:
+Rektor har hämtat installationskoden för den virtuella server som används vid studentexamensproven från examenstjänsten (koe.ylioppilastutkinto.fi).
+Samma installationskod används även vid installationen av övervakarens dator.
+De virtuella maskinerna för provlokalens server, reservserver och övervakarens dator har uppdaterats till den version som används vid studentexamen genom att mata in installationskoden i nämndens program Naksu.
+Serverns kapacitet har kontrollerats med SEN:s belastningstest.
+Servermaskinens strömläge har ställts in så att maskinen inte automatiskt stänger av sig och övriga strömsparfunktioner är avstängda3.
+Den automatiska uppdateringen av datorns operativsystem är avstängd då examen pågår.
+Övervakarna känner till var de USB-minnen för provlokalens server som SEN har levererat för användning vid undantagstillstånd förvaras.
+Den virtuella maskinen för provlokalens server säkerhetskopieras i slutet av varje vecka under examen.
+Säkerhetskopians storlek kan vara upp till 50 gigabyte och den kan sparas på serverdatorns hårdskiva eller på ett externt lagringsmedium.
+Om servrar som startas från USB-minnen används:
+Gymnasiet har reserverat ett USB-minne för varje provlokalens server och reservserver.
+Samma USB-minne för provlokalens server kan användas under flera examensdagar vid samma examenstillfälle.
+Det bör dock observeras att ett USB-minne som använts för att starta provlokalens server inte kan användas för att starta provlokalens reservserver.
+SEN levererar två extra USB-minnen för provlokalens server.
+Dessa kan gymnasiet om så önskas använda för att prova starta provlokalens server och reservserver före provdagen.
+Gymnasiet bör kontrollera serverns kapacitet med hjälp av SEN:s belastningstest4 om flera än 10 examinander kopplas upp till examensnätet.
+Gymnasiet har startat provlokalens server och reservserver.
+Lösenordet som krävs till provlokalens reservserver finns på skärmen till provlokalens server.
+Synkroniseringen av provlokalens server och reservserver kan ta upp till 40 minuter.
+Förberedelserna inför provet kan fortsätta även om synkroniseringen pågår.
+Gymnasiet har laddat upp provuppgifterna på provlokalens server.
+Rektor har i god tid före provdagen laddat ned provuppgifterna på ett USB-minne från SEN:s examenstjänst.
+Uppladdningen av provet från USB-minnet till servern kan ta flera minuter.
+Om virtuell server används kan fönstret vid behov förstoras så att listan över de laddade proven bättre kan ses.
+Provsystemet ber om dekrypteringskoden för provet, men dessa ska ännu inte matas in i provsystemet i detta skede.
+Dekrypteringskodens basdel har skickats till gymnasiet i ett förslutet kuvert, som öppnas först i början av provtillfället.
+Dekrypteringskodens kompletterande del ges ut på dagen för provet senast kl. 8.00.
+I varje provlokal finns det ett provprotokoll som gymnasiet kopierat upp till varje övervakare som är med och identifierar examinanderna.
+Kopiorna av protokollen används för att identifiera examinanderna.
+Markeringar gällande provtillfället görs endast i det ordinarie protokollet, som återlämnas till SEN.
+Gymnasiet har på examinandernas sittplatser delat ut ett USB-minne som levererats av SEN avsedd för att starta examinandens dator och konceptpapper märkta med gymnasiets beteckning för att de ska kunna skriva utkast5.
+Gymnasiet ser till att det antal reservdatorer som anges i SEN:s anvisningar6 har ställts i ordning i provlokalen.
+Dessa datorer ska med säkerhet kunna startas med USB-minnet för examinandens dator.
+Dessutom ska det finnas reservhörlurar som man vet fungerar på reservdatorerna och som man har gjort ett ljudtest på.
+Vid reservdatorerna finns de anvisningar som gymnasiet sammanställt så att den som övervakar provet vid behov kan starta dem.
+Gymnasiet har placerat ut reservdatorer enligt en egen plan, exempelvis på reservplatser för examinander, och anslutit dem till examens- och elnätet.
+Övervakarna bör vara medvetna om att ifall reservdatorerna redan har startats så syns de på provlokalens server längst upp på sidan under Antal datorer i provnätet.
+Gymnasiet kan efter eget gottfinnande starta övervakarnas datorer i examensnätet för att följa examinandernas status eller extra examinanddatorer ifall övervakarna vill titta på provuppgifterna under provtillfället: • Gymnasiet har startat övervakarnas eventuella datorer.
+Övervakarens dator startas via ett USB-minne avsett för övervakarens dator eller som virtuell maskin med programmet Naksu.
+Lösenordet som krävs till övervakarens dator finns på skärmen till provlokalens server.
+Lösenordet är detsamma som det som användes för att starta reservservern.
+Övervakarna har möjlighet att titta på provuppgifterna under provets gång.
+I det syftet kan gymnasierna starta extra examinanddatorer i provnätet.
+Provuppgifterna kan inte ses på övervakarens dator.
+-- jäit tähän
+Övervakarna ska logga in på datorerna med sin egen personbeteckning och ange "Test Lärare” som namn.
+För varje examensnät kan man på en examinanddator använda personbeteckningen "010101-0101” för att logga in.
+Man får inte 5 Studentexamensnämndens allmänna föreskrifter och anvisningar, 1.4.1 och 1.4.2 6 Studentexamensnämndens allmänna föreskrifter och anvisningar, bilaga 1: Tekniska arrangemang i provlokalen, 5.1 Reservdatorer använda några andra påhittade personbeteckningar.
+Man ska använda olika personbeteckningar på varje dator.
+Övervakare som tittar på provuppgifterna ska inte skriva något i svarsfälten i provet, eftersom detta kan tolkas som provprestationer gjorda av examinander då provprestationerna överförs till examenstjänsten.
+Detta leder till onödigt utredningsarbete.
+Det är viktigt att komma ihåg att övervakaren av provet ska fokusera på att följa examinanderna och deras skärmar.
+Gymnasiet hämtar dekrypteringskodens kompletterande del
+Dekrypteringskoden för servern består av basdel, som distribueras per post, och en öppet distribuerad kompletterande del som publiceras kl.
+Dekrypteringskodens kompletterande del kan hämtas till exempel med rektors dator eller med en mobiltelefon eller surfplatta i provlokalen.
+Examinanderna anländer och startar sina datorer
+Vid fastställandet av tiden för detta och föregående steg ska man ta hänsyn till tiden som det tar att starta datorerna och identifiera examinanderna.
+Gymnasiet ger närmare anvisningar om klockslagen till sina examinander.
+Då examinanderna anländer till provlokalen ska speciell uppmärksamhet fästas vid att den kringutrustning, till exempel hörlurar och mus, som examinanderna har med sig är ändamålsenlig och inte till exempel möjliggör trådlös kommunikation eller mottagning.
+Examinanderna ansluter sina egna datorer till el- och examensnäten och startar sina datorer via det USB-minne som SEN har skickat och som tidigare har delats ut på borden.
+Examinanderna gör ljudtestet som startar automatiskt efter att datorn startats med USB-minnet.
+I provlokalen kan utöver examinanderna och övervakarna även personal inom exempelvis IT-support, som kan hjälpa examinanderna att starta datorerna och med problem med ljudet, vara närvarande.
+Alla personer som är närvarande i lokalen omfattas av avsnitten 2.3.4 (Provtillfället), 2.3.5 (Övervakarna) och 2.3.9 (Jäv och behörigheter för provsystemet) i Studentexamensnämndens allmänna föreskrifter och anvisningar.
+Om man vill att exempel-vis en IT-supportperson ska stanna kvar i salen under provet måste rektorn se till att personen känner till övervakarens uppgifter, föreskrifter och ansvarsområden.
+Då anses supportpersonen vara en övervakare enligt SEN:s allmänna föreskrifter och anvisningar.
+Rektor öppnar provtillfället.
+Rektor, övervakaren och en examinand konstaterar att kuvertet med dekrypteringskodens basdel och nyckeltalslistorna är oöppnat.
+Rektor öppnar kuvertet och överlämnar dekrypteringskodens basdel och nyckeltalslistorna till övervakaren.
+Rektor eller övervakaren matar in dekrypteringskodens basdel och kompletterande del i fältet för dekrypteringskoden på provlokalens server.
+Examinanderna matar in sitt för- och efternamn samt sin personbeteckning.
+Examinanderna väljer gymnasiets undervisningsspråk och vilket prov de ska göra.
+Övervakarna identifierar examinanderna och försäkrar sig med hjälp av identitetsbevis eller provprotokollistan om att examinanden har matat in sin personbeteckning rätt i provsystemet.
+Övervakarna kan samtidigt kontrollera att examinanderna har valt rätt prov och språkversion.
+Informationen bekräftas med hjälp av nyckeltalslistan.
+Detta steg tar cirka 10 minuter för 25 examinander för en övervakare.
+Vid identifieringen av examinanderna säkerställer man att provsvaren sparas under rätt examinands identitet.
+Examinanderna har med sig ett identitetsbevis för identifieringen.
+Om övervakarna på ett tillförlitligt sätt kan identifiera examinanderna kan man kontrollera identiteten utan examinandens identitetsbevis.
+Därför ska man göra en kopia av provproto-kollet för varje övervakare som deltar i identifieringen.
+Övervakaren ska använda listan för att försäkra sig om att examinanden har matat in sin personbeteckning rätt i provsystemet.
+Samtidigt kontrollerar övervakaren att examinanden har valt rätt prov.
+Om examinanden har matat in fel uppgifter ska datorn startas om.
+De två första tecknen i personbeteckningen som examinanden matat in har dolts.
+För att kunna ge rätt nyckeltal bör övervakaren kontrollera personbeteckningen antingen ur examinandens identifieringsbevis eller ur provprotokollet.
+Det är inte tillåtet att be examinanden ange sitt födelsedatum eller sin personbeteckning.
+Separata versioner av proven har gjorts upp för syn- och hörselskadade examinander.
+Examinander som genom beslut om specialarrangemang skriver dessa prov hittar proven genom att välja Visa prov för specialgrupper i nedre kanten av inloggningssidan.
+Om det prov för specialgrupper som examinanden ska skriva inte kan hittas och nämnden inte gett andra anvisningar gällande detta ska gymnasiet kontakta nämndens examensdejour.
+När övervakaren har identifierat examinanden och kontrollerat att examinanden valt rätt prov ger hen examinanden de koder från nyckeltalslistan som provsystemet begär.
+Övervakaren kontrollerar på examinandens skärm att examinanden matar in de koder som övervakaren anger.
+Efter att identiteten kontrollerats får examinanderna vänta på att provet börjar.
+Namnet på det prov som examinanden valt syns på skärmen.
+Om en examinand upptäcker att hen har valt fel prov tar hen kontakt med övervakaren.
+Man byter prov genom att starta om datorn.
+Det är bara examinander och övervakare i lokalen där provet hålls.
+Efter att alla examinanders datorer har startats och examinanderna har identifierats startar övervakaren provet genom att klicka på Inled provet i provlokalens server.
+Klockslaget då provet inleds noteras i provprotokollet.
+När det gäller examinander som är försenade följs de rutiner som beskrivs i SEN:s föreskrifter.
+Övervakaren identifierar examinander som är sena på normalt sätt.
+Provsystemet mäter inte provtiden, utan det är övervakarnas uppgift.
+Övervakarens uppgift är att övervaka examinanderna.
+Övervakaren får röra sig i provlokalen, så länge det inte stör provsituationen.
+Varje examinands skärm ska hela tiden vara synlig för en eller flera övervakare.
+Förutom att övervaka examinandernas skärmar kan övervakarna även följa hur provet fortskrider på skärmen till provlokalens server eller övervakarens dator.
+Meddelande om störning i den tekniska övervakningen ska tas med speciellt allvar.
+Detta meddelande innebär att program som gör teknisk övervakning inte kan köras på examinandens dator.
+-- jäit tähän
+Då ett meddelande om störning i den tekniska övervakningen kommer upp på övervakarens skärm ska övervakaren anteckna detta i provprotokollet och följa med examinandens verksamhet för att upptäcka eventuellt försök till fusk eller tekniska problem.
+Examinanden ska inte underrättas om meddelandet.
+Om meddelandet om störning inte försvinner inom 60 minuter ska övervakaren kontakta Abitti-stödet.
+Samma åtgärder vidtas för varje meddelande om störning, förutom i följande specialfall.
+Examinanden har avlägsnat sig från provtillfället utan att avsluta provet.
+Examinanden har i början av provtillfället flyttats till en annan provsal.
+Examinanden avslutar provet genom att klicka på knappen Avsluta provet i nedre kanten av provet.
+Provsystemet varnar examinanden ifall hen står i beråd att lämna in för många svar.
+Varningen visas i nedre kanten av sidan på rött botten.
+När examinanden lämnar lokalen ser övervakaren till att examinanden lämnar in alla papper med utkast som hen har använt.
+Utkasten ska vara märkta med examinandens namn.
+Utkasten hanteras såsom beskrivs i Studentexamensnämndens allmänna föreskrifter och anvisningar.
+Eexaminanden lämnar tillbaka det USB-minne som hen använt för att starta provet.
+Med tanke på informationssäkerheten under provet är det mycket viktigt att inga av de USB-minnen som tillhandahållits av SEN tas med utanför provlokalen av examinanderna.
+Examinandens identitet kontrolleras även innan hen lämnar provlokalen, för att kontrollera att de utkast som hen lämnar in är märkta med rätt namn.
+Klockslaget noteras i protokollet.
+Provtiden är slut
+Övervakaren kontrollerar vilken tid provet inletts och vilken eventuell tilläggstid som beviljats examinanderna på grund av störningar eller andra orsaker.
+Provet är över då provet varat i sex timmar, förutom för de examinander som beviljats tilläggstid.
+När provtiden är slut eller den sista examinanden har lämnat provlokalen vidtar övervakaren följande åtgärder i denna ordningsföljd.
+Stänga av eventuella övervakardatorer och datorer som använts för att titta på provuppgifterna.
+Stänga av provlokalens reservserver.
+Spara studerandenas provprestationer på ett USB-minne.
+Stänga av provlokalens server.
+Lämna över USB-minnena med examinandernas provprestationer och andra USB-minnen som använts på provet till rektor.
+Alla USB-minnen förvaras enligt SEN:s föreskrifter.
+De USB-minnen som använts för att starta provlokalens server och reservserver förvaras så att de USB-minnen som har använts i provlokalens server används på nytt vid påföljande provdagar just för att starta 9 Se Studentexamensnämndens allmänna föreskrifter och anvisningar, 2.3.2 provlokalens server.
+På motsvarande sätt används USB-minnen som använts i reservservern just för att starta reservservrarna.
+Examinandernas USB-minnen kan också användas på nytt under påföljande provdagar vid examenstillfället.
+Gymnasiet får inte göra markeringar på eller exempelvis klistra etiketter på USB-minnena.
+Utomstående hindras från att komma in i provlokalen fram tills dess att tekniken har nedmonterats.
+Överföring av provprestationerna till examenstjänsten.
+Gymnasiets rektor eller den övervakare som rektor utsett till att ansvara för överföringen av provprestationerna loggar in i SEN:s examenstjänst.
+Gymnasiets rektor eller den övervakare som rektor utsett till att ansvara för överföringen av provprestationerna för över filen med de studerandes provprestationer från det USB-minne som överlämnats av övervakaren till SEN:s examenstjänst.
+Rektor eller övervakaren får en kvittering på att provprestationerna har överförts till examenstjänsten (se exempel nedan).
+Filen med provprestationer kan överföras till examenstjänsten också utan att ett separat USB-minne används om sättet på vilket provlokalens server körs tillåter detta.
+Gymnasiets rektor matar in/uppdaterar personbeteckningarna för de lärare som deltar i den preliminära bedömningen i SEN:s examenstjänst.
+SEN publicerar de preliminära beskrivningarna av goda svar på nämndens webbplats.
+De lärare som deltar i den preliminära bedömningen ser provuppgifterna i och materialet till proven i SEN:s examenstjänst.
+SEN publicerar inte provuppgifterna och materialet på sin webbplats.
+Det är förbjudet att skriva ut och överföra provuppgifterna och materialet utanför SEN:s examenstjänst.
+Det är också förbjudet att skriva ut och kopiera examinandernas prestationer.
+Lärarna kan påbörja den preliminära bedömningen.
+Anvisningar för den preliminära bedömningen finns på SEN:s webbplats.
+Lärarna ser examinandens prestation och sina egna anteckningar i examenstjänsten fram till dess att en eventuell begäran om omprövning och resultaten från examenstillfället är slutgiltiga.
+I slutet av varje vecka under examen och då examensperioden är över (virtuella servrar) Den virtuella maskinen för provlokalens server säkerhetskopieras i slutet av varje vecka under examensperioden och ännu en gång då hela examensperioden är över.
+Provlokalens reservserver säkerhetskopieras inte.
+Säkerhetskopian görs med nämndens program Naksu.
+Storleken på en säkerhetskopia kan vara upp till 50 gigabyte.
+Efter att säkerhetskopian tagits töms servern med hjälp av programmet Naksu.
+Säkerhetskopiorna förvaras på serverdatorn eller på ett externt lagringsmedium (USB-minne eller hårdskiva).
+De bör dock alltid förvaras i ett låst utrymme.
+Serverdatorerna som använts i studentexamen kan tas i annat bruk (t.ex. för anordnande av Abitti-prov) direkt efter att de sista säkerhetskopiorna för examensperioden har tagits.
+Säkerhetskopiorna ska sparas tills bedömningen för ifrågavarande studentexamenstillfälle är slutgiltig.
+Hantering av problemsituationer
+I problemsituationer bör övervakaren i första hand lugna examinanden och provsituationen.
+Om problemet inte kan lösas med hjälp av dessa anvisningar bör övervakaren utan dröjsmål kontakta SEN för att hitta en lösning på situationen.
+Om övervakaren eller rektor bedömer att lösandet av någon problemsituation orsakar oskäliga störningar för alla examinander kan hen avbryta utförandet av provet för den tid det tar att lösa problemet.
+Om examinanderna har sett provuppgifterna får de inte kommunicera med varandra.
+Under avbrottet får examinanderna inte gör anteckningar eller utkast eller på annat sätt fortsätta utföra provet.
+Examinanderna får dock bl.a. äta medhavd mat och gå på wc.
+Examinanderna kompenseras för den tid avbrottet tar.
+Om utförandet av provet avbryts på grund av ett tekniskt fel som inte beror på examinanden kompenseras examinanden för den tid som förlorats på grund av avbrottet.
+Som förlorad tid räknas tiden mellan tidpunkten då övervakaren konstaterat problemsituationen eller avbrutit provet och tidpunkten då examinanden kan fortsätta utföra provet.
+Tiden för avbrottet kompenseras inte om avbrottet berott på examinandens eget handlande (t.ex. examinanden har lösgjort nätkabeln, hörlurarna eller USB-minnet, examinanden har hällt kaffe över tangentbordet).
+Den tid som förloras på grund av att Abitti-stödet kontaktas kompenseras alltid.
+I oklara fall bör SEN kontaktas.
+Det är förbjudet att ge examinanden råd om användningen av datorn under provet med undantag av de specialfall som anges nedan.
+Examinanden kan dock tillrådas producera sitt svar i provsystemet på bästa möjliga sätt.
+Att kontakta Studentexamensnämnden
+Vid tekniska problem som härrör sig till provsystemet bör man per telefon kontakta Abitti-stödet på numret +358 295 338 280.
+I övriga fall, till exempel då det gäller försenade examinander, sjukdomsfall eller ärenden som rör utförandet av provet kan man kontakta examensdejouren på numret +358 295 338 230 eller den examenssekreterare som ansvarar för ärendet ifråga.
+Abitti-stödet hjälper gymnasierna att reda ut tekniska problem på examensdagarna.
+Stödet kan ha information om liknande problem och hur de lösts i andra gymnasier.
+För att problemet ska kunna lösas så fort som möjligt är det skäl att ringa Abitti-stödet redan i ett tidigt skede i utredandet av problemet.
+Abitti-stödet ska kontaktas senast då det tekniska problemet har fortgått i mer än 20 minuter.
+Den som ringer bör vara beredd på att svara på eventuella tilläggsfrågor gällande problemet.
+Därför är det bra om en person som finns på plats och känner till situationen ringer telefonsamtalet.
+I en problemsituation är handlingssättet i första hand att försöka lösa problemet under provtillfället med hjälp av de anvisningar och råd som nämnden ger.
+Om problemsituationen eller utredningen av den har tagit lång tid, upprepats eller annars har inverkat märkbart på en eller flera examinanders provprestation kan gymnasiet göra en anmälan om teknisk störning under prov.
+I dessa fall kan saken beaktas vid bedömningen.
+Anmälan görs av rektor utifrån de uppgifter som ges av övervakarna.
+Som stöd för en eventuell anmälan om teknisk störning bör övervakarna anteckna åtminstone följande uppgifter gällande störningen:
+vad som skedde
+övervakarna som konstaterade problemet
+hur länge störningen varade
+vilka examinander som berördes av störningen
+ifall tiden som gick förlorad på grund av störningen kompenserades under provtillfället
+ifall examinanderna använde kompensationstiden
+i stora drag vilka anvisningar som getts av nämnden och hur de verkställdes
+Anvisningar för problemsituationer
+Tekniska problem som rör provsystemet och provet
+Examinanden har skrivit sitt namn fel
+Justera ljudvolymen under provet
+Ljudtestet eller ljudet till provet hörs inte
+Inspelning, som får åhöras ett begränsat antal gånger, hörs inte
+Examinanden kan inte ångra returneringen av A-delen i matematikprovet
+Examinanden har förlorat provuppgifterna
+Examinanden har förlorat provsvar
+Att öka teckenstorleken
+Tekniska problem som rör examinandens dator
+Examinanden fortsätter en påbörjad provprestation
+Examinanden flyttar till en reservdator
+USB-minnet på examinandens dator lossar
+Examinandens dator startar om under provet
+Examinanden klickar på knappen ”Avsluta provet” under provets gång
+Störningar i den tekniska övervakningen av examinanden
+Studentexamensnämnden ber att USB-minnet för examinandens dator tas till vara
+Tekniska problem som rör examensnätet
+Examinandens uppkoppling mot servern bryts
+Flera examinanders uppkoppling mot provlokalens server avbryts
+Driftstörning på provlokalens server
+Driftstörning på provlokalens reservserver
+Strömmen bryts i hela byggnaden
+Övriga problemsituationer
+Examinanden anländer för sent till provet
+Examinanden lämnar provlokalen före klockan 12
+Examinanden insjuknar under provet
+Examinanden gör fel prov
+Examinanden lämnar tillfälligt sin plats
+Examinanden lämnar provtillfället utan att avsluta provet
+Evakuering av provlokalen i farlig situation
+Tekniska problem som rör provsystemet och provet
+Examinanden har skrivit sitt namn fel
+Ett fel inskrivet namn kan inte korrigeras om examinanden redan har identifierats och hen loggat in i provsystemet.
+Namnet som matats in i systemet påverkar dock inte provprestationen eller bedömningen av den efter provet.
+Provprestationen överförs enligt personbeteckningen.
+Justera ljudvolymen under provet
+Innan och under provet kan ljudvolymen justeras genom att göra ljudtestet.
+Ljudtestet får man fram genom att klicka på hörlursikonen i övre högra hörnet på skärmen.
+Övervakaren kan ge examinanden råd om hur man justerar ljudvolymen under provet.
+Ljudtestet eller ljudet till provet hörs inte Om ljudet inte hörs kan man stänga ljudtestet och öppna det på nytt.
+Ljudtestet får man fram genom att klicka på hörlursikonen i övre högra hörnet på skärmen.
+Vid behov kan man behöva starta datorn på nytt.
+Man kan även byta hörlurar och vid behov använda skolans reservdator och reservhörlurar.
+Övervakaren kan ge examinanden råd om sådant som handlar om val av ljudutrustning eller i hur man justerar ljudvolymen under provet.
+Inspelning, som får åhöras ett begränsat antal gånger, hörs inte
+I proven i det andra inhemska språket och i främmande språk samt i provet i svenska eller finska som andraspråk och litteratur kan examinanden i hörförståelseuppgifterna lyssna på vissa inspelningar endast ett begränsat antal gånger.
+Om examinanden av tekniska orsaker inte hör inspelningen ska man först kontrollera att ljudet hörs med ett ljudtest.
+Därefter återställer övervakaren inspelningen på provlokalens server så att den går att lyssna på.
+Omspelningen av inspelningen aktiveras vid examinandens namn i kolumnen ”Den senast lyssnade inspelningen”.
+Efter detta bör examinanden uppdatera sin provvy enligt instruktionerna på skärmen till provlokalens server.
+Examinanden bör inte fortsätta utföra hörförståelseuppgifter medan problemet utreds eftersom det då inte längre är möjligt att återställa det meddelande som examinanden inte hörde.
+Om examinanden har fortsatt lyssna på inspelningar efter den inspelning hen inte hörde förrän hen kallat på övervakaren kan inspelningen inte längre återställas.
+I en dylik situation antecknar övervakaren de viktigaste uppgifterna om saken för en eventuell anmälan om teknisk störning.
+Övervakaren kan ge examinanderna råd om hur ljudvolymen justeras och hur provvyn uppdateras.
+Examinanden kan inte ångra returneringen av A-delen i matematikprovet
+Då examinanden i matematikprovet klickar på knappen för att returnera A-delen anses det vara ett beslut om att returnera A-delen.
+Om examinanden inte ångrar sitt beslut inom en minut låser sig A-delen och examinanden får tillgång till alla räknarprogram.
+Examinanden kan inte längre återgå till att utföra A-delen efter detta.
+Det är inte möjligt för övervakaren att öppna en returnerad A-del åt en examinand.
+Examinanden har förlorat provuppgifterna
+Om examinanden har förlorat provvyn gör man på följande sätt.
+Examinanden stänger alla öppna fönster genom att klicka på X-knappen i övre högra
+Om applikationen (t.ex. LibreOffice) frågar om man vill spara filen ska man göra det.
+Flytta till nästa fönster genom att klicka på Alt-Tab (eller genom att klicka på hörnet i fönstret).
+Steg 1–3 upprepas tills det inte är några öppna fönster kvar.
+Öppna webbläsaren där provet visas: Applikationer > Provet.
+Examinanden kompenseras inte för den tid som gått åt till att lösa problemet.
+Övervakaren kan ge examinanden råd om hur man stänger fönster, sparar dokument och öppnar provvyn på nytt.
+Examinanden har förlorat provsvar
+Examinanden kan själv återställa tidigare versioner av sina provsvar.
+Övervakaren kan hjälpa examinanden återställa svaren genom att visa hur svaren återställs.
+Övervakaren får dock inte hjälpa examinanden välja rätt version av svaret.
+Klicka på ”Tidigare svar” i nedre, högra hörnet av svarsfältet.
+Välj det innehåll som tidigare fanns i svarsfältet och klicka ”Returnera”.
+Anvisningar för hur svar återställs finns också i provsystemet.
+Om en betydande del av svaret enligt examinanden har försvunnit och svaret inte går att återställa med hjälp av denna anvisning ska övervakaren omedelbart kontakta Abitti-stödet.
+Att öka teckenstorleken
+En examinand får öka teckenstorleken och storleken på övriga markeringar så att provet skäligt kan utföras.
+Övervakarna har vid behov rätt att ingripa ifall teckenstorleken eller storleken på övriga markeringar är så stor att situationen oavsiktligt eller försåtligt kan leda till fusk.
+Examinander som har ett beslut om specialarrangemang som gäller ökning av teckenstorlek har alltid rätt att öka teckenstorleken eller storleken på markeringar.
+Om en examinand trots uppmaning inte minskar teckenstorleken eller storleken på markeringarna eller om examinanden efter övervakarens uppmaning på nytt ökar teckenstorleken eller storleken på markeringar under samma prov antecknas detta i provprotokollet, och situationen kan vid behov behandlas som försök till fusk.
+Övervakaren kan ge råd om hur teckenstorleken ändras till examinanden.
+Examinanden kompenseras inte för den tid som går åt till att ändra teckenstorleken.
+Tekniska problem som rör examinandens dator
+Examinanden fortsätter en påbörjad provprestation
+Om en examinands dator har krävt omstart och/eller en examinand fortsätter utförandet av provet på en reservdator, måste examinanden logga in i provsystemet på nytt.
+I samband med att man loggar in på nytt ska övervakaren identifiera examinanden med hjälp av nyckeltalslistan.
+Provsystemet identifierar examinanden utifrån personbeteckningen och examinanden kan fortsätta från den punkt där svarandet avbröts.
+Examinanden flyttar till en reservdator
+Om en examinand inte kan fortsätta provet på sin egen dator tillhandahåller skolan en reservdator med tilläggsutrustning som hen får använda.
+Examinandens egen dator stängs av enligt följande:
+Examinanden sparar de arbeten som är på hälft i något av de fristående programmen (t.ex. textbehandling, ritprogram, räknarprogram).
+Examinanden stänger webbläsarfönstren där provfrågorna och materialet finns.
+Övervakaren kontrollerar på övervakarens skärm att examinanden filer har sparats.
+Om det på övervakarens skärm meddelas om ett fel i säkerhetskopieringen av examinandens filer ska övervakaren kontakta Abitti-stödet på SEN.
+Examinanden stänger av sin dator med ikonen i övre högre hörnet av skärmen eller genom att hålla strömknappen till sin dator nedtryckt en längre stund.
+Övervakaren startar reservdatorn, om den inte redan startats innan provet började.
+Man kan också flytta examinanden till en reservsittplats.
+Om det inte handlar om en störning i datakommunikationen och det inte orsakar någon störning att byta dator kan examinanden fortsätta att arbeta på reservdatorn på sin egen plats.
+Examinandens provprestation och filer återställs genast efter att examinandens identitet har bekräftats.
+Om detta inte sker ska övervakaren kontakta Abitti-stödet på SEN.
+Examinanden kompenseras för den tid som går åt till byte av dator.
+USB-minnet på examinandens dator lossar
+Ett meddelande om att USB-minnet lossat visas på examinandens datorskärm.
+Övervakaren ger examinanden följande råd:
+Examinanden stänger av datorn.
+I det här läget kan det krävas att man trycker på strömknappen under en längre tid (5–10 sekunder).
+Examinanden tar ut USB-minnet ur datorn och sätter in det i datorn igen.
+Om möjligt används en annan USB-port.
+Examinanden startar datorn på nytt.
+Examinanden matar in sina personuppgifter och väljer prov, varefter övervakaren kontrollerar hens identitet precis som i början av provet.
+Om problemet upprepas en andra gång för samma examinand flyttas examinanden till en reservdator och man byter ut USB-minnet avsett för att starta datorn.
+Examinanden kompenseras för den tid det tar att reda ut problemet då USB-minnet lossnat endast om det lossnat utan inverkan av examinanden.
+Examinandens dator startar om under provet Om en examinands dator startar om kan det handla om försök till fusk eller ett tekniskt fel.
+Övervakaren avgör om examinanden ska fortsätta utförandet av provet antingen på den egna datorn eller på en reservdator.
+Om det sker fler än en omstart under provets gång flyttas examinanden till en reservdator och USB-minnet för examinandens dator byts ut.
+Om omstarterna fortsätter även efter det ska övervakaren kontakta Abitti-stödet på SEN.
+Examinanden klickar på knappen ”Avsluta provet” under provets gång Om examinanden inte har stängt av sin dator och hen har provtid kvar kan hen fortsätta utföra provet.
+På övervakarens skärm visas en stund att examinanden avslutat provet.
+Inga åtgärder krävs i denna situation.
+Störningar i den tekniska övervakningen av examinanden
+Detta meddelande på övervakarens skärm innebär att de övervakningsprogram som körs på examinandens dator inte fungerar.
+I värsta fall kan det vara frågan om att examinanden förhindrar den tekniska övervakningen för att dölja fusk.
+Om detta meddelande om en examinand visas på övervakarens skärm ska övervakaren anteckna detta i provprotokollet och följa med examinandens verksamhet för att upptäcka eventuellt försök till fusk eller tekniska problem.
+Om meddelandet om störning inte försvinner inom 60 minuter ska övervakaren kontakta Abitti-stödet på SEN för vidare instruktioner.
+Meddelandet eller att SEN kontaktas får under inga omständigheter komma till examinandernas kännedom.
+Det kan komma flera meddelanden under provdagen.
+Varje gång ett meddelande kommer upp ska man agera på samma sätt, förutom i följande specialfall.
+Examinanden har avlägsnat sig från provtillfället utan att avsluta provet.
+Examinanden har i början av provtillfället flyttats till en annan provsal för att utföra provet där.
+SEN ger instruktioner om vidare åtgärder från fall till fall.
+Studentexamensnämnden ber att USB-minnet för examinandens dator tas till vara
+Abitti-stödet kan per telefon instruera övervakarna att ta USB-minnet för examinandens dator åt sidan skiljt från de övriga USB-minnena antingen genast eller efter att examinanden avslutat provet.
+USB-minnet för examinandens dator läggs i till exempel en minigrippåse eller ett kuvert.
+Gymnasiet får inte göra markeringar på USB-minnena eller klistra etiketter eller tejp på dem.
+Övervakaren skriver ner en beskrivning av situationen, namnet på provet, vid behov uppgiftens nummer samt examinandens namn och personbeteckning på ett papper som sedan läggs i samma påse eller kuvert som USB-minnet.
+Påsen eller kuvertet uppbevaras i kassaskåp.
+Påsen eller kuvertet och dess innehåll skickas vid behov in till nämndens kansli som rekommenderad, separat försändelse eller enligt de eventuella andra instruktioner som Abitti-stödet ger.
+Tekniska problem som rör examensnätet
+Examinandens uppkoppling mot servern bryts
+Provsystemet meddelar examinanden och övervakaren om kontakten med provlokalens server bryts.
+Alla de svar som examinanden har skrivit fram till dess har sparats.
+Arbetet kan inte fortsätta innan uppkopplingen är återställd.
+Kontrollera först om nätkabeln är ordentlig instucken i examinandens dator och i switchen.
+Examinanden sparar de arbeten som är på hälft i något av de fristående programmen (t.ex. textbehandling, ritprogram, räknarprogram).
+Datorn bör flyttas till en annan nätuppkoppling till exempel på en reservplats för att filerna ska säkerhetskopieras till servern.
+Vid behov kontaktas Abitti-stödet på SEN.
+Om examinanden inte har öppna dokument i något av de fristående programmen (t.ex. textbehandling, ritprogram, räknarprogram) startas examinandens dator om.
+Om problemet upprepas flyttas examinanden till en reservdator.
+Flera examinanders uppkoppling mot provlokalens server avbryts Om kontakten med provlokalens server bryts för alla examinander samtidigt ska du först kontrollera att nätkabeln är inkopplad i provlokalens server.
+Om kabeln är inkopplad, gå vidare till punkten ”Driftstörning på provlokalens server”.
+Övervakaren ska kontakta Abitti-stödet på SEN direkt efter att felet upptäckts eller senast efter att korrigerande åtgärder vidtagits.
+Driftstörning på provlokalens server
+Driftstörningar på provlokalens server märks oftast som problem för alla examinander.
+Om uppkopplingen mot reservservern har fungerat normalt före störningen, ska du göra så här.
+Övervakaren meddelar examinanderna om felet och att utförandet av provet avbryts och noterar klockslaget i provprotokollet.
+Övervakaren kontaktar Abitti-stödet på SEN för tilläggsinstruktioner.
+Samtidigt kontrolleras möjligheten att fortsätta provet medan synkroniseringen av provlokalens server och reservserver.
+Innan Abitti-stödet kontaktats får man inte gå vidare till punkt 3.
+Då Abitti-stödet gett tillåtelse stänger övervakaren av både provlokalens server och provlokalens reservserver via det övre högra hörnet på skärmen.
+Övervakaren startar provlokalens reservserver på nytt.
+Övervakaren startar provlokalens server på nytt.
+Om problemet löste sig ger övervakaren examinanderna tillstånd att fortsätta utföra provet.
+Om problemet inte löste sig stänger övervakaren igen av både provlokalens server och provlokalens reservserver via det övre högra hörnet på skärmen.
+Övervakaren startar upp reservservern som provlokalsserver.
+Om det är frågan om en server som startats från ett USB-minne hör du dig för om gymnasiet har en dator som kan användas som reservserver.
+Den nya reservservern startas från ett oanvänt USB-serverminne.
+Om det är frågan om en virtuell server följs de instruktioner som SEN givit.
+Examinanderna tillåts fortsätta utföra provet först då informationen på provlokalens server synkroniserats till reservservern.
+Utförandet av provet kan fortsätta innan detta bara med tillstånd från SEN.
+Examinanderna kompenseras för den tid som gått från det provet avbröts till det övervakaren gav dem lov att fortsätta utföra provet.
+Tiden noteras också i provprotokollet.
+Driftstörning på provlokalens reservserver
+Driftstörningar på provlokalens reservserver märks på provlokalens server och/ eller reservserver.
+Examinanderna kan fortsätta provet som vanligt om SEN ger tillstånd till detta.
+Om det är frågan om en virtuell reservserver bör övervakaren kontakta Abitti-stödet på SEN för närmare instruktioner genast då felet upptäcks.
+Om det är frågan om en reservserver som startats från ett USB-minne, försök sedan starta upp reservserven på nytt från samma USB-minne och, om detta inte hjälper, efter det från ett oanvänt USB-serverminne.
+Om det inte löser felet tar du reda på om gymnasiet har en annan dator som kan användas som reservserver i provlokalen.
+Starta den nya reservservern från ett oanvänt USB-serverminne.
+Övervakaren ska kontakta Abitti-stödet på SEN direkt efter att felet upptäckts eller senast efter att korrigerande åtgärder vidtagits.
+Om examinandernas arbete har avbrutits kompenseras de för den tid avbrottet tagit.
+Tiden noteras i provprotokollet.
+Strömmen bryts i hela byggnaden
+Om strömmen bryts i hela byggnaden är det möjligt att fortsätta provet med hjälp av batteriström.
+När elavbrottet har pågått i fem minuter ombeds examinanderna spara de arbeten som är på hälft i något av de fristående programmen (t.ex. textbehandling, ritprogram, räknarprogram) och stänga av sina datorer via övre högra hörnet på skärmen.
+Övervakarna kontrollerar antalet uppkopplade datorer längst upp på övervakarens skärm.
+När inga datorer är uppkopplade stänger övervakaren först av provlokalens server och sedan provlokalens reservserver.
+Övervakaren ska kontakta Abitti-stödet på SEN under elavbrottet.
+När strömmen har återställts startar övervakaren servern och reservservern på nytt.
+Därefter ber övervakaren examinanderna att starta sina datorer.
+Examinanderna skriver in sina personuppgifter och övervakarna kontrollerar deras identitet precis som i början av provet.
+Examinanderna får inte fortsätta provet förrän alla examinander har identifierats och övervakaren ger lov att fortsätta.
+Examinanderna kompenseras för den tid som gått från det de ombads spara sina arbeten till det övervakaren gav dem lov att fortsätta utföra provet.
+Övriga problemsituationer
+Examinanden anländer för sent till provet
+Om examinanden anländer före klockan 10 kan hen tillåtas delta i provet.
+Klockslaget då hen har påbörjat provet samt orsaken till förseningen noteras i provprotokollet.
+Om examinanden anländer först efter klockan 10 bör rektor kontakta nämndens examensdejour per telefon.
+Examinanden lämnar provlokalen före klockan 12
+Om en examinand lämnar provlokalen före klockan 12 bör detta omedelbart meddelas både till rektor och per telefon till nämndens examensdejour.
+Examinanden insjuknar under provet
+Om en examinand oförväntat insjuknar under provet bör rektor omedelbart kontaktas.
+Rektor kan fatta beslut om att flytta examinanden till ett separat utrymme för att fortsätta provet, och ansöker vid behov om övriga specialarrangemang.
+Om examinanden inte kan fortsätta utföra provet bör hen trots detta hållas under övervakning ända till klockan 12.
+Sjukdomsfall bör anmälas till nämndens examensdejour per telefon.
+Examinanden gör fel prov
+Om en examinand upptäcker att hen gör ett annat prov än det hen anmält sig till instruerar övervakaren examinanden att starta om sin dator.
+Examinanden väljer det rätta provet och övervakaren identifierar examinanden på nytt i provsystemet.
+Den provtid som gått förlorad kompenseras inte, utan examinanden får använda den återstående tiden till att utföra det rätta provet.
+Nämndens examensdejour meddelas per telefon om det som skett.
+Examinanden lämnar tillfälligt sin plats
+Om en examinand lämnar sin plats, exempelvis för att gå på toaletten, ska hen aktivera skärmsläckaren genom att klicka på låsikonen högst upp i provsystemet.
+När skärmsläckaren aktiverats behöver examinanden inte identifieras på nytt.
+Det är övervakarnas uppgift att se till att de andra examinanderna inte rör vid examinandens dator under tiden.
+Övervakaren kan ge examinanden råd om hur man aktiverar skärmsläckaren under provet.
+Examinanden lämnar provtillfället utan att avsluta provet
+Om examinanden lämnar provtillfället utan att avsluta provet visas detta först som ett meddelande om att examinandens dator inte kan kontaktas och efter ett tag som ett meddelande om störning i den tekniska övervakningen av examinanden.
+Detta meddelande behöver i detta fall inte meddelas till SEN.
+Det är inte heller nödvändigt att vidta några åtgärder för att avsluta provet.
+Provprestationen överförs till bedömning som normalt.
+Evakuering av provlokalen i farlig situation
+I gymnasiets räddningsplan beskrivs beredskapen inför eventuella farliga situationer under studentskrivningarna.
+Ett prov som avbrutits på grund av en farlig situation fortsätts inte i reservutrymmen.
+Examinanderna evakueras tryggt till samlingsplatsen och det säkerställs att de inte kommer åt att tala med varandra.
+Om möjligt stänger övervakaren av provlokalens reservserver och tar reservserverns USB-minne med sig till samlingsplatsen.
+Om gymnasiet använder virtuella servrar i provlokalen ska servrarna lämnas som de är.
+Om en virtuell server som körs på en bärbar dator används som provlokalens reservserver kan datorn om det är möjligt kopplas loss från examensnätet och tas med till samlingsplatsen utan att stänga av den.
+De andra datorerna och den övriga utrustningen stängs inte av och flyttas inte heller ut ur provlokalen.
+Övervakarna kontaktar Studentexamensnämndens examensdejour från samlingsplatsen.
+De viktigaste förändringarna
+Examen våren 2022
+Dekrypteringskodens tilläggsdel publiceras på nämndens webbplats, på telefonsvarare och på ett nytt Twitterkonto, men inte längre på nämndens egentliga Facebook- och Twitterkonton.
+Övervakarens dator kan alternativt startas som virtuell maskin i stället för från ett USB-minne.
+Det förutsätts inte längre att gymnasierna har installerat meddelandeapplikationen Telegram på en mobilapparat.
+Förändringar inför examen hösten 2021 och tidigare
+Bekräftande av identiteten har ändrats.
+De två första tecknen i examinandens personbeteckning har dolts.
+Övervakaren ska kontrollera examinandens personbeteckning ur examinandens identitetsbevis.
+Samtidigt kan övervakaren kontrollera att examinanden har valt rätt språk och prov.
+Vid inloggningen väljer examinanden först gymnasiets undervisningsspråk och sedan det prov hen utför.
+Anvisningarna gällande användningsinstruktioner för programmen GeoGebra 6 och Okular har tagits bort.
+Provsystemet varnar examinanden om hen står i beråd att lämna in svar på flera uppgifter än tillåtet.
+En installationskod används i stället för en Vagrantfile-fil vid installationen av virtuella servrar.
+Övervakaren ska alltid kontakta Abitti-stödet vid elavbrott i provlokalen.
+Nya anvisningar om hur övervakaren ska agera om ett meddelande om störning i den tekniska övervakningen visas för en examinand.
+Övervakaren kan instruera examinanden hur användarspråket i GeoGebra 6 kan ändras.
+Övervakaren kan instruera examinanden hur en PDF-fil kan öppnas i programmet Okular.
+Förutom rektor kan även en övervakare som utnämnts till detta överföra provprestationerna till SEN.
+SEN påminner om att övervakare som tittar på uppgifterna under provet inte ska skriva något i svarsfälten, eftersom detta orsakar onödigt utredningsarbete då provprestationerna överförs.
+SEN rekommenderar att övervakarna har tillgång till meddelandeapplikationen Telegram för att underlätta utredningen av krävande problemsituationer.

@@ -1,0 +1,460 @@
+Ylioppilastutkintolautakunnan yleiset määräykset ja ohjeet liite 4 Valvojan ohje Tämän ohjeen alkuosassa kuvataan ylioppilastutkinnon koepäivän kulku ja siihen liittyvät järjestelyt.
+Ohjeen loppuosassa annetaan toimintaohjeita mahdollisiin koetilanteen aikana ilmeneviin ongelmatilanteisiin.
+Jos järjestelyissä tai koetilanteessa tulee vastaan ongelma, jonka ratkaiseminen ei onnistu tämän ohjeen avulla, tulee lukion ottaa mahdollisimman aikaisessa vaiheessa yhteyttä Ylioppilastutkintolautakuntaan.
+Koepäivän kulku ja järjestelyt Ennen ensimmäistä tutkintopäivää: Koetilan järjestelyt ja testaus • Lukio on rakentanut tutkintoverkon YTL:n määräysten ja ohjeiden1 mukaisesti.
+Lukio on testannut verkon toiminnan YTL:n kuormitustestauksella2, jos käytetään virtuaalipalvelimia tai jos tutkintoverkossa on yli 10 kokelasta.
+Jos lukiolla on lupa langattoman tutkintoverkon käyttöön digitaalisessa ylioppilaskokeessa, lukio on tehnyt lupapäätöksessä määritellyt tarkastukset.
+Lukio on varautunut käynnistämään koetilan palvelimen joko USB-muistilta tai virtuaalikoneena.
+Lukio voi käyttää YTL:n toimittamia kokelaan koneen USB-muisteja koejärjestelmän testaamisessa.
+Kokelaat eivät saa käsitellä digitaalisessa ylioppilaskokeessa käytettäviä USB-muisteja tai olla samassa tilassa niiden kanssa.
+Mahdollisissa kokelaiden kanssa tehtävissä harjoituksissa on käytettävä Abitti-harjoittelussa käytettäviä USB-muisteja.
+Virtuaalisten palvelimien käytössä huomioon otettavia asioita:
+Rehtori on ladannut ylioppilaskokeissa käytettävän virtuaalisen palvelimen asennuskoodin tutkintopalvelusta (koe.ylioppilastutkinto.fi).
+Samaa asennuskoodia käytetään myös valvojien koneissa.
+Koetilan palvelimen, varapalvelimen ja valvojan koneen virtuaalikoneet on päivitetty ylioppilaskokeessa käytettävään versioon syöttämällä asennuskoodi lautakunnan Naksu-ohjelmaan.
+Palvelimen suorituskyky on varmistettu YTL:n kuormitustestauksella.
+Palvelinkoneen virransäästöasetukset on asetettu tilaan, jossa kone ei sammu automaattisesti ja muut virransäästöominaisuudet on kytketty pois päältä3.
+Käyttöjärjestelmän automaattinen päivitystoiminto on tutkinnon ajaksi kytketty pois päältä.
+YTL:n lähettämien poikkeustilanteissa käytettävien koetilan palvelimen USB-muistien sijainti on valvojien tiedossa.
+Koetilan palvelimen virtuaalikone varmuuskopioidaan tutkinnon jokaisen viikon päätteeksi.
+Varmuuskopio voi viedä tilaa jopa 50 gigatavua, ja sen voi ottaa palvelinkoneen kovalevylle tai erilliselle medialle.
+USB-muistilta käynnistettävien palvelimien käytössä huomioon otettavia asioita:
+Lukio on varannut jokaiselle koetilan palvelimelle ja varapalvelimelle USB-muistin.
+Samoja koetilan palvelimen USB-muisteja voi käyttää useana eri koepäivänä saman tutkintokerran aikana.
+On huomattava, että sellaista USB-muistia, jota on kerran käytetty koetilan palvelimen käynnistämiseen, ei voi enää käyttää koetilan varapalvelimen käynnistämiseen.
+YTL toimittaa kaksi ylimääräistä koetilan palvelimen USB-muistia.
+Näillä lukio voi halutessaan kokeilla palvelimen ja varapalvelimen käynnistystä ennen tutkintopäivää.
+Lukion on testattava palvelimen suorituskyky YTL:n kuormitustestauksella, jos tutkintoverkossa on yli 10 kokelasta.
+Lukio on käynnistänyt koetilan palvelimen ja varapalvelimen.
+Koetilan varapalvelimen vaatima salasana löytyy koetilan palvelimen näytöltä.
+Koetilan palvelimen ja varapalvelimen synkronointi voi kestää jopa 40 minuuttia.
+Kokeen valmisteluja voi jatkaa, vaikka synkronointi on kesken.
+Lukio on ladannut koetilan palvelimelle koetehtävät.
+Rehtori on hyvissä ajoin ennen koepäivää ladannut USB-muistille YTL:n tutkintopalvelusta.
+Kokeen lataaminen USB-muistilta palvelimelle voi kestää useita minuutteja.
+Virtuaalikonetta käytettäessä ikkunaa voi tarvittaessa suurentaa niin, että lista ladatuista kokeista näkyy paremmin.
+Koejärjestelmä pyytää kokeen purkukoodia, mutta sitä ei vielä tässä vaiheessa syötetä koejärjestelmään.
+Purkukoodin perusosa on lukiolle lähetetyssä suljetussa kirjekuoressa, joka avataan vasta koetilaisuuden alussa.
+Purkukoodin täydennysosa julkaistaan koepäivänä klo 8.00:aan mennessä.
+Jokaisessa koetilassa on yksi lukion kopioima koepöytäkirja kutakin kokelaiden tunnistamiseen osallistuvaa valvojaa kohden.
+Pöytäkirjakopioita käytetään kokelaiden tunnistamiseen.
+Koetilaisuuteen liittyvät merkinnät tehdään vain varsinaiseen pöytäkirjaan, joka palautetaan YTL:ään.
+Lukio on jakanut kokelaiden istumapaikoille kokelaan koneen käynnistämiseen tarkoitetut, YTL:n toimittamat USB-muistit ja lukion tunnuksin merkittyjä konseptipapereita luonnoksia varten5.
+Lukio on varannut koetilaan YTL:n ohjeiden mukaisen määrän varakoneita.
+Näiden varakoneiden tiedetään käynnistyvän kokelaan koneen USB-muistilta.
+Sen lisäksi lukiolla on varakuulokkeita, joiden tiedetään toimivan varakoneissa ja joilla on tehty äänitesti.
+Varakoneissa on lukion laatimat ohjeet, joiden avulla kokeen valvoja voi tarvittaessa käynnistää koneet.
+Lukio on sijoittanut varakoneet oman suunnitelmansa mukaisesti esim. kokelaiden varapaikoille ja liittänyt ne tutkinto- ja sähköverkkoihin.
+Valvojien on hyvä tiedostaa, että jos varakoneet on käynnistetty valmiiksi, ne näkyvät koetilan palvelimella yläreunan Tietokoneita koeverkossa -lukumäärässä.
+Lukio voi harkintansa mukaan käynnistää tutkintoverkkoon valvojien koneita kokelaiden tilan seuraamiseksi tai ylimääräisiä kokelaiden koneita, jos valvojat haluavat tutustua koetehtäviin koetilaisuuden aikana.
+Valvojan kone käynnistetään valvojan koneen USB-muistilta tai virtuaalikoneena Naksu-ohjelmalla.
+Valvojan koneen vaatima salasana löytyy koetilan palvelimen näytöltä.
+Salasana on sama kuin varapalvelimen käynnistämisessä käytetty.
+Valvojilla on mahdollisuus katsoa koetehtäviä kokeen aikana.
+Tätä varten lukiot voivat käynnistää tutkintoverkkoon ylimääräisiä kokelaan koneita.
+Koetehtäviä ei voi katsoa valvojan koneelta.
+-- jäit tähän
+Valvojien tulee kirjautua koneille omalla henkilötunnuksellaan ja syöttää nimeksi "Testi Opettaja".
+Yhdellä kokelaan koneella tutkintoverkkoa kohden voidaan käyttää kirjautumiseen henkilötunnusta "010101-0101".
+Muita keksittyjä henkilötunnuksia ei saa käyttää.
+Jokaisella koneella on käytettävä eri henkilötunnusta.
+Koetehtäviä katsovien valvojien ei tule tehdä koetehtävien vastauskenttiin mitään merkintöjä, koska koesuoritusten siirrossa nämä voidaan tulkita kokelaiden koesuoritukseksi.
+Tämä aiheuttaa turhaa selvitystyötä.
+On tärkeää muistaa, että kokeen valvojan tulee keskittyä kokelaiden ja heidän näyttöjensä valvomiseen.
+Lukio hakee purkukoodin täydennysosan
+Palvelimen purkukoodi koostuu postitse toimitetusta perusosasta ja tutkintopäivänä klo 8.00 julkaistavasta täydennysosasta.
+Purkukoodin täydennysosan voi noutaa esimerkiksi rehtorin tietokoneella tai koetilassa olevalla mobiililaitteella.
+Kokelaat saapuvat ja käynnistävät tietokoneensa
+Tämän ja edellisen vaiheen ajoituksessa on otettava huomioon tietokoneiden käynnistykseen ja kokelaiden tunnistamiseen kuluva aika.
+Lukio antaa omille kokelailleen tarkemmat ohjeet aikatauluista.
+Kokelaiden saapuessa koetilaan tulee kiinnittää erityistä huomiota siihen, että kokelaiden mukanaan tuomat oheislaitteet, kuten kuulokkeet ja hiiret, ovat asianmukaisia eivätkä esimerkiksi mahdollista langatonta viestintää tai vastaanottoa.
+Kokelaat liittävät omat tietokoneensa sähkö- ja tutkintoverkkoihin sekä käynnistävät tietokoneensa YTL:n toimittamalta, aiemmin pöydälle jaetulta USB-muistilta.
+Kokelaat tekevät äänitestin, joka käynnistyy automaattisesti, kun kone on käynnistetty USB-muistilta.
+Koetilassa voi olla kokelaiden ja valvojien lisäksi esim. tietotekniikkatukihenkilöitä, jotka voivat avustaa kokelaita tietokoneiden käynnistämisessä ja äänien kuulumiseen liittyvissä ongelmissa.
+Kaikkia tilassa olevia henkilöitä koskevat Ylioppilastutkintolautakunnan yleisten määräysten ja ohjeiden kohdat 2.3.4 (Koetilaisuus), 2.3.5 (Valvojat) ja 2.3.9 (Esteellisyys ja koejärjestelmän käyttöoikeudet).
+Jos esim. tietotekniikkatukihenkilön halutaan pysyvän salissa kokeen aikana, on rehtorin varmistettava, että hän tuntee valvojan tehtävät, määräykset ja vastuut.
+Silloin tukihenkilö tulkitaan YTL:n yleisten määräysten ja ohjeiden mukaiseksi valvojaksi.
+Rehtori avaa koetilaisuuden.
+Rehtori, kaksi valvojaa ja kokelas toteavat, että kirjekuori, joka sisältää purkukoodin perusosan ja avainlukulistat, on avaamaton.
+Rehtori avaa kuoren ja luovuttaa purkukoodin perusosan sekä avainlukulistat valvojalle.
+Rehtori tai valvoja syöttää purkukoodin perus- ja täydennysosan purkukoodikenttään koetilan palvelimelle.
+Kokelaat syöttävät koejärjestelmään etu- ja sukunimensä sekä henkilötunnuksensa.
+Kokelaat valitsevat ensin lukion opetuskielen ja sen jälkeen suorittamansa kokeen.
+Valvojat tunnistavat kokelaat ja varmistavat henkilötodistuksen tai koepöytäkirjan avulla, että kokelaat ovat syöttäneet henkilötunnuksensa oikein koejärjestelmään.
+Valvoja voi samalla tarkistaa, että kokelas on valinnut oikean kokeen ja kieliversion.
+Tiedot vahvistetaan avainlukulistojen avulla.
+Tämä vaihe vie yhdeltä valvojalta noin 10 minuuttia 25 kokelasta kohden.
+Kokelaiden tunnistamisella varmistetaan, että koevastaukset tallentuvat oikean kokelaan identiteetillä.
+Tunnistamista varten kokelailla on mukanaan henkilötodistus.
+Jos valvojat voivat luotettavasti tunnistaa kokelaat, voidaan henkilöllisyys tarkistaa ilman kokelaan henkilötodistusta.
+Tätä varten koepöytäkirjasta on tehtävä kopio jokaista tunnistamiseen osallistuvaa valvojaa varten.
+Valvojan on varmistettava tästä listasta, että kokelas on syöttänyt koejärjestelmään henkilötunnuksen oikein.
+Samalla valvoja tarkistaa, onko kokelas valinnut oikean koeversion.
+Jos kokelas on syöttänyt väärät tiedot, tietokone käynnistetään uudelleen.
+Kokelaan syöttämästä henkilötunnuksesta on peitetty kaksi ensimmäistä merkkiä.
+Voidakseen antaa oikean avainluvun valvojan on tarkistettava henkilötunnus joko kokelaan henkilötodistuksesta tai koepöytäkirjasta.
+Henkilötunnuksen tai syntymäajan kysyminen kokelaalta on kielletty.
+Näkö- ja kuulovammaisille kokelaille on laadittu kokeista omat versiot.
+Erityisjärjestelypäätöksen saaneet kokelaat löytävät kokeet kirjautumissivun alalaidassa näkyvän Näytä erityisryhmien kokeet -valinnan takaa.
+Jos kirjautumissivulta ei löydy kokelaalle tarkoitettua erityisryhmien koetta tai jos lautakunta ei ole ohjeistanut toisin, lukion tulee olla yhteydessä tutkintopäivystykseen.
+Kokelaan tunnistamisen ja oikean koeversion valinnan tarkistamisen jälkeen valvoja kertoo kokelaalle avainlukulistalta koejärjestelmän pyytämät koodit.
+Valvoja varmistaa kokelaan koneen näytöltä, että kokelas syöttää valvojan sanelemat koodit.
+Henkilöllisyyden tarkistamisen jälkeen kokelaat jäävät odottamaan kokeen alkamista.
+Kokelaan valitseman kokeen nimi näkyy näytöllä.
+Jos kokelas havaitsee valinneensa väärän kokeen, hän ottaa yhteyttä valvojaan.
+Koe vaihdetaan käynnistämällä tietokone uudelleen.
+Koetilassa on vain kokelaita ja valvojia.
+Kun kaikkien kokelaiden tietokoneet on käynnistetty ja kokelaat on tunnistettu, valvoja aloittaa kokeen napsauttamalla koetilan palvelimelta Aloita koe -painiketta.
+Aloitusaika kirjataan koepöytäkirjaan.
+Myöhästyneiden kokelaiden kohdalla noudatetaan YTL:n määräysten mukaisia käytäntöjä.
+Valvoja tunnistaa myöhästyneet kokelaat normaalisti.
+Koejärjestelmä ei mittaa koeaikaa, se on edelleen valvojien tehtävä.
+Valvojan tehtävänä on valvoa kokelaita.
+Valvoja voi liikkua koetilassa, kunhan liikkuminen ei häiritse koetilannetta.
+Jokaisen kokelaan näytön on oltava jatkuvasti yhden tai useamman valvojan nähtävillä.
+Kokelaiden näyttöjen valvomisen lisäksi valvojat voivat seurata kokeen etenemistä koetilan palvelimelta tai valvojan koneen näytöltä, joilta nähdään myös mahdolliset ongelmatilanteet.
+Ilmoitus häiriöstä teknisessä valvonnassa tulee ottaa erityisen vakavasti.
+Tämä ilmoitus tarkoittaa sitä, että kokelaan koneella ei saada ajettua tekniseen valvontaan liittyviä ohjelmistoja.
+-- jäit tähän
+Kun valvojan näyttöön tulee ilmoitus häiriöstä teknisessä valvonnassa, tulee valvojan tehdä tästä merkintä pöytäkirjaan ja seurata kokelaan toimintaa mahdollisen vilpin tai teknisen ongelman havaitsemiseksi.
+Kokelaalle ei tule kertoa ilmoituksesta.
+Jos ilmoitus häiriöstä ei katoa 60 minuutin aikana, tulee valvojan ottaa yhteyttä Abitti-tukeen.
+Jokaisen ilmoituksen kohdalla toimitaan samoin, paitsi seuraavissa erikoistapauksissa.
+Kokelas on poistunut koetilasta lopettamatta koetta.
+Kokelas on koetilaisuuden alussa siirretty tekemään koetta toisessa koesalissa.
+Kokelas lopettaa kokeen suorittamisen kokeen lopussa olevasta Päätä koe -painikkeesta.
+Koejärjestelmä varoittaa kokelasta, jos kokelas on aikeissa palauttaa liian monta vastausta.
+Varoitus näkyy sivun alalaidassa punaisella tekstipohjalla.
+Kokelaan poistuessa valvoja varmistaa, että kokelas palauttaa kaikki käyttämänsä luonnospaperit.
+Niissä tulee olla kokelaan nimi.
+Luonnoksia käsitellään kuten yleisissä määräyksissä ja ohjeissa on kuvattu.
+Kokelas palauttaa koneensa käynnistämiseen käyttämänsä USB-muistin.
+Kokeen tietoturvan kannalta on erittäin tärkeää, että yhtään YTL:n toimittamaa USB-muistia ei kulkeudu kokelaiden mukana koetilan ulkopuolelle.
+Kokelaan henkilöllisyys tarkistetaan myös kokelaan poistuessa, jotta voidaan varmistaa, että hänen palauttamissaan luonnoksissa on oikea nimi.
+Poistumisaika kirjataan koepöytäkirjaan.
+Koeaika päättyy
+Valvoja tarkistaa kokeen aloitusajan sekä kokelaille mahdollisten ongelmatilanteiden selvittämisestä ja muista syistä myönnetyt lisäajat.
+Koe päättyy, kun koeaikaa on kulunut kuusi tuntia, lukuun ottamatta niitä kokelaita, joille on myönnetty lisäaikaa.
+Koeajan päätyttyä tai viimeisen kokelaan poistuttua valvoja tekee seuraavat toimenpiteet tässä järjestyksessä.
+Sammuttaa mahdolliset valvojien koneet ja koetehtävien katsomiseen käytetyt koneet.
+Sammuttaa koetilan varapalvelimen.
+Tallentaa kokelaiden koesuoritukset USB-muistille.
+Sammuttaa koetilan palvelimen.
+Toimittaa kokelaiden koesuoritukset sisältävät USB-muistit sekä muut kokeessa käytetyt USB-muistit rehtorille.
+Kaikki USB-muistit säilytetään YTL:n määräysten mukaisesti.
+Koetilan palvelimen ja varapalvelimen käynnistämiseen käytetyt USB-muistit säilytetään siten, että koetilan palvelimessa käytettyjä USB-muisteja käytetään uudelleen seuraavina koepäivinä nimenomaan koetilan palvelimen käynnistämiseen.
+Vastaavasti varapalvelimessa käytettyjä USB-muisteja käytetään nimenomaan varapalvelimien käynnistämiseen.
+Kokelaiden koneiden USB-muisteja voidaan myös käyttää uudelleen saman tutkintokerran koepäivinä.
+Lukio ei saa tehdä USB-muisteihin merkintöjä tai esimerkiksi kiinnittää niihin tarroja.
+Ulkopuolisilta estetään pääsy koetilaan, kunnes tekniikka on purettu.
+Koesuoritusten siirtäminen tutkintopalveluun.
+Lukion rehtori tai valvoja, jonka rehtori on nimennyt vastaamaan koesuoritusten siirtämisestä, kirjautuu YTL:n tutkintopalveluun.
+Rehtori tai tehtävään nimetty valvoja siirtää opiskelijoiden koesuoritukset sisältävän tiedoston USB-muistilta YTL:n tutkintopalveluun.
+Rehtori tai valvoja saa järjestelmästä kuittauksen, että koesuoritukset on siirretty tutkintopalveluun (ks. oheinen esimerkki).
+Koesuoritukset voidaan siirtää tutkintopalveluun myös ilman erillistä USB-muistia, jos koetilan palvelimen toteutustapa sen sallii.
+Lukion rehtori syöttää/päivittää alustavaan arvosteluun osallistuvien opettajien henkilötunnukset YTL:n tutkintopalvelussa.
+YTL julkaisee alustavat hyvän vastauksen piirteet verkkosivuillaan.
+Alustavaan arvosteluun osallistuvat opettajat näkevät kokeiden koetehtävät ja aineistot YTL:n tutkintopalvelussa.
+YTL ei julkaise koetehtäviä ja aineistoja verkkosivuillaan.
+Koetehtävien ja aineistojen tulostaminen ja siirtäminen YTL:n verkkopalvelun ulkopuolelle on kielletty.
+Kokelaiden suoritusten tulostaminen ja kopioiminen on myös kielletty.
+Opettajat voivat aloittaa alustavan arvostelun.
+Ohjeet alustavan arvostelun suorittamiseen löytyvät YTL:n verkkosivuilta.
+Opettajat näkevät kokelaan suorituksen ja omat muistiinpanonsa tutkintopalvelussa, kunnes mahdollinen oikaisuvaatimus on käsitelty ja tutkintokerran tulokset ovat lopullisia.
+Tutkinnon jokaisen viikon jälkeen ja tutkintokauden lopussa (virtuaaliset palvelimet) Virtuaalinen koetilan palvelin varmuuskopioidaan tutkinnon jokaisen viikon päätyttyä sekä vielä kerran kaikkien tutkintopäivien (ts. tutkintokerran) jälkeen.
+Koetilan varapalvelinta ei varmuuskopioida.
+Varmuuskopiointi tehdään lautakunnan Naksu-ohjelmalla.
+Yksi varmuuskopio voi viedä tilaa jopa 50 gigatavua.
+Varmuuskopion ottamisen jälkeen palvelin tyhjennetään Naksu-ohjelmaa käyttäen.
+Varmuuskopiot säilytetään palvelinkoneella tai erillisellä muistivälineellä (USB-muisti tai kovalevy).
+Ne on kutenkin aina säilytettävä lukitussa tilassa.
+Ylioppilastutkinnon järjestämiseen käytetyt palvelimet voidaan ottaa muuhun käyttöön (esim. Abitti-kokeiden järjestämiseen) heti tutkintokauden viimeisen varmuuskopion ottamisen jälkeen.
+Varmuuskopioita tulee säilyttää siihen saakka, että tutkinnon tulokset ovat kyseisen tutkintokerran osalta lopullisia.
+Toiminta ongelmatilanteissa
+Ongelmatilanteissa valvojan tulee keskittyä kokelaan ja koetilanteen rauhoittamiseen.
+Jos tilannetta ei saada ratkaistua näiden ohjeiden avulla, valvojan tulee ottaa viipymättä yhteyttä YTL:ään tilanteen selvittämiseksi.
+Jos valvoja tai rehtori arvioi, että ongelman selvittäminen häiritsee kaikkien kokelaiden työskentelyä kohtuuttomasti, hän voi keskeyttää kokeen suorittamisen ongelman selvittämisen ajaksi.
+Jos kokelaat ovat nähneet koetehtävät, he eivät saa kommunikoida keskenään.
+Keskeytyksen aikana kokelaat eivät saa tehdä muistiinpanoja tai luonnoksia tai muulla tavalla jatkaa kokeen suorittamista.
+Kokelaat saavat mm. syödä eväitä ja käydä wc:ssä.
+Keskeytykseen kulunut aika hyvitetään kokelaille.
+Jos kokeen suorittaminen keskeytyy kokelaasta riippumattoman teknisen syyn vuoksi, hyvitetään menetetty koeaika kokelaalle.
+Menetetyksi koeajaksi lasketaan aika siitä, kun valvoja on todennut ongelmatilanteen tai keskeyttää koetilaisuuden aina siihen saakka, kun kokelas pääsee jatkamaan koetta.
+Keskeytysaikaa ei hyvitetä, jos keskeytys johtuu kokelaan omasta toiminnasta (esim. kokelas on irrottanut verkkojohdon, kuulokkeet tai USB-muistin, kokelas on kaatanut kahvia näppäimistölle).
+Abitti-tukeen soittamiseen kulunut aika hyvitetään aina kokelaalle.
+Epäselvissä tapauksissa tulee ottaa yhteyttä YTL:ään.
+Kokelaan neuvominen tietokoneen käytössä kokeen aikana on kielletty lukuun ottamatta alla mainittuja erityistapauksia.
+Kokelasta voi kuitenkin neuvoa tuottamaan vastauksen koejärjestelmään parhaalla mahdollisella tavalla.
+Yhteydenotto Ylioppilastutkintolautakuntaan
+Koejärjestelmään liittyvissä teknisissä ongelmissa otetaan puhelimitse yhteyttä Abitti-tukeen numeroon +358 295 338 280.
+Muissa tapauksissa, esimerkiksi myöhästymisiin, sairaustapauksiin tai kokeen suorittamiseen liittyvissä asioissa, voi olla yhteydessä tutkintopäivystyksen numeroon +358 295 338 230 tai suoraan kyseessä olevaa asiaa hoitavaan tutkintosihteeriin.
+Abitti-tuki auttaa lukioita teknisten ongelmien selvittämisessä tutkintopäivinä.
+Tuessa saattaa olla tietoa samantapaisista ongelmista ja niiden ratkaisuista muissa lukioissa.
+Jotta ongelma saadaan mahdollisimman nopeasti ratkaistua, on hyvä soittaa Abitti-tukeen jo ongelman selvittelyn aikaisessa vaiheessa.
+Abitti-tukeen on otettava yhteyttä viimeistään silloin, jos tekninen ongelma jatkuu yli 20 minuuttia.
+Tukipuhelua soitettaessa tulee varautua vastaamaan mahdollisiin tarkentaviin kysymyksiin ongelmasta.
+On suositeltavaa, että puhelun soittaa henkilö, joka on paikan päällä ja tuntee tilanteen.
+Ongelmatilanteissa ensisijainen toimintatapa on pyrkiä ratkaisemaan ongelma koetilanteen aikana lautakunnan neuvojen avulla.
+Jos häiriötilanne tai sen selvittäminen on jatkunut pitkään, toistunut tai muuten merkittävästi häirinnyt yhden tai useamman kokelaan suoritusta, voi lukio tehdä ilmoituksen teknisestä häiriöstä koetilanteessa.
+Tällöin asia voidaan ottaa huomioon arvostelussa.
+Ilmoituksen tekee rehtori koetilanteen jälkeen valvojilta saamiensa tietojen pohjalta.
+Mahdollista häiriöilmoitusta varten valvojan on hyvä kirjata muistiin häiriöstä ainakin seuraavat tiedot:
+mitä tapahtui
+ongelman todenneet valvojat
+häiriön kesto
+keitä kokelaita häiriö koski
+hyvitettiinkö keskeytykseen kulunut aika koetilanteessa kokelaille
+käyttivätkö kokelaat heille hyvitetyn koeajan
+lautakunnalta saadut keskeisimmät ohjeet ja niiden toteutuminen
+Ohjeita ongelmatilanteisiin
+Koejärjestelmään ja kokeeseen liittyvät tekniset ongelmat
+Kokelas on kirjoittanut nimensä väärin
+Äänenvoimakkuuden säätäminen
+Äänitesti tai kokeessa olevat äänet eivät kuulu
+Äänite, jonka kuuntelukertoja on rajoitettu, ei kuulu
+Kokelas ei voi perua matematiikan kokeen A-osan palauttamista
+Kokelas on kadottanut koetehtävät
+Kokelas on kadottanut vastauksia
+Kirjasinkoon suurentaminen
+Kokelaan koneeseen liittyvät tekniset ongelmat
+Kokelas jatkaa jo aloitettua suoritusta
+Kokelas siirtyy varakoneelle
+Kokelaan koneen USB-muisti irtoaa
+Kokelaan kone käynnistyy kokeen aikana uudestaan
+Kokelas painaa ”päätä koe” -nappia kokeen aikana
+Häiriö kokelaan teknisessä valvonnassa
+Ylioppilastutkintolautakunta pyytää ottamaan kokelaan koneen USB-muistin talteen
+Tutkintoverkkoon liittyvät tekniset ongelmat
+Kokelaan verkkoyhteys katkeaa
+Useiden kokelaiden yhteys koetilan palvelimelle katkeaa
+Koetilan palvelimen toimintahäiriö
+Koetilan varapalvelimen toimintahäiriö
+Sähköt katkeavat koko rakennuksesta
+Muut ongelmatilanteet
+Kokelas saapuu myöhässä kokeeseen
+Kokelas poistuu kokeesta ennen klo 12:ta
+Kokelas sairastuu kokeen aikana
+Kokelas tekee väärää koetta
+Kokelas poistuu hetkeksi paikaltaan
+Kokelas poistuu koetilaisuudesta päättämättä koetta
+Koetilan evakuointi vaaratilanteessa
+Koejärjestelmään ja kokeeseen liittyvät tekniset ongelmat
+Kokelas on kirjoittanut nimensä väärin
+Väärin kirjoitettua nimeä ei voi korjata, kun kokelas on tunnistettu ja hän on kirjautunut koejärjestelmään.
+Koejärjestelmässä oleva nimen kirjoitusasu ei vaikuta koesuoritukseen tai suorituksen arvosteluun kokeen jälkeen.
+Koesuoritus kohdennetaan henkilötunnuksen perusteella.
+Äänenvoimakkuuden säätäminen
+Ennen koetta ja kokeen aikana äänenvoimakkuutta voi säätää äänitestillä.
+Äänitestin saa esiin napsauttamalla näytön oikeassa ylänurkassa olevaa kuulokekuvaketta.
+Valvoja voi neuvoa kokelasta äänenvoimakkuuden säätämisessä kokeen aikana.
+Äänitesti tai kokeessa olevat äänet eivät kuulu Jos äänet eivät kuulu, voi äänitestin sulkea ja avata uudestaan.
+Äänitestin saa esiin napsauttamalla näytön oikeassa ylänurkassa olevaa kuulokekuvaketta.
+Tarvittaessa koneen voi joutua käynnistämään uudelleen.
+Myös kuulokkeet voi vaihtaa ja tarvittaessa käytetään koulun varakonetta ja -kuulokkeita.
+Valvoja voi neuvoa kokelasta äänilaitteiden valintaan tai äänenvoimakkuuden säätämiseen liittyvissä asioissa kokeen aikana.
+Äänite, jonka kuuntelukertoja on rajoitettu, ei kuulu
+Toisen kotimaisen kielen ja vieraan kielen kokeiden sekä suomi tai ruotsi toisena kielenä ja kirjallisuus -kokeiden kuullunymmärtämistehtävissä voi olla äänitteitä, joiden kuuntelukertoja on rajoitettu.
+Jos kokelas ei kuule äänitettä teknisen syyn vuoksi, on ensin varmistettava äänen kuuluminen äänitestillä.
+Tämän jälkeen valvoja palauttaa äänitteen kuultavaksi koetilan palvelimelta.
+Äänite käynnistetään uudelleen kokelaan nimen kohdalta sarakkeesta ”Viimeksi kuunneltu äänite”.
+Tämän jälkeen kokelaan on päivitettävä oma koenäkymänsä palvelimen näytöllä olevan ohjeen mukaisesti.
+Kokelaan ei pidä jatkaa kuullunymmärtämistehtävien suorittamista ongelman selvittämisen aikana, koska sen jälkeen kuulematta jäänyttä äänitettä ei voida enää palauttaa kuunneltavaksi.
+Jos kokelas on jatkanut äänitteiden kuuntelemista kuulematta jääneen äänitteen jälkeen ennen valvojan kutsumista paikalle, äänitettä ei voida enää palauttaa kuunneltavaksi.
+Tällaisessa tilanteessa valvoja merkitsee tärkeimmät tiedot muistiin mahdollista teknisen häiriön ilmoitusta varten.
+Valvoja voi neuvoa kokelasta äänenvoimakkuuden säätämisessä ja koenäkymän päivittämisessä.
+Kokelas ei voi perua matematiikan kokeen A-osan palauttamista
+Kun kokelas painaa matematiikan kokeessa A-osan palauttamisen painiketta, se katsotaan päätökseksi palauttaa A-osa.
+Jos kokelas ei peru päätöstään minuutin aikana, A-osa lukkiutuu ja kokelas saa kaikki laskinohjelmat käyttöönsä.
+Kokelas ei voi enää tämän jälkeen palata tekemään A-osaa.
+Valvoja ei voi avata palautettua A-osaa kokelaalle.
+Kokelas on kadottanut koetehtävät
+Jos kokelas on kadottanut koenäkymän, toimitaan seuraavasti.
+Kokelas sulkee kaikki avoimet ikkunat napsauttamalla ikkunan oikeassa ylänurkassa olevaa X-painiketta.
+Jos sovellus (esim. LibreOffice) kysyy, tallennetaanko tiedosto, se tallennetaan.
+Siirrytään seuraavaan ikkunaan painamalla Alt-Tab (tai napsauttamalla ikkunaa).
+Vaiheita 1-3 toistetaan, kunnes avoimia ikkunoita ei enää ole.
+Avataan selain, jossa koenäkymä on: Sovellukset > Koe.
+Kokelaalle ei hyvitetä asian selvittämiseen kulunutta aikaa.
+Valvoja voi neuvoa kokelasta ikkunoiden sulkemisessa, dokumenttien tallentamisessa ja koenäkymän uudelleenavaamisessa.
+Kokelas on kadottanut vastauksia
+Kokelas voi palauttaa koevastauksensa aiemman version itse.
+Valvoja voi avustaa kokelasta koevastauksen palautuksessa näyttämällä, miten palautus tehdään.
+Valvoja ei saa auttaa kokelasta palautettavan vastausversion valinnassa.
+Paina vastauskentän oikeasta alalaidasta linkkiä "Aiemmat vastausluonnokset".
+Valitse vastauskentässä aiemmin ollut sisältö ja paina "Palauta".
+Palautusohjeet löytyvät myös koeympäristön ohjeista.
+Jos merkittävä osa vastauksesta on kokelaan ilmoituksen mukaan kadonnut, mutta vastauksen palauttaminen ei onnistu tämän ohjeen avulla, tulee valvojan ottaa välittömästi yhteyttä Abitti-tukeen.
+Kirjasinkoon suurentaminen
+Kokelas saa kokeen aikana suurentaa vastauksia sisältävien ikkunoiden kirjasinkokoa ja muita merkintöjä niin, että koe on kohtuudella suoritettavissa.
+Valvojilla on tarvittaessa oikeus puuttua tilanteeseen, jossa suuri kirjasinkoko tai muut merkinnät voivat tahallisesti tai tahattomasti johtaa vilppiin.
+Kokelaat, joilla on erityisjärjestelypäätös kirjasinkoon suurentamisesta, säilyttävät tähän oikeuden kaikissa tilanteissa.
+Jos kokelas ei kehotuksesta huolimatta pienennä kirjasinkokoa tai muita merkintöjä tai jos hän valvojan kehotuksen jälkeen uudestaan saman kokeen aikana suurentaa kirjasinkokoa tai muita merkintöjä, tulee asia kirjata koepöytäkirjaan, ja tilannetta voidaan tarvittaessa käsitellä vilpin yrityksenä.
+Valvoja voi neuvoa kokelasta kirjasinkoon muuttamisessa.
+Kokelaalle ei hyvitetä kirjasinkoon muuttamiseen kulunutta aikaa.
+Kokelaan koneeseen liittyvät tekniset ongelmat
+Kokelas jatkaa jo aloitettua suoritusta
+Jos kokelaan kone on jouduttu käynnistämään uudelleen ja/tai kokelas jatkaa kokeen suorittamista varakoneella, täytyy hänen kirjautua uudestaan koejärjestelmään.
+Uudelleen kirjauduttaessa valvoja tunnistaa kokelaan avainlukulistaa käyttäen.
+Koejärjestelmä tunnistaa kokelaan henkilötunnuksen perusteella ja kokelas voi jatkaa työskentelyään siitä, mihin vastaaminen jäi.
+Kokelas siirtyy varakoneelle
+Jos kokelas ei voi jatkaa kokeen suorittamista omalla koneellaan, annetaan hänen käyttöönsä koulun varakone lisälaitteineen.
+Kokelaan oman koneen sammuttaminen tapahtuu seuraavasti:
+Kokelas tallentaa erillisissä ohjelmissa (esim. tekstinkäsittely, piirtäminen, laskinohjelmat) tekemänsä keskeneräiset työt.
+Kokelas sulkee koetehtävät ja -aineistot sisältävät selainikkunat.
+Valvoja tarkastaa valvojan koneen näytöltä, että kokelaan tiedostot ovat tallentuneet.
+Jos valvojan näyttö ilmoittaa virheestä kokelaan tiedostojen varmuuskopioinnissa, on valvojien otettava yhteyttä YTL:n Abitti-tukeen.
+Kokelas sammuttaa koneensa näytön oikeasta ylänurkasta tai painamalla pitkään tietokoneensa virtapainiketta.
+Valvoja käynnistää varakoneen, jos sitä ei ole käynnistetty jo ennen kokeen alkua.
+Kokelas voidaan myös siirtää varapaikalle.
+Jos kyse ei ole tietoliikennehäiriöstä ja koneen vaihtamisesta ei aiheudu häiriötä, voi kokelas jatkaa varakoneella työskentelyä omalta paikaltaan.
+Kokelaan koesuoritusten ja tiedostojen tulisi palautua heti henkilöllisyyden tunnistamisen jälkeen.
+Jos näin ei tapahdu, on valvojien otettava yhteyttä YTL:n Abitti-tukeen.
+Kokelaalle hyvitetään koneen vaihtamiseen kulunut aika.
+Kokelaan koneen USB-muisti irtoaa
+Kokelaan koneen näytölle tulee ilmoitus USB-muistin irtoamisesta.
+Valvoja neuvoo kokelasta tekemään näin:
+Kokelas sammuttaa koneensa.
+Tässä vaiheessa kone voi vaatia virtapainikkeen painamista pitkään (5-10 sekunnin ajan).
+Kokelas irrottaa USB-muistin koneesta ja liittää sen koneeseen takaisin.
+Jos mahdollista, käytetään toista USB-liitäntää.
+Kokelas käynnistää koneen uudelleen.
+Kokelas syöttää henkilötietonsa ja valitsee kokeen, minkä jälkeen valvoja tarkastaa hänen henkilöllisyytensä kuten kokeen alussa.
+Jos tilanne toistuu toisen kerran saman kokelaan kohdalla, kokelas siirretään varakoneelle ja koneen käynnistämiseen tarkoitettu USB-muisti vaihdetaan.
+Kokelaalle hyvitetään ongelman selvittelyssä kulunut aika USB-muistin irrotessa ainoastaan, jos irtoaminen on ollut kokelaan toiminnasta riippumatonta.
+Kokelaan kone käynnistyy kokeen aikana uudestaan Jos kokelaan kone käynnistyy uudelleen, saattaa kyseessä olla vilppiyritys tai tekninen vika.
+Valvojan harkinnan mukaan kokelas jatkaa kokeen suorittamista joko omalla koneellaan tai varakoneella.
+Jos uudelleenkäynnistymisiä tapahtuu kokeen aikana enemmän kuin yksi, kokelas siirretään varakoneelle ja kokelaan koneen USB-muisti vaihdetaan.
+Jos uudelleenkäynnistymiset jatkuvat, valvojan tulee ottaa yhteyttä YTL:n Abitti-tukeen.
+Kokelas painaa ”päätä koe” -nappia kokeen aikana Jos kokelas ei ole sulkenut konettaan ja hänellä on koeaikaa jäljellä, hän voi jatkaa kokeen tekemistä.
+Valvojan näytöllä näkyy hetken aikaa, että kokelas on päättänyt kokeen.
+Tilanne ei vaadi erillisiä toimenpiteitä.
+Häiriö kokelaan teknisessä valvonnassa
+Tämä ilmoitus valvojan näytöllä tarkoittaa, että kokelaan koneessa ajettavat tekniset valvontaohjelmistot eivät toimi.
+Pahimmillaan ilmoitus voi olla merkki siitä, että kokelas estää teknisen valvonnan vilpin peittelemiseksi.
+Jos valvojan näytölle tulee jonkun kokelaan kohdalle tällainen ilmoitus, tulee valvojan tehdä tästä merkintä pöytäkirjaan ja seurata kokelaan toimintaa mahdollisen vilpin tai teknisen ongelman havaitsemiseksi.
+Jos ilmoitus häiriöstä ei katoa 60 minuutin aikana, tulee valvojan ottaa yhteyttä YTL:n Abitti-tukeen lisäohjeiden saamiseksi.
+Ilmoitus tai siihen liittyvä yhteydenotto ei saa missään tapauksessa tulla kokelaiden tietoon.
+Ilmoituksia voi tulla koepäivän aikana useita.
+Jokaisen ilmoituksen kohdalla on toimittava samalla tavalla, lukuun ottamatta seuraavissa erikoistapauksissa.
+Kokelas on poistunut koetilasta lopettamatta koetta.
+Kokelas on koetilaisuuden alussa siirretty tekemään koetta toisessa koesalissa, jossa on erillinen koetilan verkko.
+YTL antaa ohjeet jatkotoimenpiteistä tapauskohtaisesti.
+Ylioppilastutkintolautakunta pyytää ottamaan kokelaan koneen USB-muistin talteen
+Abitti-tuki voi puhelimessa ohjeistaa ottamaan kokelaan koneen USB-muistin erilleen muista käytetyistä USB-muisteista joko heti tai kun kokelas on päättänyt kokeen.
+Kokelaan koneen USB-muisti laitetaan esimerkiksi minigrip-pussiin tai kirjekuoreen.
+Lukio ei saa tehdä USB-muisteihin merkintöjä tai esimerkiksi kiinnittää niihin tarroja tai teippiä.
+Valvoja kirjoittaa paperille tilannekuvauksen, kokeen nimen, tarvittaessa tehtävänumeron sekä kokelaan nimen ja henkilötunnuksen.
+Paperi pakataan samaan pussiin tai kuoreen USB-muistin kanssa ja säilytetään kassakaapissa.
+Pussi tai kuori sisältöineen toimitetaan tarvittaessa lautakunnan kansliaan kirjattuna erillislähetyksenä tai muiden Abitti-tuen antamien ohjeiden mukaan.
+Tutkintoverkkoon liittyvät tekniset ongelmat
+Kokelaan verkkoyhteys katkeaa
+Koejärjestelmä ilmoittaa kokelaalle ja valvojalle, jos yhteys koetilan palvelimelle katkeaa.
+Kaikki kokelaan siihen mennessä laatimat vastaukset ovat tallentuneet.
+Työskentely ei voi jatkua ennen yhteyden palaamista.
+Tarkista, että verkkokaapeli on huolellisesti kiinnitetty kokelaan koneeseen ja kytkimeen.
+Kokelas tallentaa erillisissä ohjelmissa (esim. tekstinkäsittely, piirtäminen, laskinohjelmat) tekemänsä keskeneräiset työt.
+Kone on siirrettävä toiseen verkkoliitäntään esimerkiksi varapaikalle, jotta tiedostot voivat varmuuskopioitua koetilan palvelimelle.
+Tarvittaessa otetaan yhteyttä YTL:n Abitti-tukeen.
+Jos kokelaalla ei ole keskeneräisiä töitä erillisissä ohjelmissa (esim. tekstinkäsittely, piirtäminen, laskinohjelmat), kokelaan kone käynnistetään uudelleen.
+Jos ongelma toistuu, kokelas siirretään varakoneelle.
+Useiden kokelaiden yhteys koetilan palvelimelle katkeaa Jos yhteys koetilan palvelimelle katkeaa samanaikaisesti kaikilta kokelailta, tarkistetaan ensin koetilan palvelimen verkkokaapelin liitäntä.
+Jos kaapeli on kiinnitetty palvelimeen, jatketaan ongelman selvittämistä kohdan ”Koetilan palvelimen toimintahäiriö” mukaisesti.
+Valvojan tulee ottaa yhteyttä YTL:n Abitti-tukeen heti vian ilmettyä tai viimeistään korjaustoimenpiteiden jälkeen.
+Koetilan palvelimen toimintahäiriö
+Koetilan palvelimen toimintahäiriöt ilmenevät kaikkien kokelaiden havaitsemina ongelmina.
+Jos yhteys koetilan varapalvelimelle on toiminut normaalisti ennen toimintahäiriötä, toimitaan seuraavasti.
+Valvoja ilmoittaa kokelaille viasta ja kokeen keskeytymisestä ja kirjaa kellonajan koepöytäkirjaan.
+Valvoja ottaa yhteyttä YTL:n Abitti-tukeen lisäohjeita varten.
+Samalla varmistetaan lupa kokeen jatkamiseen palvelimen ja varapalvelimen synkronoinnin aikana.
+Vasta yhteydenoton jälkeen voidaan edetä kohtaan 3.
+Kun Abitti-tuki on antanut luvan, valvoja sammuttaa sekä koetilan palvelimen että koetilan varapalvelimen näytön oikeasta ylänurkasta.
+Valvoja käynnistää koetilan varapalvelimen uudestaan.
+Valvoja käynnistää koetilan palvelimen uudestaan.
+Jos ongelma korjaantui, valvoja antaa kokelaille luvan jatkaa koetta.
+Jos ongelma ei korjaantunut, sammutetaan sekä koetilan palvelin että koetilan varapalvelin uudestaan näytön oikeasta ylänurkasta.
+Valvoja käynnistää koetilan varapalvelimen koetilan palvelimeksi.
+Jos kyseessä on USB-muistilta käynnistetty palvelin, selvitetään, löytyykö lukiosta uusi tietokone koetilan varapalvelimeksi.
+Uusi varapalvelin käynnistetään käyttämättömältä palvelimen USB-muistilta.
+Jos kyseessä on virtuaalinen palvelin, noudatetaan YTL:ltä saatuja ohjeita.
+10) Kokelaille annetaan lupa jatkaa koetta vasta kun tiedot koetilan palvelimelta on synkronoitu varapalvelimelle.
+Koetta voi jatkaa aikaisemmin vain, jos YTL on antanut siihen luvan.
+Aika, joka on kulunut kokeen keskeytymisestä siihen, kun valvoja antaa kokelaille luvan jatkaa koetta, hyvitetään kokelaille.
+Aika merkitään myös koepöytäkirjaan.
+Koetilan varapalvelimen toimintahäiriö
+Koetilan varapalvelimen toimintahäiriö ilmenee koetilan palvelimella ja/tai koetilan varapalvelimella.
+Kokelaat voivat jatkaa kokeen suorittamista normaalisti, jos YTL antaa siihen luvan.
+Jos kyseessä on virtuaalinen varapalvelin, valvoja ottaa yhteyttä YTL:n Abitti-tukeen lisäohjeita varten heti vian ilmettyä.
+Jos kyseessä on USB-muistilta käynnistetty varapalvelin, yritetään käynnistää varapalvelin uudelleen ensin samalta USB-muistilta ja jos tämä ei auta, sen jälkeen käyttämättömältä koetilan palvelimen USB-muistilta.
+Jos nämä yritykset eivät korjaa tilannetta, selvitetään, löytyykö lukiosta uusi tietokone koetilan varapalvelimeksi.
+Uusi varapalvelin käynnistetään käyttämättömältä palvelimen USB-muistilta.
+Valvojan tulee ottaa yhteyttä YTL:n Abitti-tukeen heti vian ilmettyä tai viimeistään korjaustoimenpiteiden jälkeen.
+Jos kokelaiden työskentely on keskeytetty, keskeytykseen kulunut aika hyvitetään kokelaille.
+Aika merkitään koepöytäkirjaan.
+Sähköt katkeavat koko rakennuksesta
+Jos sähköt katkeavat koko rakennuksesta, voidaan koetta jatkaa akkuvarmistuksen avulla.
+Viiden minuutin sähkökatkon jälkeen kokelaita pyydetään tallentamaan erillisissä ohjelmissa (esim. tekstinkäsittely, piirtäminen, laskinohjelmat) keskeneräiset työnsä ja sammuttamaan koneensa näytön oikeasta ylänurkasta.
+Valvojat seuraavat verkkoon liitettyjen koneiden määrää valvojan näytön yläreunasta.
+Kun kaikki koneet ovat poistuneet tutkintoverkosta, valvoja sammuttaa ensin koetilan palvelimen ja sen jälkeen koetilan varapalvelimen.
+Valvojan tulee ottaa yhteyttä YTL:n Abitti-tukeen sähkökatkon aikana.
+Sähköjen palauduttua valvoja käynnistää koetilan palvelimen ja varapalvelimen.
+Tämän jälkeen kokelaita pyydetään käynnistämään koneensa.
+Kokelaat kirjoittavat henkilötietonsa ja valvojat tunnistavat heidän henkilöllisyytensä kuten kokeen alussa.
+Kokelaat saavat jatkaa kokeen suorittamista valvojan luvalla vasta kun kaikki kokelaat on tunnistettu.
+Kokelaille hyvitetään se aika, mikä on kulunut pyynnöstä tallentaa keskeneräiset työt siihen, että valvoja antaa kokelaille luvan jatkaa koetta.
+Muut ongelmatilanteet
+Kokelas saapuu myöhässä kokeeseen
+Jos kokelas saapuu ennen klo 10:tä, hänet voidaan päästää suorittamaan koetta.
+Koepöytäkirjaan merkitään aika, jolloin hän on aloittanut kokeen suorittamisen, sekä myöhästymisen syy.
+Jos kokelas saapuu klo 10:n jälkeen, on rehtorin otettava yhteyttä lautakuntaan tutkintopäivystykseen puhelimitse.
+Kokelas poistuu kokeesta ennen klo 12:ta
+Jos kokelas poistuu kokeesta ennen klo 12:ta, on asiasta ilmoitettava välittömästi sekä rehtorille että puhelimitse lautakuntaan tutkintopäivystykseen.
+Kokelas sairastuu kokeen aikana
+Mikäli kokelas sairastuu äkillisesti kokeen aikana, on välittömästi otettava yhteyttä rehtoriin.
+Rehtori voi päättää siirtää kokelaan jatkamaan suoritusta erilliseen tilaan ja tarvittaessa hoitaa muiden erityisjärjestelyjen hakemisen.
+Mikäli kokelas ei pysty jatkamaan kokeen suorittamista, hänet on kuitenkin pidettävä valvottuna klo 12:een asti.
+Sairaustapauksista on ilmoitettava lautakuntaan tutkintopäivystykseen puhelimitse.
+Kokelas tekee väärää koetta
+Jos kokelas huomaa tekevänsä eri koetta kuin mihin hän on ilmoittautunut, valvoja ohjaa hänet käynnistämään koneensa uudestaan.
+Kokelas valitsee oikean kokeen ja valvoja tunnistaa hänet uudestaan koejärjestelmään.
+Menetettyä koeaikaa ei hyvitetä kokelaalle, vaan kokelas saa käyttää jäljellä olevan koeajan oikean kokeen tekemiseen.
+Tapauksesta ilmoitetaan lautakuntaan tutkintopäivystykseen puhelimitse.
+Kokelas poistuu hetkeksi paikaltaan
+Jos kokelas poistuu paikaltaan esimerkiksi vessaan, hän kytkee näytönsäästäjän päälle napsauttamalla koejärjestelmän yläreunassa näkyvää lukon kuvaa.
+Näytönsäästäjää käytettäessä ei kokelasta tarvitse tunnistaa uudelleen.
+Valvojien tehtävänä on valvoa, etteivät muut kokelaat koske poistuneen kokelaan koneeseen tällä välin.
+Valvoja voi neuvoa kokelasta näytönsäästäjän käynnistämisessä kokeen aikana.
+Kokelas poistuu koetilaisuudesta päättämättä koetta
+Jos kokelas poistuu koetilaisuudesta päättämättä koetta, valvojan näytölle tulee ilmoitus, ettei kokelaan koneeseen saada yhteyttä, ja jonkin ajan päästä ilmoitus häiriöstä kokelaan teknisessä valvonnassa.
+Ilmoituksesta ei tarvitse tässä tapauksessa olla yhteydessä YTL:ään.
+Koetta ei tarvitse tässä tapauksessa myöskään erikseen päättää.
+Koesuoritus siirtyy arvosteluun normaalisti.
+Koetilan evakuointi vaaratilanteessa
+Lukion pelastussuunnitelmassa kuvataan, miten ylioppilastutkinnon kokeiden aikana mahdollisesti sattuvaan vaaratilanteeseen varaudutaan.
+Vaaratilanteen takia keskeytynyttä koetta ei jatketa varatilassa.
+Kokelaat ohjataan turvaan kokoontumispaikalle ja varmistetaan, etteivät he keskustele keskenään.
+Jos mahdollista, valvoja sammuttaa koetilan varapalvelimen ja ottaa varapalvelimen USB-muistin mukaan kokoontumispaikalle.
+Jos lukiossa käytetään virtuaalista koetilan palvelinta, ei palvelimille tehdä mitään.
+Jos varapalvelimena on kannettavassa tietokoneessa toimiva virtuaalinen koetilan palvelin, voidaan tietokone mahdollisuuksien mukaan irrottaa tutkintoverkosta ja ottaa mukaan kokoontumispaikalle sammuttamatta konetta.
+Muita tietokoneita tai laitteita ei sammuteta tai siirretä koetilasta.
+Valvojat ottavat yhteyttä Ylioppilastutkintolautakuntaan tutkintopäivystykseen kokoontumispaikalta.
+Tärkeimmät muutokset
+Kevään 2022 tutkinto
+Purkukoodin lisäosa julkaistaan jatkossa verkkosivuilla, puhelinvastaajalla ja uudella, erillisellä Twitter-tilillä, mutta ei enää lautakunnan varsinaisilla Facebook ja Twitter-tileillä.
+Valvojan koneen voi käynnistää virtuaalisena koneena vaihtoehtona USB-muistilta käynnistämiselle.
+Lukioilta ei edellytetä Telegram-sovelluksen asennusta mobiililaitteelle.
+Syksyn 2021 tutkintoon ja aikaisemmin tehdyt muutokset
+Henkilöllisyyden tarkistaminen on muuttunut.
+Kokelaan syöttämästä henkilötunnuksesta on peitetty kaksi ensimmäistä merkkiä.
+Valvojan on tarkistettava henkilötunnus kokelaan henkilötodistuksesta tai koepöytäkirjasta.
+Valvoja voi samalla tarkistaa, että kokelas on valinnut oikean kielen ja kokeen.
+Kokelas valitsee ensin lukion opetuskielen ja sen jälkeen suorittamansa kokeen.
+GeoGebra 6- ja Okular-ohjelmien käyttöön liittyvät neuvontaohjeet on poistettu.
+Koejärjestelmä varoittaa kokelasta, jos tämä on jättämässä vastauksia sallittua useampaan tehtävään.
+Virtuaalisen palvelimen asennuksessa käytetään asennuskoodia Vagrantfile-tiedoston sijaan.
+Valvojan tulee aina ottaa yhteyttä Abitti-tukeen, jos koetilan sähköt katkeavat.
+Uudet ohjeet siitä, miten valvojan tulee toimia, jos tulee ilmoitus häiriöstä kokelaan teknisessä valvonnassa.
+Valvoja voi neuvoa kokelaita GeoGebra 6:n käyttöliittymän kielen valinnassa.
+Valvoja voi neuvoa kokelaita PDF-tiedoston avaamisessa Okular-ohjelmalla.
+Kokeen jälkeen koesuoritukset YTL:lle voi siirtää rehtorin lisäksi rehtorin nimeämä valvoja.
+YTL muistuttaa, että koetehtäviä katsovien valvojien ei tule tehdä vastauslaatikoihin merkintöjä, koska ne aiheuttavat turhaa selvitystyötä koesuoritusten siirrossa.
+YTL suosittelee valvojille Telegram-viestisovellusta vaativien vianselvitysten tukemiseksi.

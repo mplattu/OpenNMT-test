@@ -1,0 +1,128 @@
+Ylioppilastutkintolautakunnan yleiset määräykset ja ohjeet
+Liite 3 29.11.2021, korjattu 5.1.2022
+Määräys langattoman tutkintoverkon käyttämisestä ylioppilastutkinnossa
+Taustaa
+Ylioppilastutkinnon tutkintoverkon voi toteuttaa joko kaapelein tai langattomasti.
+Langattoman tutkintoverkon käyttö ylioppilaskokeen järjestämisessä vaatii erillisen luvan Ylioppilastutkintolautakunnalta (YTL).
+Tässä määräyksessä kuvataan langattoman tutkintoverkon toteuttamisen vaatimukset ja ohjeistetaan lukioita langattoman tutkintoverkon käyttöluvan hakemiseen.
+Vaatimuksilla ja lupamenettelyllä YTL haluaa varmistaa, että lukion koetilat soveltuvat langattoman verkon käyttöön, lukio pystyy suoriutumaan verkon käyttöön liittyvistä käytännön järjestelyistä ja että toteutuksessa käytetään tietoturvallisia laitteita ja asetuksia.
+Tavoitteena on tarjota jokaiselle kokelaalle häiriötön ja tietoturvallinen koeympäristö.
+Vaatimukset ja hakemuksen sisältö lyhyesti Vaatimukset langattoman verkon käyttöön ovat seuraavat: 1.
+Kokeen valvojilla pitää olla kirjallinen toimintaohje langattoman tutkintoverkon toimintaongelmien varalta.
+Lukiolla on laitteisto ja asiantuntemus häiritsevien radiosignaalilähteiden paikannukseen.
+Verkon toteutustapa ja teknologia täyttävät asetetut vaatimukset.
+Verkko läpäisee YTL:n määrittämät toiminnalliset testaukset.
+Lukio on osallistunut YTL:n koulutukseen.
+Hakemuksessa on kuvattava vapaamuotoisesti näiden vaatimusten täyttyminen.
+Jos langatonta verkkoa halutaan käyttää useammassa koetilassa (esimerkiksi varsinaisessa koetilassa ja pienemmässä sivutilassa), on kuvattava vaatimusten täyttyminen jokaisessa tilassa erikseen.
+Aiemmin myönnetyt luvat langattoman tutkintoverkon käytöstä ovat voimassa, eikä niitä tarvitse uusia.
+Tutkintoverkon suunnittelu ja reagointi häiriöihin Häiriötön langaton verkkoliikenne edellyttää, että tutkintoverkon liikenteeseen käytettävät radiotaajuudet (2,4 ja 5 GHz) ovat vapaita.
+Vapaat taajuudet etsitään WiFi-skannerilla ja spektrianalysaattorilla.
+Jos lukio käyttää vain 5 GHz taajuusalueen kanavia, sen tulee varautua kokelaiden tietokoneisiin, joiden langaton verkkokortti toimii vain 2,4 GHz kanavilla.
+Varautuminen voi tarkoittaa esimerkiksi kokelaiden sijoittamista kaapeliverkkoon, kokelaille kokeen ajaksi lainattavia 5 GHz verkkokortteja tai kokeen suorittamista lukion varakoneella.
+Vapaita kanavia on oltava riittävästi kaikille tutkintoverkon tukiasemille (vrt. vaatimus 6).
+Vaatimus 1.
+Lukion on varmistettava, että koetiloissa on riittävästi vapaita taajuuksia tutkintoverkon tukiasemille.
+Kokeen aikana tutkintoverkon tukiasemien käyttämien kanavien liikennettä on valvottava.
+Valvonnan tavoitteena on tunnistaa, aiheutuuko tutkintoverkon toimintahäiriö langattoman verkon taajuuksilla olevista häiriösignaaleista vai muusta tutkintoverkon tekniikasta.
+Havaintojen tekemiseen sopii WLAN-verkkokortilla varustettu työasema, jossa on WLAN-tukiasemien nimiä, taajuuksia ja signaalivoimakkuuksia esittävä ohjelmisto.
+Lukiolla on oltava myös koepäivinä käytössään spektrianalysaattori ja tämän käyttöön koulutettu henkilö, jotta mahdolliset verkko-ongelmat voidaan tunnistaa ja korjata.
+Vaatimus 2.
+Koetilan WLAN-verkkoja on havainnoitava myös koko kokeen ajan.
+Valvonta tehdään WiFi-skannerilla (ks. vaatimus 1).
+Valvojien on osattava tulkita skanneriohjelman raportteja.
+Valvojalla on oltava kirjallinen toimintaohje uusien WLAN-verkkojen ilmestymisen varalle.
+Kirjallisessa toimintaohjeessa kuvataan ne toimenpiteet, joilla lukio tunnistaa uuden radiolähettimen (WiFi-skanneri) ja pyrkii varmistamaan tutkintoverkon häiriöttömän toiminnan esim. paikantamalla ja sulkemalla lähettimen (WiFi-skanneri, spektrianalysaattori), konfiguroimalla oman tutkintoverkon tukiasemien käyttämät taajuudet uudelleen tai rakentamalla korvaavan langallisen tutkintoverkon.
+Lukion on otettava yhteyttä YTL:ään aina, jos tutkintoverkon toiminta häiriintyy.
+Vaatimus 3.
+Lukion on kyettävä korvaamaan langaton tutkintoverkko kaapelein toteutetulla verkolla kahdessa tunnissa tutkintoverkon vaihtopäätöksestä.
+Mikäli langaton tutkintoverkko lakkaa toimimasta esimerkiksi kokeen aikana aktivoituneen radiolähettimen vuoksi, on lukion kyettävä siirtämään kokelaat käyttämään kaapelein toteutettua tutkintoverkkoa.
+Siirtymä on suunniteltava siten, että yksittäinen kokelas jatkaa siirtymän jälkeen koesuoritustaan samalla palvelimella kuin kokeen alussa.
+Langattoman tutkintoverkon laitteiden sijoittelu ja radiosignaali
+Langattoman tutkintoverkon laitteiden sijoittelulla pyritään parantamaan signaalin voimakkuutta ja vaikeuttamaan sitä, että sivulliset pystyisivät muuttamaan laitteiden konfiguraatioita.
+Vaatimus 4.
+Pysyvästi asennettavat tutkintoverkon laitteet (esim. tukiasemat, kontrollerit) on sijoitettava lukittuihin tiloihin tai niin korkealle, ettei sivullisen ole helppo päästä käsiksi niihin.
+Väliaikaisesti kokeen ajaksi asennettavat laitteet on sijoitettava koetilaan sen jälkeen, kun tilat on tarkistettu ja pääsy ulkopuolisilta on estetty.
+Jotta kokelaiden tietokoneet jakautuvat tasaisesti tutkintoverkon tukiasemille, on tukiasemia sijoitettava tasaisesti koetilaan ja tukiasemien lähetystehot säädettävä sopivalle tasolle.
+Vaatimus 5.
+Tukiasemien sijoittelulla ja lähetystehoilla on varmistettu, että kokelaiden tietokoneet jakautuvat mahdollisimman tasaisesti tutkintoverkon tukiasemille.
+Lähimmän tukiaseman on sijaittava enintään 25 metrin etäisyydellä kokelaan tietokoneesta.
+Toimivan langattoman verkon rakentamiseksi tukiasemien radioyksikköjen1 määrän on vastattava tutkintoverkon kokelasmäärää.
+Vaatimus 6.
+Langattomassa tutkintoverkossa on oltava yksi tukiasema (tai radioyksikkö) 20 kokelasta kohden, elleivät tukiasemien tekniset ominaisuudet tai muut tekijät anna perusteltua syytä poiketa tästä suhdeluvusta.
+Signaali vaimenee, jos lähettimen ja vastaanottimen välillä on vaimentavia väliaineita.
+Erityisesti väliaikaisesti asennettavissa tutkintoverkoissa tukiasemat on sijoitettava niin, etteivät kalusteet tai kokelaat vaimenna signaalia.
+Vaatimus 7.
+Tukiasemien antennit on sijoitettava vähintään 1 metrin korkeuteen kokelaiden yläpuolelle.
+Langattoman tutkintoverkon häiriötön toiminta riittävällä kaistanleveydellä edellyttää, että jokaisella kokelaspaikalla on riittävän voimakas signaali.
+Signaalin vahvuus todennetaan WiFi-skanneriohjelmalla.
+Vaatimus 8.
+Jokaisella kokelaspaikalla tutkintoverkon signaalin voimakkuus on vähintään -65 dBm.
+Tukiasemien tekniset ominaisuudet Vaatimuksessa 1 edellytetään, että koetilassa on riittävästi vapaita kanavia tutkintoverkon liikenteeseen.
+Mikäli tutkintoverkon tukiasemien käyttämille kanaville tulee kokeen aikana uusia tutkintoverkon toimintaa haittaavia signaaleita, on tutkintoverkon kanavia kyettävä muuttamaan kokeen aikana (käyttöoikeudet, helppokäyttöisyys).
+Vaatimus 9.
+Tutkintoverkon tukiasemien kanavia ja lähetystehoja voidaan säätää koepäivän aikana varattujen ja vapaiden kanavien muuttuessa.
+Jos järjestelmä on automaattinen, sen on kyettävä toimimaan riittävän nopeasti häiriöttömän tutkinnon varmistamiseksi.
+1 Tällä tarkoitetaan tukiaseman sisäisiä lähetin-vastaanotinyksikköjä (Access Point Radios), ei kuitenkaan MIMO-liikenteen Radio Chains -yksikköjä.
+Langattomassa tutkintoverkossa kokelaan yhteys siirtyy tietokoneelta tukiasemalle ja sieltä Ethernet-verkkoa pitkin koetilan palvelimelle.
+Tukiasemat eivät reititä kokelaan yhteyksiä edelleen radioteitse toisille tukiasemille.
+Tällä säästetään radiotietä tietokoneiden ja tukiasemien väliseen liikenteeseen.
+Vaatimus 10.
+Tukiasemat välittävät kokelaan tietokoneen verkkoliikenteen koetilan palvelimelle aina Ethernet-verkkoa pitkin.
+Langattomassa tutkintoverkossa on lisäksi oltava joukko tietoliikennettä ja konfigurointia sääteleviä ominaisuuksia.
+Vaatimus 11.
+WLAN-verkkoliikenteen salaamisessa on käytettävä WPA2-salausta (AES-CCMP) tai parempaa.
+Vaatimus 12.
+Mainittu salausavain on asetettavissa kaikkiin verkon tukiasemiin yhdellä toimenpiteellä esimerkiksi kesken kokeen.
+Asetukseen käytettävän käyttöliittymän on oltava kokeen valvojan käytettävissä (käyttöoikeudet, helppokäyttöisyys).
+Vaatimus 13.
+WiFi Protected Setup (WPS) -toiminnallisuus on kytkettävä pois päältä.
+Vaatimus 14.
+Poistettava tuki IEEE 802.11b-laitteille eli liikennöintinopeudet 1, 2, 5,5 ja 11 Mbps.
+Vaatimus 15.
+Haitallinen liikenne on estettävä: a) langattoman tutkintoverkon kokelaat eivät näe toisiaan (esim. client isolation, switchport protected), b) verkkoon liittynyt asiakas ei voi esiintyä DHCP-palvelimena (ns. DHCP snooping) ja c) IPv6-liikenne on estetty.
+Vaatimus 16.
+Tukiasemien hallintajärjestelmän on tarjottava mahdollisuus kokelaiden tietokoneiden käyttämän tietoliikennemäärän seuraamiseen ja mahdollistettava puuttuminen poikkeuksellisesti liikennöivien tietokoneiden liikenteeseen esim. poistamalla nämä verkosta.
+Vaatimus 17.
+Oltava mahdollisuus estää tukiasemien konfigurointi WLAN-yhteydellä.
+Langattoman tutkintoverkon testaus ennen käyttöönottoa Ennen käyttöönottoa tutkintoverkko on testattava varsinaista ylioppilaskoetta vastaavissa olosuhteissa.
+Testissä verkkoon sijoitetaan ylioppilaskokeessa käytettävä koetilan palvelin ja varapalvelin.
+Kokelaan tietokoneita on oltava sama määrä kuin lopullisessakin koetilanteessa enimmillään on.
+Kokelaan tietokoneiden on vastattava todellista tilannetta: jos kokeessa käytetään pääasiassa kokelaiden omia tietokoneita, on pääosan tietokoneista oltava erimerkkisiä ja mallisia.
+Vaatimus 18.
+Langattoman tutkintoverkon toiminta on testattava ennen käyttöä ylioppilaskokeen kaltaisissa olosuhteissa.
+Testiksi sopii esimerkiksi lukion itse laatima kurssikoe, jossa on ylioppilaskokeen kielikoetta vastaava määrä ääni- ja videoaineistoja.
+Tämän testin tarkoituksena on varmistaa, että
+verkon tukiasemien ja tietokoneiden suhde on oikea toisaalta tietokoneiden kaistanleveyden ja toisaalta tukiasemien käyttämien kanavien ja lähetystehojen osalta (kanavien riittävyys isoissa suorituspaikoissa).
+verkon suorituskyky ei ole riippuvainen tietokoneiden tietyistä laiteajureista, vaan verkko toimii odotetulla tavalla myös YTL:n toimittaman käyttöjärjestelmän kanssa.
+Tämä testi on toistettava vain silloin, kun verkon konfiguraatioon tai laitteistoon tehdään olennaisia muutoksia.
+Langattoman tutkintoverkon testaus kuormitustestauksen yhteydessä
+Langattoman tutkintoverkon toiminta on tarkastettava seuraavasti aina ennen tutkintoa palvelimien ja tutkintoverkon kuormitustestauksen yhteydessä: • Tarkistetaan WiFi-analysaattoriohjelmistolla ja spektrianalysaattorilla, että tutkintoverkon tukiasemat liikennöivät niillä kanavilla, joille ne on asetettu.
+Tarkistetaan WiFi-analysaattoriohjelmistolla ja spektrianalysaattorilla, että tutkintoverkon tukiasemien käyttämät kanavat ovat riittävän vapaita.
+Tarkistetaan tukiasemien kontrollerilta tai tukiasemia ”pingaamalla”, että verkkoliikenne kaikista tutkintoverkon tukiasemista koetilan palvelimeen ja varapalvelimeen kulkee kaapeleita pitkin.
+Tarkistetaan, että verkkoon on mahdollista liittyä tyypillisellä kokelaan tietokoneella.
+Muutokset koetiloihin tai tutkintoverkkoon Jos tilajärjestelyihin tai tutkintoverkkoon tehdään näiden vaatimusten piiriin kuuluvia muutoksia, lukion on haettava YTL:ltä uudelleen lupa langattoman tutkintoverkon käyttöön.
+Osallistuminen YTL:n koulutukseen Lukion edustajan on osallistuttava YTL:n langattoman tutkintoverkon toteutukseen liittyvään koulutukseen.
+Koulutuksessa käsitellään tutkintoverkon teknisiin vaatimuksiin ja toteuttamiseen liittyviä käytännön kysymyksiä.
+Vaatimus 19.
+Lukio on osallistunut YTL:n langattoman tutkintoverkon toteutukseen liittyvään koulutukseen.
+Käytännön ohjeita hakemuksen laatimiseen YTL:lle osoitetussa hakemuksessa tärkeintä on kuvata, miten lukio on suunnitellut noudattavansa langatonta tutkintoverkkoa koskevaa sääntelyä.
+Hakemuksessa riittää, että lukio kuvaa toteutumisen menemättä teknisiin yksityiskohtiin.
+Hakemuksessa ei tarvitse todistaa, että vaatimus toteutuu.
+Laadittuja ohjeita, mittauspöytäkirjoja tai käytettävien laitteiden teknisiä ominaisuuksia ei tarvitse liittää hakemukseen.
+Vaatimus 1: Kerrotaan, kuinka monta tukiasemaa tarvitaan ja kuvataan, miten näiden tukiasemien vaatimat taajuudet sopivat kiinteistön muiden taajuuksien joukkoon.
+Tässä kohdassa sanallistetaan kanavasuunnittelun perusteet.
+Tämä on todennäköisesti hakemuksen työläin kohta, mutta samalla tärkein.
+Vaatimus 2: Todetaan, että lukiolla on olemassa vaadittu toimintaohje ja kuvataan, miten se tulee olemaan valvojien saatavilla.
+Vaatimus 3: Kuvataan millaisin käytännön järjestelyin langaton tutkintoverkko on korvattavissa kaapeleihin perustuvalla verkolla.
+Oleellista on kertoa, mihin pisteeseen verkko rakennetaan ennen koetta, ketkä verkon tarvittaessa rakentavat ja missä tarvittavia välineitä säilytetään kokeen ajan.
+Vaatimukset 4-7: Kuvataan muutamalla virkkeellä ja/tai suuntaa-antavalla piirroksella tukiasemien lukumäärä ja sijoittelu.
+Vaatimus 8: Kuvataan muutamalla virkkeellä, miten mittaukset on suoritettu ja toteutuuko vaatimus.
+Vaatimus 9: Kuvataan, miten uudelleenkanavointi käytännössä tehtäisiin, mikäli siihen jouduttaisiin.
+Oleellista on kertoa, kuka tai ketkä ryhtyvät toimenpiteisiin.
+Vaatimukset 10-17: Varmistetaan kohta kohdalta, että langattoman verkon rakentamisessa käytettävä laitteisto täyttää vaatimukset.
+Hakemukseen voi kirjata tämän esimerkiksi käyttäen ilmauksia “vaatimus on huomioitu laitteiston konfiguroinnissa” tai “käytetyssä laitteessa X on vaadittu ominaisuus”.
+Vaatimus 18: Kuvataan, miten testaus on suoritettu tai tullaan suorittamaan ennen ylioppilaskoetta.
+Testiä ei siis välttämättä tarvitse tehdä ennen hakemuksen lähettämistä, mutta sen tekeminen on määräysten mukaan lukion vastuulla.
+Vaatimus 19: Kerrotaan, kuka lukion edustaja on osallistunut YTL:n koulutuksiin ja milloin nämä koulutukset on järjestetty.
+YTL tiedottaa lukioita koulutusten ajankohdista ja viimeisistä tutkintokohtaisista hakupäivistä.

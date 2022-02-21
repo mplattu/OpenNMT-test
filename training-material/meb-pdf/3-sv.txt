@@ -1,0 +1,59 @@
+Allmänna föreskrifter och anvisningar utfärdade av Studentexamensnämnden bilaga 2 Anvisning gällande examinandens dator Varje examinand som gör det digitala studentprovet ska under provet förfoga över en personlig dator för utförande av provet.
+Denna anvisning ersätter tidigare anvisningar om terminaler för studentprov daterade den 28.2.2017 eller tidigare.
+För att utföra studentprovet behövs en dator med en 64-bitars x86-processor.
+Operativsystemet i dylika datorer är i regel Windows, OS X eller Linux.
+Processor 64-bitars x86-processor.
+Den rekommenderade klockfrekvensen i en enkärnig processor är 2 GHz eller mer.
+Det ska vara möjligt att starta upp operativsystemet från ett USB3-minne.
+Datorskärmen ska ha en upplösning på minst 1360×768.
+Skärmens storlek ska vara under 18 tum.
+Större skärm får användas endast som specialarrangemang som beviljats av nämnden.
+Högst en skärm per examinand.
+Datorn bör ha ett fungerande batteri med tanke på störningar i eltillförseln.
+Ett gymnasium som anordnar studentprov kan bygga upp examensnätet med hjälp av Ethernet eller WLAN.
+Examinandens dator bör gå att koppla till examensnätet enligt den tekniska lösning som gymnasiet som ordnar provet valt.
+De flesta gymnasier använder ett trådbundet nätverk i studentprov.
+Därför är det bra att om datorn som används i studentprovet har en Ethernetanslutning.
+Med tanke på studier och kursprov är det bra att även ha ett WLAN-nätverkskort i datorn.
+Både trådbunden Ethernet- och WLAN-nätverksutrustning får vara extern tilläggsutrustning.
+Det ska vara möjligt att koppla hörlurar och mikrofon till datorn antingen med USB eller 3,5 mm kontakt.
+Tangentbord och mus som eventuellt kopplas till datorn ska vara förenliga med HID-specifikationen1.
+Det är tillåtet att vid behov använda en USB-hubb utan strömförsörjning eller annan dylik adapter i datorn (t.ex. USB-C till USB3).
+Tilläggsutrustningen till datorn får inte använda radioband (t.ex. Bluetooth).
+Vid provtillfället startas terminalen upp från ett USB3-minne med operativsystem och tillhörande programvara från studentexamensnämnden.
+Datorns permanenta operativsystem används inte under provet och examinanden kan inte använda de permanent installerade programmen eller filerna på datorn.
+Kontroll av datorns kompatibilitet kan göras genom att ladda ner testoperativsystemet på ett eget USB3-minne och starta upp det på datorn.
+Instruktioner för detta finns på http://www.abitti.fi/sv/anvisningar/.
+Studentexamensnämnden uppdaterar bootningsalternativen 2–3 gånger om året, vilket påverkar provsystemets kompatibilitet.
+Nämnden strävar till att väja bootningsalternativen så, att de fungerar i en så stor mängd apparater som möjligt.
+Den nuvarande provmiljön fungerar med apparater som är ungefär 7 år gamla eller nyare.
+Drivrutiner för de allra nyaste datorerna kan saknas i provmiljön.
+Det är på examinandens ansvar att datorn startar upp.
+Examinanden ska i god tid före provtillfället försäkra sig om att datorn hen använder är kompatibel med provsystemet genom att testa den.
+Ändringar till de tidigare anvisningarna Ändringar till anvisningarna daterade den 28 februari 2017:  Minimistorleken på datorns RAM-minne har ändrats från 2 GB till 4 GB.
+Minimiresolutionen för skärmen har ändrats från 1024×768 till 1360×768.
+Den tidigare rekommenderade minsta resolutionen var 1366×768.
+Preciserats att datorn bör kunna startas specifikt från ett USB3-minne.
+Omnämnandet av koppling via USB avlägsnats när det gäller extern nätverksutrustning.
+Kopplingssättet begränsas inte av dessa föreskrifter.
+Trådlöst kopplad tilläggsutrustning är fortfarande förbjuden.
+Ändringar till anvisningarna daterade den 16 maj 2016:
+Skärmens storlek har ändrats från 17 tum till under 18 tum
+Specificerats att det är tillåtet att vid behov använda förutom en USB-hubb utan strömförsörjning i terminalen också annan dylik adapter.
+Tillsatts en beskrivning av kompatibiliteten av apparater.
+Ändringar till anvisningarna daterade den 18 juni 2015:
+Den rekommenderade upplösningen 1366x768 för skärmar har lagts till.
+Tillstånd till skärmar på över 17” beviljas som specialarrangemang av nämnden, inte av obetydligt rektorn.
+Ändringar till anvisningarna daterade den 12 juni 2015:
+Kriterier för WLAN-kortet har luckrats upp eftersom få gymnasier ämnar använda trådlösa examensnätverk
+Ändringar till anvisningarna daterade den 10 juni 2013:
+Processorns egenskaper har definierats tydligare såsom önskades i responsen.
+I specifikationerna har också två- och flerkärniga processorer beaktats.
+De har tillräcklig prestanda för det digitala provet, även om klockfrekvensen sällan är över 2 GHz.
+I specifikationen för internminnet har minneskapaciteten som behövs för grafikprocessorn beaktats.
+Den är oftast liten och påverkar inte provutförandet.
+CD/DVD har strukits från uppstartsmedierna.
+Det är i praktiken svårt att hitta en dator som endast kan startas upp från CD/DVD och samtidigt uppfyller de övriga kraven.
+Kriterierna för WLAN-kortet har skärpts.
+De nämnda standarderna 802.11a och 802.11n fungerar i både 2,4 GHz och 5 GHz banden.
+Standarderna 802.11b och 802.11g, som inte fungerar i 5 GHz bandet, har strukits.

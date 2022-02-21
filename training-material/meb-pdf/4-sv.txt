@@ -1,0 +1,128 @@
+Studentexamensnämndens allmänna föreskrifter och anvisningar
+Bilaga 3 29.11.2021, korrigerad 5.1.2022
+Föreskrift gällande användning av trådlöst examensnät i studentex-examen
+Bakgrund
+Examensnätet i studentexamen kan utföras antingen trådbundet eller trådlöst.
+Användningen av trådlöst examensnät i studentexamen kräver separat tillstånd från Studentexamensnämnden (SEN).
+I denna föreskrift beskrivs kraven för utförandet av det trådlösa examensnätet samt ges instruktioner gällande ansökan för att få tillstånd att utföra examensnätet i studentexamen trådlöst.
+Syftet med kraven och tillståndsförfarandet är att säkerställa att de lokaler där proven avläggs är lämpliga för trådlösa nät, att gymnasiet kan sköta de praktiska arrangemangen för nätet och att informationssäker utrustning och informationssäkra inställningar används för nätet.
+Målet är att varje examinand ska kunna avlägga proven i en störningsfri och informationssäker provmiljö.
+Kraven och innehållet i ansökan i korthet Följande krav ställs på trådlösa nätverk: 1.
+Provövervakarna ska ha skriftliga instruktioner för eventuella störningar i det trådlösa examensnätet.
+Gymnasiet ska ha utrustning och expertis för lokalisering av källor för störande radiosignaler.
+Nätverkets konstruktionssätt och teknik uppfyller de ställda kraven.
+Nätverket klarar den funktionella testningen som fastställs av SEN.
+Gymnasiet har deltagit i SEN:s skolning.
+Ansökan ska innehålla en fritt formulerad beskrivning på hur kraven uppfylls.
+Om gymnasiet vill använda trådlöst nätverk i flera provlokaler (till exempel i de egentliga provlokalerna och i mindre sidolokaler) ska det separat beskrivas hur kraven uppfylls för varje lokal.
+Tidigare beviljade tillstånd för att använda trådlösa examensnät i studentexamen är i kraft och behöver inte förnyas.
+Planeringen av examensnätet och respons på störning En störningsfri trådlös nätverkstrafik kräver att de radiofrekvenser (2,4 och 5 GHz) som används i examensnätet är lediga.
+De lediga frekvenserna hittas med en WiFi-skanner och spektrumanalysator.
+Om gymnasiet använder endast 5 GHz frekvensområdets kanaler, bör den bereda sig för de examinanders datorer vars trådlösa nätkort endast fungerar med 2,4 GHz kanaler.
+Beredskapen kan betyda till exempel att examinanderna placeras i kabelnät, utlåning av 5 GHz nätkort för provtillfället eller utföring av provet med gymnasiet lånedatorer.
+Det bör finnas tillräckligt med lediga kanaler för alla basstationer i examensnätet (jfr krav 6).
+Krav 1.
+Gymnasiet bör säkra sig om, att det i provlokalerna finns tillräckligt med lediga kanaler för alla basstationer i examensnätet.
+Under provet bör nätverkstrafiken i kanalerna som används av examensnätets basstationer övervakas.
+Syftet med övervakningen är att identifiera om störningen i examensnätet orsakas av störande radiosignaler eller annan teknik i examensnätet.
+Observationer kan göras med en dator utrustad med WLAN-nätkort och med programvara som visar namn på WLAN-basstationer, frekvenser och signalstyrka.
+Gymnasiet ska under provdagarna ha till sitt förfogande en spektrumanalysator och en person som fått utbildning för användningen av den så, att möjliga nätverksproblem kan identifieras och åtgärdas.
+Krav 2.
+WLAN-näten i provlokalerna ska övervakas under hela provtillfället.
+Övervakningen sker med en WiFi-skanner (se krav 1).
+Övervakarna bör kunna tolka skannerprogrammets rapporter.
+Övervakaren ska ha skriftliga instruktioner för situationer där nya WLAN-nät dyker upp.
+I de skriftliga instruktionerna beskrivs de åtgärder med vilka gymnasiet identifierar en ny radiosändare (WiFi-skanner) och försöker säkra ett störningsfritt examensnät, till exempel genom att lokalisera och stänga av sändaren (WiFi-skanner, spektrumanalysator), konfigurera frekvenserna på nytt för basstationerna i det egna examensnätet eller upprätta ett ersättande trådbundet examensnät.
+Gymnasiet bör alltid kontakta SEN då en störning uppkommer i examensnätet.
+Krav 3.
+Gymnasiet ska kunna ersätta det trådlösa examensnätet med ett trådbundet nät inom två timmar efter beslut fattats om byte av nätverk.
+Om det trådlösa nätet slutar fungera till exempel på grund av en radiosändare som aktiveras under provet måste gymnasiet kunna flytta över examinanderna till ett trådbundet examensnät.
+Överflyttningen ska planeras på ett sådant sätt att varje enskild examinand efter överflyttningen fortsätter utföra provet på samma server på vilken hen började utföra provet.
+Radiosignalen och placeringen av utrustningen i det trådlösa examensnätet
+Syftet med placeringen av utrustningen i det trådlösa examensnätet är att stärka signalen och göra det svårare för utomstående att ändra utrustningens inställningar.
+Krav 4.
+Examensnätets fasta utrustning (t.ex. basstationer, controllers) ska placeras i låsta utrymmen eller så högt upp att det är svårt för utomstående att komma åt dem.
+Utrustning som installeras tillfälligt för provtillfället ska placeras i lokalerna efter att de har inspekterats och avspärrats för utomstående.
+För att examinandernas datorer ska fördela sig jämnt på examensnätets basstationer, bör basstationerna placeras jämnt i provlokalen och basstationernas sändningseffekt ska ställas in på lämplig nivå.
+Krav 5.
+Placeringen av basstationer och sändningseffektens inställningar säkerställer, att examinandernas datorer fördelar sig jämt på examensnätets basstationer.
+Den närmaste basstationen får ligga på högst 25 meters avstånd från examinandens dator.
+I ett fungerande trådlöst examensnät ska antalet radioenheter1 i basstationerna motsvara antalet examinander i examensnätet.
+Krav 6.
+Det trådlösa examensnätet bör omfatta en basstation (eller radioenhet) per 20 examinander, om inte basstationernas egenskaper eller andra faktorer ger ett motiverat skäl att avvika från detta förhållande.
+Signalen blir svagare om det finns något som dämpar signalen mellan sändaren och mottagaren.
+Basstationerna bör speciellt i tillfälligt byggda examensnät placeras så att signalen inte dämpas av möbler och examinander.
+Krav 7.
+Basstationernas antenner ska placeras minst en meter ovanför examinanderna.
+För att ett trådlöst examensnät ska fungera störningsfritt med tillräcklig bandbredd krävs att varje examinandplats har tillräckligt stark signal.
+Signalens styrka fastställs med WiFi-skannerprogram.
+Krav 8.
+Examensnätets signalstyrka är minst -65 dBm vid varje examinandplats.
+Tekniska krav på basstationerna I krav 1 förutsätts att provlokalerna har tillräckligt med fria kanaler för trafiken i examensnätet.
+Om det under provtillfället uppkommer nya signaler som stör nätets funktion på kanalerna som används av examensnätets basstationer, ska man kunna byta examensnätets kanaler under provtillfället (användarrättigheter, användbarhet).
+Krav 9.
+Kanalerna och sändningseffekten på basstationerna i examensnätet kan justeras under provdagen då det sker förändringar i vilka kanaler som är fria och vilka som är upptagna.
+Om systemet är automatiskt bör det kunna agera tillräckligt snabbt för att säkra en störningsfri examen.
+I det trådlösa examensnätet förmedlas examinandens uppkoppling från datorn till basstationen och därifrån genom ett Ethernet-nät till provlokalens server.
+Basstationerna 1 Med detta menas de interna sändar-mottagarenheter (Access Point Radios) som finns i basstationerna, dock inte Radio Chains-enheter för MIMO-trafik.
+förmedlar inte trafiken vidare till andra basstationer via radio.
+På detta sätt reserveras mera radioutrymme för trafiken mellan examinandernas datorer och basstationerna.
+Krav 10.
+Basstationerna förmedlar alltid nätverkstrafiken från examinandernas datorer till provlokalens server via Ethernet-nät.
+Det trådlösa examensnätet ska dessutom ha ett antal egenskaper som justerar datatrafiken och konfigurationen.
+Krav 11.
+I krypteringen av WLAN-nätverkstrafiken ska man använda WPA2-kryptering (AES-CCMP) eller bättre.
+Krav 12.
+Krypteringsnyckeln ska gå att ställa in på nätets alla basstationer genom en åtgärd, till exempel under pågående prov.
+Det användargränssnitt som används för inställningen ska vara tillgängligt för provövervakaren (användarrättigheter, användbarhet).
+Krav 13 .
+Funktionen WiFi Protected Setup (WPS) ska vara avstängd.
+Krav 14.
+Stödet för IEEE 802.11b-apparater ska vara avstängt, det vill säga trafikhastigheterna 1, 2, 5,5 och 11 Mbps.
+Krav 15.
+Skadlig trafik ska förhindras: a) examinanderna i det trådlösa examensnätet kan inte se varandra (t.ex. client isolation, switchport protected), b) en klient som anslutit sig till nätet kan inte uppträda som DHCP-server (s.k. DHCP snooping), och c) IPv6-trafiken är blockerad.
+Krav 16.
+Hanteringssystemet för basstationerna ska erbjuda möjligheten att övervaka datatrafikmängden från och till examinandernas datorer och möjliggöra ingripande om datorernas trafik är onormal, t.ex. genom att avlägsna dessa datorer från nätverket.
+Krav 17.
+Det ska vara möjligt att förhindra konfigurering av basstationer med WLAN-förbindelse.
+Testning av examensnätet innan det tas i bruk Innan examensnätet tas i bruk ska det testas i förhållanden som motsvarar studentexamen.
+I testet ansluts den provlokalens server och den reservserver som används i studentexamen till nätverket.
+Antalet anslutna examinanddatorer ska vara lika många som det maximala antalet vid det egentliga provtillfället.
+Examinandernas datorer ska motsvara den egentliga situationen: om examinanderna använder sina egna datorer i provtillfället, ska huvudparten av datorerna vara av olika märken och modeller.
+Krav 18.
+Innan det trådlösa examensnätet tas i bruk ska dess funktion testas i förhållanden som motsvarar det egentliga provtillfället i studentexamen.
+Nätet kan testas till exempel med ett av gymnasiet uppgjort kursprov som innehåller en motsvarande mängd ljud- och videomaterial som språkproven i studentexamen.
+Syftet med detta test är att säkerställa att
+förhållandet mellan nätets basstationer och datorer är korrekt både med tanke på datorernas filbredd och de kanaler och sändningseffekter som basstationerna använder (tillräckligt antal kanaler i lokaler där många personer avlägger prov).
+förhållandet mellan nätets basstationer och datorer är korrekt både med tanke på datorernas filbredd och de kanaler och sändningseffekter som basstationerna använder (tillräckligt antal kanaler i lokaler där många personer avlägger prov).
+Testet behöver göras om endast då nätverkets konfigurationer eller apparatur ändras väsentligt.
+Testning av det trådlösa examensnätet i samband med belastningstestet
+Det trådlösa examensnätet bör alltid före examen testas enligt följande i samband med belastningstestet för servrar och examensnät: • Kontrollera med WiFi-analysatorprogram och spektrumanalysator, att examensnätets basstationer trafikerar på de kanaler som är inställda.
+Kontrollera med WiFi-analysatorprogram och spektrumanalysator, att de kanaler examensnätets basstationer trafikerar på är tillräckligt fria.
+Kontrollera med basstationernas controller eller genom att ”pinga” basstationerna, att all nätverkstrafik mellan examensnätets basstationer och provlokalens server och reservserver går genom kablar.
+Kontrollera, att det går att ansluta sig till nätet med en typisk examinanddator.
+Ändringar i provlokalen eller examensnätet Om det görs sådana ändringar i provlokalerna eller examensnätet som omfattas av dessa krav ska gymnasiet ansöka om nytt tillstånd för trådlöst examensnät hos SEN.
+Deltagande i SEN:s skolning En representant för gymnasiet ska delta i den skolning SEN ger gällande verkställandet av trådlösa examensnät.
+I skolningen behandlas praktiska frågor gällande de tekniska kraven på examensnäten och byggandet av näten.
+Krav 19.
+Gymnasiet har deltagit i SEN:s skolning gällande verkställandet av trådlösa examensnät.
+Praktiska anvisningar för uppgörande av ansökan I den ansökan som riktas till SEN är det viktigaste att gymnasiet beskriver hur de har tänkt uppfylla de krav som gäller för användande av trådlösa examensnät.
+Det räcker att gymnasiet beskriver hur nätet byggs upp utan att gå in på tekniska detaljer.
+Det är inte nödvändigt att i ansökan bevisa att kraven uppfylls.
+Uppgjorda instruktioner, mätprotokoll eller beskrivningar av det tekniska egenskaperna hos den apparatur som används behöver inte bifogas ansökan.
+Krav 1: Antalet basstationer som behövs anges och en beskrivning av hur de frekvenser som dessa basstationer använder passar in med övriga frekvenser som används i byggnaden.
+I detta skede kläs grunderna för kanalplaneringen i ord.
+Detta är troligen den mest arbetsdryga delen av ansökan, men samtidigt den viktigaste.
+Krav 2: Här konstateras att gymnasiet har instruktionerna som krävs och hur de finns tillgängliga för övervakarna under provet.
+Krav 3: Här beskrivs de praktiska åtgärder som krävs för att ersätta det trådlösa examensnätet med ett trådbaserat nät.
+Det är viktigt att beskriva i hur stor utsträckning det trådbaserade nätet byggs upp innan provet, vem som vid behov bygger nätet och var den utrustning som behövs förvaras under provet.
+Krav 4-7: Här beskrivs med några meningar och/eller en riktgivande ritning antalet basstationer samt deras placering.
+Krav 8: Här beskrivs med några meningar hur mätningarna är gjorda och om kravet uppfylls.
+Krav 9: Här beskrivs hur kanaländringen vid behov genomförs i praktiken.
+Det viktigaste är att beskriva vem eller vilka som vidtar åtgärder.
+Krav 10-17: Här försäkras punkt för punkt att den utrustning som används för att bygga det trådlösa examensnätet uppfyller kraven.
+I ansökan kan detta anges t.ex. genom att konstatera att ”kravet har beaktats i konfigureringen av utrustningen” eller ”apparaten X som används har den egenskap som krävs”.
+Krav 18: Här beskrivs hur testningen gjorts eller kommer att göras innan studentexamen.
+Testet behöver nödvändigtvis inte göras innan ansökan skickas in, men enligt föreskrifterna ligger det på gymnasiets ansvar att testet genomförs.
+Krav 19: Här anges vem som deltagit i SEN:s skolning som representant för gymnasiet och när detta ägt rum.
+SEN meddelar gymnasierna om tidpunkterna för skolningen och om de tidpunkter då ansökan senast ska lämnas in inför varje examenstillfälle.
