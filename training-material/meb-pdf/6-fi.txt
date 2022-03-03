@@ -1,18 +1,22 @@
-Määräys ja ohje Koskee kevään 2022 ylioppilastutkintoa Kameroiden käyttö ylioppilastutkinnon kokeiden valvonnassa Tämä määräys ja ohje koskee keväällä 2022 järjestettävää ylioppilastutkintoa.
-Kameravalvonta Lukio voi rehtorin päätöksellä käyttää kameroita koetilaisuuden valvonnassa.
+Määräys ja ohje
+Koskee kevään 2022 ylioppilastutkintoa
+Kameroiden käyttö ylioppilastutkinnon kokeiden valvonnassa Tämä määräys ja ohje koskee keväällä 2022 järjestettävää ylioppilastutkintoa.
+Kameravalvonta
+Lukio voi rehtorin päätöksellä käyttää kameroita koetilaisuuden valvonnassa.
 Kameravalvonta kohdistuu kokelaisiin, eikä sitä saa käyttää tietyn valvojan tai muun avustavan henkilön tarkkailuun.
 Kameravalvonnan tarkoitus, käyttöönotto ja valvonnassa käytettävät menetelmät kuuluvat yhteistoimintamenettelyn piiriin (L 759/2004 21 §).
 Työntekijöille tiedotetaan yhteistoiminta- tai kuulemismenettelyn jälkeen kameravalvonnan alkamisesta, toteuttamisesta ja siitä, miten ja missä tilanteissa mahdollisia tallenteita käytetään (L 759/2004 17 §, kohta 5).
 Kameroiden yksityiskohtaisesta sijainnista ei tarvitse tiedottaa.
 Tallentavasta kameravalvonnasta on ilmoitettava näkyvällä tavalla niissä tiloissa, joihin kamerat on asetettu.
-Kameravalvonnan toteutus Koetilan valvojien lukumäärä voi olla yhtä valvojaa pienempi kuin lautakunnan yleisissä määräyksissä ja ohjeissa luvun 2.3.5 taulukossa 5 annettu vähimmäismäärä, jos kameroiden sijoittelu ja tekninen suorituskyky mahdollistaa samojen vilppiyritysten havaitsemisen kuin valvojien toimesta tapahtuva valvonta.
+Kameravalvonnan toteutus
+Koetilan valvojien lukumäärä voi olla yhtä valvojaa pienempi kuin lautakunnan yleisissä määräyksissä ja ohjeissa luvun 2.3.5 taulukossa 5 annettu vähimmäismäärä, jos kameroiden sijoittelu ja tekninen suorituskyky mahdollistaa samojen vilppiyritysten havaitsemisen kuin valvojien toimesta tapahtuva valvonta.
 Valvonnan pitää olla kattavaa myös sellaisessa tilanteessa, jossa valvoja on varattuna johonkin keskittymistä tai tilapäistä poistumista vaativaan asiaan.
 Mahdollisissa ongelmatilanteissa lisävalvojan pitää olla kutsuttavissa.
 Myös erillisessä tilassa työskentelevää yksittäistä kokelasta ja hänen mahdollista avustajaansa on mahdollista valvoa kameravalvonnalla.
 Tällöin tarvitaan vähintään kaksi kameraa, joista toinen kuvaa kokelasta edestä ja toinen takaa siten, että kokelaan tietokoneen näyttö näkyy kameran kuvassa mahdollisimman hyvin.
 Kokelaan pitää saada tarvittaessa luotettavasti ja viivytyksettä yhteys kokeen valvojaan.
 Yhteyden saaminen valvojaan voi perustua esimerkiksi kameravalvonnan kautta havaittavaan merkkiin tai usean tilan yhteisvalvojan tavoittamiseen äänimerkillä.
-Määräys ja ohje Koskee kevään 2022 ylioppilastutkintoa Valvontaan käytettävien kameroiden on tallennettava kameran kuva myöhempää katselua varten.
+Valvontaan käytettävien kameroiden on tallennettava kameran kuva myöhempää katselua varten.
 Äänen tallentaminen on useimmissa tapauksissa tarpeetonta.
 Tallenteita saavat katsoa vain rehtori ja kokeiden valvojiksi määrätyt henkilöt.
 Tallenteita katsotaan satunnaistarkasteluna sekä vilppiepäilyn selvittelyä varten.
@@ -20,15 +24,13 @@ Jos rehtori aloittaa koetilaisuuden järjestyksen rikkomista tai vilpillistä me
 Valvojaksi määrätyt henkilöt voivat katsoa kameroiden lähettämää kuvaa myös kokeen aikana.
 Jos muualla lautakunnan määräyksissä ja ohjeissa määrätään tarkemmin äänen ja kuvan tallentamisesta sekä niiden katsomisesta tietyissä tilanteissa, sovelletaan kyseessä olevaa tilannetta koskevia määräyksiä ja ohjeita tämän määräyksen ja ohjeen sijaan.
 Kameroiden käytöstä koetilan valvonnassa tehdään merkintä koepöytäkirjaan.
-Kameravalvonnassa syntyneet tiedot Kameravalvonnan tiedoista syntyy henkilörekisteri, jonka rekisterinpitäjänä toimii lukio.
-Henkilötietojen käsittelyn yleinen oikeusperuste on lukion lakisääteinen velvoite (GDPR art.
-6, 1c).
+Kameravalvonnassa syntyneet tiedot
+Kameravalvonnan tiedoista syntyy henkilörekisteri, jonka rekisterinpitäjänä toimii lukio.
+Henkilötietojen käsittelyn yleinen oikeusperuste on lukion lakisääteinen velvoite (GDPR art. 6, 1c).
 Henkilötietojen käsittelyn tarkoituksena on todentaa koetilaisuuden järjestyksen rikkominen ja vilpillinen menettely (L 502/2019 15 §).
 Valvontatallenteet on suojattava riittävällä tavalla eikä niitä saa siirtää ETA-alueen ulkopuolelle.
-Euroopan tietosuojaneuvosto on antanut tarkempia ohjeita henkilötietojen käsittelystä videolaitteilla: (https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201903_video_devices_fi_0.pdf).
+Euroopan tietosuojaneuvosto on antanut tarkempia ohjeita henkilötietojen käsittelystä videolaitteilla.
 Kameravalvontaa koskevat tiedot ovat salassa pidettäviä viranomaisten toiminnan julkisuudesta annetun lain (621/1999) 24 § kohdan 7 perusteella, jollei ole ilmeistä, että tiedon antaminen niistä ei vaaranna turvajärjestelyjen tarkoituksen toteutumista.
 Kuvissa näkyvät tiedot kokelaiden koesuorituksista ovat salaisia julkisuudesta annetun lain (621/1999) 24 § kohdan 30 perusteella.
-Määräys ja ohje Koskee kevään 2022 ylioppilastutkintoa Valvontatallenteet on hävitettävä, kun tutkinnon arvostelu on lopullinen ja viimeistään vuoden kuluttua tallentamisen päättymisestä.
-Tallenteen saa kuitenkin säilyttää tämän määräajan jälkeen, jos sille on tarvetta (ks. GDPR art.
-5, 1e; L 759/2004 17 § 3 mom.), esimerkiksi jos vilpillisen menettelyyn liittyvästä rehtorin päätöksestä on valitettu ja oikeuskäsittely on kesken.
-.
+Valvontatallenteet on hävitettävä, kun tutkinnon arvostelu on lopullinen ja viimeistään vuoden kuluttua tallentamisen päättymisestä.
+Tallenteen saa kuitenkin säilyttää tämän määräajan jälkeen, jos sille on tarvetta, esimerkiksi jos vilpillisen menettelyyn liittyvästä rehtorin päätöksestä on valitettu ja oikeuskäsittely on kesken.
