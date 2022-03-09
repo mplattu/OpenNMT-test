@@ -45,8 +45,12 @@ get-data-dgt:
 		sed -i '4890957d' sv.txt; \
 	fi
 
+get-data-meb-pdf: training-material/meb-pdf/*.txt
+	-mkdir -p data/meb-pdf/
+	cat training-material/meb-pdf/*-fi.txt >data/meb-pdf/fi.txt
+	cat training-material/meb-pdf/*-sv.txt >data/meb-pdf/sv.txt
 
-get-data: get-data-ccmatrix get-data-finlex get-data-eubookshop get-data-dgt
+get-data: get-data-ccmatrix get-data-finlex get-data-eubookshop get-data-dgt meb-pdf
 
 install:
 	virtualenv -p python3 data

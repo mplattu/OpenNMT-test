@@ -24,6 +24,10 @@ data:
         path_src: dgt/src-train.txt
         path_tgt: dgt/tgt-train.txt
         weight: 1
+    corpus_5:
+        path_src: meb-pdf/src-train.txt
+        path_tgt: meb-pdf/tgt-train.txt
+        weight: 5
     valid:
         path_src: src-val.txt
         path_tgt: tgt-val.txt
