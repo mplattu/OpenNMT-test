@@ -43,7 +43,7 @@ class Splitter:
 
         return False
 
-    def create_file(self, legend, ratio, splitted_source, splitted_destination, write_mode):
+    def create_file(self, legend, skip_lines, total_lines, splitted_source, splitted_destination, write_mode):
         f_orig_source = open(self.filename_source, 'r')
         f_orig_destination = open(self.filename_destination, 'r')
 
@@ -51,8 +51,9 @@ class Splitter:
         f_splitted_destination = open(splitted_destination, write_mode)
 
         lines_processed = 0
-        lines_written = 0
+        lines_valid = 0
         lines_invalid = 0
+        lines_written = 0
 
         for source_line in f_orig_source:
             destination_line = f_orig_destination.readline()
@@ -63,12 +64,15 @@ class Splitter:
                 lines_invalid += 1
                 continue
 
-            rnd = random.random()
+            lines_valid += 1
 
-            if rnd < ratio:
-                f_splitted_source.write(source_line)
-                f_splitted_destination.write(destination_line)
-                lines_written += 1
+            if lines_valid < skip_lines:
+                continue
+
+            if total_lines is None or lines_written < total_lines:
+              f_splitted_source.write(source_line)
+              f_splitted_destination.write(destination_line)
+              lines_written += 1
 
         f_orig_source.close()
         f_orig_destination.close()
@@ -76,16 +80,16 @@ class Splitter:
         f_splitted_source.close()
         f_splitted_destination.close()
 
-        print("%s: %d lines (%d processed, %d invalid)" % (legend, lines_written, lines_processed, lines_invalid))
+        print("%s: %d lines (%d processed, %d valid, %d invalid)" % (legend, lines_written, lines_processed, lines_valid, lines_invalid))
 
-def split_dataset(dataset_path, source_validation_file, destination_validation_file):
+def split_dataset(dataset_path, validation_lines, source_validation_file, destination_validation_file):
     print("--- Processing dataset %s" % dataset_path)
     splitter = Splitter('%s/fi.txt' % dataset_path, '%s/sv.txt' % dataset_path)
-    splitter.create_file('Training file', 0.95, '%s/src-train.txt' % dataset_path, '%s/tgt-train.txt' % dataset_path, 'w')
-    splitter.create_file('Validation file', 0.0016, source_validation_file, destination_validation_file, 'a')
+    splitter.create_file('Training file', validation_lines, None, '%s/src-train.txt' % dataset_path, '%s/tgt-train.txt' % dataset_path, 'w')
+    splitter.create_file('Validation file', 0, validation_lines, source_validation_file, destination_validation_file, 'a')
 
-split_dataset('data/finlex', 'data/src-val.txt', 'data/tgt-val.txt')
-split_dataset('data/ccmatrix', 'data/src-val.txt', 'data/tgt-val.txt')
-split_dataset('data/eubookshop', 'data/src-val.txt', 'data/tgt-val.txt')
-split_dataset('data/dgt', 'data/src-val.txt', 'data/tgt-val.txt')
-split_dataset('data/meb-pdf', 'data/src-val.txt', 'data/tgt-val.txt')
+split_dataset('data/finlex', 1000, 'data/src-val.txt', 'data/tgt-val.txt')
+split_dataset('data/ccmatrix', 6000, 'data/src-val.txt', 'data/tgt-val.txt')
+split_dataset('data/eubookshop', 1800, 'data/src-val.txt', 'data/tgt-val.txt')
+split_dataset('data/dgt', 2000, 'data/src-val.txt', 'data/tgt-val.txt')
+split_dataset('data/meb-pdf', 200, 'data/src-val.txt', 'data/tgt-val.txt')
