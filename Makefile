@@ -8,8 +8,8 @@ get-data-ccmatrix:
 	if { [ ! -f data/ccmatrix/fi.txt ] || [ ! -f data/ccmatrix/sv.txt ]; } then \
 		wget -O data/ccmatrix/moses.zip https://object.pouta.csc.fi/OPUS-CCMatrix/v1/moses/fi-sv.txt.zip; \
 		cd data/ccmatrix; \
-		unzip moses.zip CCMatrix.fi-sv.fi >fi.txt; \
-		unzip moses.zip CCMatrix.fi-sv.sv >sv.txt; \
+		unzip -p moses.zip CCMatrix.fi-sv.fi >fi.txt; \
+		unzip -p moses.zip CCMatrix.fi-sv.sv >sv.txt; \
 		rm *.zip; \
 	fi
 
@@ -50,7 +50,7 @@ get-data-meb-pdf: training-material/meb-pdf/*.txt
 	cat training-material/meb-pdf/*-fi.txt >data/meb-pdf/fi.txt
 	cat training-material/meb-pdf/*-sv.txt >data/meb-pdf/sv.txt
 
-get-data: get-data-ccmatrix get-data-finlex get-data-eubookshop get-data-dgt meb-pdf
+get-data: get-data-ccmatrix get-data-finlex get-data-eubookshop get-data-dgt get-data-meb-pdf
 
 install:
 	virtualenv -p python3 data
